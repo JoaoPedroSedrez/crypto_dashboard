@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-chart-line"></i> Crypto Dashboard</h1>
+                <p>Dashboard em tempo real de criptomoedas e ações</p>
+            </div>
+            <div class="header-stats">
+                <div class="stat-card">
+                    <i class="fas fa-coins"></i>
+                    <span id="total-assets">{{ crypto_symbols|length + stock_symbols|length }}</span>
+                    <small>Ativos Suportados</small>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="asset-input" placeholder="Digite o símbolo (ex: BTC, AAPL, ETH)">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="quick-access">
+                    <h3>Acesso Rápido:</h3>
+                    <div class="quick-buttons">
+                        {% for symbol in crypto_symbols %}
+                        <button class="quick-btn crypto-btn" data-symbol="{{ symbol }}">{{ symbol.upper() }}</button>
+                        {% endfor %}
+                        {% for symbol in stock_symbols %}
+                        <button class="quick-btn stock-btn" data-symbol="{{ symbol }}">{{ symbol }}</button>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section" id="results-section" style="display: none;">
+            <!-- Price Card -->
+            <div class="price-card" id="price-card">
+                <div class="price-header">
+                    <h2 id="asset-name">-</h2>
+                    <span class="asset-type" id="asset-type">-</span>
+                </div>
+                <div class="price-content">
+                    <div class="current-price">
+                        <span class="price-value" id="current-price">$0.00</span>
+                        <span class="price-change" id="price-change">0%</span>
+                    </div>
+                    <div class="price-info">
+                        <small id="last-updated">Última atualização: -</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chart Section -->
+            <div class="chart-section">
+                <div class="chart-controls">
+                    <h3>Histórico de Preços</h3>
+                    <div class="period-buttons">
+                        <button class="period-btn active" data-days="7">7D</button>
+                        <button class="period-btn" data-days="30">30D</button>
+                        <button class="period-btn" data-days="90">90D</button>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="price-chart"></canvas>
+                </div>
+            </div>
+
+            <!-- Analysis Section -->
+            <div class="analysis-grid">
+                <!-- Technical Analysis -->
+                <div class="analysis-card">
+                    <h3><i class="fas fa-chart-bar"></i> Análise Técnica</h3>
+                    <div id="technical-analysis">
+                        <div class="loading">Carregando análise...</div>
+                    </div>
+                </div>
+
+                <!-- Prediction -->
+                <div class="analysis-card">
+                    <h3><i class="fas fa-crystal-ball"></i> Previsão</h3>
+                    <div id="prediction-analysis">
+                        <div class="loading">Carregando previsão...</div>
+                    </div>
+                </div>
+
+                <!-- Statistics -->
+                <div class="analysis-card">
+                    <h3><i class="fas fa-calculator"></i> Estatísticas</h3>
+                    <div id="statistics">
+                        <div class="loading">Carregando estatísticas...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Summary -->
+        <section class="market-section">
+            <h2><i class="fas fa-globe"></i> Resumo do Mercado</h2>
+            <div class="market-grid" id="market-grid">
+                <div class="loading-market">Carregando resumo do mercado...</div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Loading Modal -->
+    <div id="loading-modal" class="modal">
+        <div class="modal-content">
+            <div class="loader"></div>
+            <p>Carregando dados...</p>
+        </div>
+    </div>
+
+    <!-- Error Modal -->
+    <div id="error-modal" class="modal">
+        <div class="modal-content error">
+            <h3><i class="fas fa-exclamation-triangle"></i> Erro</h3>
+            <p id="error-message">Ocorreu um erro inesperado.</p>
+            <button onclick="closeModal('error-modal')">Fechar</button>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

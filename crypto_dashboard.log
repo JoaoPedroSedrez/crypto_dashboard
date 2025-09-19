@@ -1,0 +1,1869 @@
+2025-09-19 12:14:08,893 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:14:08,893 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:14:08,893 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:14:08,904 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:14:26,857 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:14:31,210 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:14:31,210 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:14:31,210 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:14:31,215 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:14:58,662 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:14:58,670 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.008s
+2025-09-19 12:14:58,710 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 12:14:58,725 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 200 - Time: 0.015s
+2025-09-19 12:14:58,727 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 12:14:58,728 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 200 - Time: 0.002s
+2025-09-19 12:14:58,802 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 12:14:58,803 - utils.helpers - ERROR - Erro interno: 404.html
+2025-09-19 12:14:58,808 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:14:58,808 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:14:58,853 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:14:58,854 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:15:04,317 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-19 12:15:04,317 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin
+2025-09-19 12:15:04,318 - utils.helpers - INFO - Preço obtido para bitcoin: $115585
+2025-09-19 12:15:04,319 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 5.466s
+2025-09-19 12:15:09,784 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:09,785 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:09,789 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:09,790 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 12:15:10,121 - utils.helpers - INFO - Dados salvos para ethereum
+2025-09-19 12:15:10,121 - utils.helpers - INFO - Dados de crypto obtidos para ethereum
+2025-09-19 12:15:10,122 - utils.helpers - INFO - Preço obtido para ethereum: $4464.21
+2025-09-19 12:15:10,123 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.334s
+2025-09-19 12:15:11,715 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:11,717 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.002s
+2025-09-19 12:15:11,723 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:11,724 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-19 12:15:12,170 - utils.helpers - INFO - Dados salvos para cardano
+2025-09-19 12:15:12,170 - utils.helpers - INFO - Dados de crypto obtidos para cardano
+2025-09-19 12:15:12,171 - utils.helpers - INFO - Preço obtido para cardano: $0.893597
+2025-09-19 12:15:12,172 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.449s
+2025-09-19 12:15:13,276 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:13,277 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:13,279 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:13,280 - utils.helpers - INFO - Buscando preço para: solana
+2025-09-19 12:15:13,704 - utils.helpers - INFO - Dados salvos para solana
+2025-09-19 12:15:13,704 - utils.helpers - INFO - Dados de crypto obtidos para solana
+2025-09-19 12:15:13,705 - utils.helpers - INFO - Preço obtido para solana: $237.09
+2025-09-19 12:15:13,705 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.426s
+2025-09-19 12:15:14,229 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:14,230 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:14,234 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:14,235 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-19 12:15:14,727 - utils.helpers - INFO - Dados salvos para dogecoin
+2025-09-19 12:15:14,728 - utils.helpers - INFO - Dados de crypto obtidos para dogecoin
+2025-09-19 12:15:14,729 - utils.helpers - INFO - Preço obtido para dogecoin: $0.265659
+2025-09-19 12:15:14,730 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.495s
+2025-09-19 12:15:15,249 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:15,249 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:15,252 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:15,253 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 12:15:15,576 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-09-19 12:15:15,723 - yfinance - ERROR - AAPL: No price data found, symbol may be delisted (period=2d)
+2025-09-19 12:15:15,724 - utils.helpers - ERROR - Erro interno: 404.html
+2025-09-19 12:15:18,834 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:18,835 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:18,837 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:18,838 - utils.helpers - INFO - Buscando preço para: GOOGL
+2025-09-19 12:15:19,030 - yfinance - ERROR - Failed to get ticker 'GOOGL' reason: Expecting value: line 1 column 1 (char 0)
+2025-09-19 12:15:19,171 - yfinance - ERROR - GOOGL: No price data found, symbol may be delisted (period=2d)
+2025-09-19 12:15:19,173 - utils.helpers - ERROR - Erro interno: 404.html
+2025-09-19 12:15:20,753 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:20,754 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:20,802 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:20,802 - utils.helpers - INFO - Buscando preço para: TSLA
+2025-09-19 12:15:20,935 - yfinance - ERROR - Failed to get ticker 'TSLA' reason: Expecting value: line 1 column 1 (char 0)
+2025-09-19 12:15:21,068 - yfinance - ERROR - TSLA: No price data found, symbol may be delisted (period=2d)
+2025-09-19 12:15:21,069 - utils.helpers - ERROR - Erro interno: 404.html
+2025-09-19 12:15:25,759 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:25,760 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:25,762 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:25,763 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:15:25,764 - utils.helpers - INFO - Preço obtido para bitcoin: $115585
+2025-09-19 12:15:25,764 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:15:35,547 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:35,547 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:35,550 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:35,551 - utils.helpers - INFO - Buscando preço para: BITCOIN
+2025-09-19 12:15:35,551 - utils.helpers - INFO - Preço obtido para BITCOIN: $115585
+2025-09-19 12:15:35,552 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:15:36,551 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:36,552 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:15:36,555 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:36,555 - utils.helpers - INFO - Buscando preço para: BITCOIN
+2025-09-19 12:15:36,556 - utils.helpers - INFO - Preço obtido para BITCOIN: $115585
+2025-09-19 12:15:36,557 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 12:15:37,117 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:15:37,118 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.000s
+2025-09-19 12:15:37,120 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:15:37,121 - utils.helpers - INFO - Buscando preço para: BITCOIN
+2025-09-19 12:15:37,122 - utils.helpers - INFO - Preço obtido para BITCOIN: $115585
+2025-09-19 12:15:37,122 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:16:02,572 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:16:02,573 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-19 12:16:02,587 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 12:16:02,588 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.001s
+2025-09-19 12:16:02,620 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:16:02,621 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:16:02,666 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:16:02,666 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:16:02,667 - utils.helpers - INFO - Preço obtido para bitcoin: $115585
+2025-09-19 12:16:02,668 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:16:09,247 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:16:09,248 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:16:09,251 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:16:09,252 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 12:16:09,253 - utils.helpers - INFO - Preço obtido para ethereum: $4464.21
+2025-09-19 12:16:09,253 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:16:24,154 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:16:24,156 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:16:24,160 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:16:24,161 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 12:16:24,709 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-09-19 12:16:25,973 - yfinance - ERROR - AAPL: No price data found, symbol may be delisted (period=2d)
+2025-09-19 12:16:25,975 - utils.helpers - ERROR - Erro interno: 404.html
+2025-09-19 12:18:06,354 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:18:14,739 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:18:14,739 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:18:14,739 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:18:14,747 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:18:17,059 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:18:19,093 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:18:19,094 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:18:19,094 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:18:19,102 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:18:37,295 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:18:42,893 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:18:42,893 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:18:42,894 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:18:42,901 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:19:28,518 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:19:32,745 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:19:32,745 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:19:32,746 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:19:32,750 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:19:35,961 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:19:35,966 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.004s
+2025-09-19 12:19:35,980 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 12:19:35,981 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 12:19:35,988 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.008s
+2025-09-19 12:19:35,989 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.008s
+2025-09-19 12:19:36,012 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:19:36,013 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:19:36,057 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:19:36,059 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:19:36,061 - utils.helpers - INFO - Preço obtido para bitcoin: $115585
+2025-09-19 12:19:36,061 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 12:19:41,204 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:19:41,204 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:19:41,207 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:19:41,207 - utils.helpers - INFO - Buscando preço para: BITCOIN
+2025-09-19 12:19:41,208 - utils.helpers - INFO - Preço obtido para BITCOIN: $115585
+2025-09-19 12:19:41,209 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:19:44,719 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:19:44,720 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:19:44,723 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:19:44,724 - utils.helpers - INFO - Buscando preço para: BITCOIN
+2025-09-19 12:19:44,726 - utils.helpers - INFO - Preço obtido para BITCOIN: $115585
+2025-09-19 12:19:44,727 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 12:19:46,704 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:19:46,705 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:19:46,708 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:19:46,709 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 12:19:47,037 - yfinance - ERROR - Failed to get ticker 'AAPL' reason: Expecting value: line 1 column 1 (char 0)
+2025-09-19 12:19:47,168 - yfinance - ERROR - AAPL: No price data found, symbol may be delisted (period=5d)
+2025-09-19 12:19:47,169 - utils.helpers - ERROR - AAPL: Nenhum dado encontrado.
+2025-09-19 12:19:47,171 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.462s
+2025-09-19 12:20:08,352 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:20:08,353 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:20:08,356 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:20:08,357 - utils.helpers - INFO - Buscando preço para: solana
+2025-09-19 12:20:08,359 - utils.helpers - INFO - Preço obtido para solana: $237.09
+2025-09-19 12:20:08,360 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 12:20:09,753 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:20:09,754 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:20:09,758 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:20:09,759 - utils.helpers - INFO - Buscando preço para: MSFT
+2025-09-19 12:20:09,934 - yfinance - ERROR - Failed to get ticker 'MSFT' reason: Expecting value: line 1 column 1 (char 0)
+2025-09-19 12:20:10,079 - yfinance - ERROR - MSFT: No price data found, symbol may be delisted (period=5d)
+2025-09-19 12:20:10,080 - utils.helpers - ERROR - MSFT: Nenhum dado encontrado.
+2025-09-19 12:20:10,081 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.322s
+2025-09-19 12:21:41,479 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:21:44,026 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:21:44,027 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:21:44,027 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:21:44,036 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:21:45,636 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:21:45,641 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.005s
+2025-09-19 12:21:45,650 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 12:21:45,657 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.007s
+2025-09-19 12:21:45,669 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 12:21:45,672 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-19 12:21:45,675 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:21:45,676 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:21:45,679 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:21:45,680 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:21:45,682 - utils.helpers - INFO - Preço obtido para bitcoin: $115585
+2025-09-19 12:21:45,682 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 12:21:47,576 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:21:47,576 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:21:47,578 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:21:47,579 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-19 12:21:47,580 - utils.helpers - INFO - Preço obtido para dogecoin: $0.265659
+2025-09-19 12:21:47,580 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:21:49,098 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:21:49,099 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:21:49,101 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:21:49,102 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 12:21:51,030 - utils.helpers - INFO - Dados salvos para AAPL
+2025-09-19 12:21:51,030 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 12:21:51,030 - utils.helpers - INFO - Preço obtido para AAPL: $242.11000061035156
+2025-09-19 12:21:51,031 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 1.930s
+2025-09-19 12:21:52,844 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:21:52,846 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:21:52,852 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:21:52,853 - utils.helpers - INFO - Buscando preço para: GOOGL
+2025-09-19 12:21:53,278 - utils.helpers - INFO - Dados salvos para GOOGL
+2025-09-19 12:21:53,278 - utils.helpers - INFO - Dados de ação obtidos para GOOGL
+2025-09-19 12:21:53,278 - utils.helpers - INFO - Preço obtido para GOOGL: $252.4055938720703
+2025-09-19 12:21:53,279 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.427s
+2025-09-19 12:21:53,941 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:21:53,942 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:21:53,948 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:21:53,949 - utils.helpers - INFO - Buscando preço para: MSFT
+2025-09-19 12:21:54,401 - utils.helpers - INFO - Dados salvos para MSFT
+2025-09-19 12:21:54,401 - utils.helpers - INFO - Dados de ação obtidos para MSFT
+2025-09-19 12:21:54,401 - utils.helpers - INFO - Preço obtido para MSFT: $512.885986328125
+2025-09-19 12:21:54,401 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.454s
+2025-09-19 12:21:55,540 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:21:55,541 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:21:55,544 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:21:55,544 - utils.helpers - INFO - Buscando preço para: GOOGL
+2025-09-19 12:21:55,547 - utils.helpers - INFO - Preço obtido para GOOGL: $252.4055938720703
+2025-09-19 12:21:55,548 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 12:22:41,026 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:22:41,027 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:22:41,029 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:22:41,029 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 12:22:41,030 - utils.helpers - INFO - Preço obtido para AAPL: $242.11000061035156
+2025-09-19 12:22:41,031 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:22:43,618 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:22:43,619 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:22:43,621 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:22:43,621 - utils.helpers - INFO - Buscando preço para: GOOGL
+2025-09-19 12:22:43,622 - utils.helpers - INFO - Preço obtido para GOOGL: $252.4055938720703
+2025-09-19 12:22:43,622 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-19 12:22:54,745 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:22:54,746 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:22:54,748 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:22:54,749 - utils.helpers - INFO - Buscando preço para: MSFT
+2025-09-19 12:22:54,750 - utils.helpers - INFO - Preço obtido para MSFT: $512.885986328125
+2025-09-19 12:22:54,750 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:22:55,444 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:22:55,445 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:22:55,448 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:22:55,449 - utils.helpers - INFO - Buscando preço para: TSLA
+2025-09-19 12:22:56,070 - utils.helpers - INFO - Dados salvos para TSLA
+2025-09-19 12:22:56,070 - utils.helpers - INFO - Dados de ação obtidos para TSLA
+2025-09-19 12:22:56,070 - utils.helpers - INFO - Preço obtido para TSLA: $424.5310974121094
+2025-09-19 12:22:56,071 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.623s
+2025-09-19 12:22:56,854 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:22:56,855 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:22:56,857 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:22:56,858 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-19 12:22:57,592 - utils.helpers - INFO - Dados salvos para NVDA
+2025-09-19 12:22:57,592 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 12:22:57,592 - utils.helpers - INFO - Preço obtido para NVDA: $176.37789916992188
+2025-09-19 12:22:57,593 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.736s
+2025-09-19 12:22:58,867 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:22:58,869 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:22:58,873 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:22:58,874 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 12:22:58,877 - utils.helpers - INFO - Preço obtido para ethereum: $4464.21
+2025-09-19 12:22:58,878 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 12:22:59,642 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:22:59,643 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:22:59,646 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:22:59,647 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:22:59,647 - utils.helpers - INFO - Preço obtido para bitcoin: $115585
+2025-09-19 12:22:59,648 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:23:06,604 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:06,604 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:06,607 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:23:06,608 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 12:23:06,609 - utils.helpers - INFO - Preço obtido para ethereum: $4464.21
+2025-09-19 12:23:06,609 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:23:11,084 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:11,084 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:11,088 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:23:11,088 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-19 12:23:11,090 - utils.helpers - INFO - Preço obtido para cardano: $0.893597
+2025-09-19 12:23:11,090 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 12:23:18,227 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:18,228 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:18,927 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:18,928 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:22,747 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:22,748 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:23,481 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:23,482 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:29,487 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:29,488 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:29,492 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:23:29,493 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-19 12:23:29,494 - utils.helpers - INFO - Preço obtido para dogecoin: $0.265659
+2025-09-19 12:23:29,495 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:23:33,687 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:33,688 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:33,881 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:33,881 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:34,483 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:34,484 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:44,859 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:44,860 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:45,788 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:45,789 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:48,244 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:23:48,245 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:23:48,249 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:23:48,250 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-19 12:23:48,251 - utils.helpers - INFO - Preço obtido para NVDA: $176.37789916992188
+2025-09-19 12:23:48,251 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:25:40,188 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:25:40,190 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.002s
+2025-09-19 12:25:40,196 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:25:40,197 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:25:40,883 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-19 12:25:40,884 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin
+2025-09-19 12:25:40,885 - utils.helpers - INFO - Preço obtido para bitcoin: $115610
+2025-09-19 12:25:40,886 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.689s
+2025-09-19 12:25:49,129 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:25:49,130 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:25:49,137 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:25:49,138 - utils.helpers - INFO - Buscando preço para: GOOGL
+2025-09-19 12:25:49,140 - utils.helpers - INFO - Preço obtido para GOOGL: $252.4055938720703
+2025-09-19 12:25:49,140 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 12:25:58,542 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:25:58,543 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:25:58,547 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:25:58,547 - utils.helpers - INFO - Buscando preço para: aapl
+2025-09-19 12:25:58,549 - utils.helpers - INFO - Preço obtido para aapl: $242.11000061035156
+2025-09-19 12:25:58,549 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:26:02,077 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:26:02,078 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:26:02,735 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:26:02,736 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:26:40,443 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:26:40,444 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:26:40,450 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:26:40,451 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 12:26:40,455 - utils.helpers - INFO - Preço obtido para AAPL: $242.11000061035156
+2025-09-19 12:26:40,456 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.006s
+2025-09-19 12:26:42,804 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:26:42,804 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:26:42,807 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:26:42,807 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:26:42,808 - utils.helpers - INFO - Preço obtido para bitcoin: $115610
+2025-09-19 12:26:42,808 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:26:44,792 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:26:44,792 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:26:44,796 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:26:44,796 - utils.helpers - INFO - Buscando preço para: solana
+2025-09-19 12:26:51,361 - utils.helpers - INFO - Dados salvos para solana
+2025-09-19 12:26:51,361 - utils.helpers - INFO - Dados de crypto obtidos para solana
+2025-09-19 12:26:51,362 - utils.helpers - INFO - Preço obtido para solana: $237.47
+2025-09-19 12:26:51,362 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 6.567s
+2025-09-19 12:26:52,677 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:26:52,678 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:26:52,682 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:26:52,682 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-19 12:26:52,684 - utils.helpers - INFO - Preço obtido para NVDA: $176.37789916992188
+2025-09-19 12:26:52,684 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:33:20,571 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:33:24,058 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:33:24,058 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:33:24,058 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:33:24,070 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:33:24,715 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:33:24,720 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.006s
+2025-09-19 12:33:24,753 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 12:33:24,773 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.019s
+2025-09-19 12:33:24,774 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 12:33:24,776 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.001s
+2025-09-19 12:33:24,797 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 12:33:24,799 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-19 12:33:24,802 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:33:24,802 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:33:24,851 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:33:24,852 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:33:24,854 - utils.helpers - INFO - Preço obtido para bitcoin: $115610
+2025-09-19 12:33:24,855 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 12:33:30,814 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:33:51,912 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:33:51,912 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:33:51,912 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:33:51,917 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:34:01,393 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:34:01,397 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.005s
+2025-09-19 12:34:01,431 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:34:01,432 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:34:01,477 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:34:01,478 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:34:01,481 - utils.helpers - INFO - Preço obtido para bitcoin: $115610
+2025-09-19 12:34:01,482 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.005s
+2025-09-19 12:34:40,589 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:34:40,589 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:34:40,592 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:34:40,592 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:34:40,593 - utils.helpers - INFO - Preço obtido para bitcoin: $115610
+2025-09-19 12:34:40,593 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 12:34:41,293 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:34:41,294 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:34:41,299 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:34:41,299 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 12:34:46,717 - utils.helpers - INFO - Dados salvos para ethereum
+2025-09-19 12:34:46,717 - utils.helpers - INFO - Dados de crypto obtidos para ethereum
+2025-09-19 12:34:46,719 - utils.helpers - INFO - Preço obtido para ethereum: $4465.59
+2025-09-19 12:34:46,719 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 5.421s
+2025-09-19 12:34:50,696 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:34:50,696 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:34:50,700 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:34:50,700 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 12:34:51,956 - utils.helpers - INFO - Dados salvos para AAPL
+2025-09-19 12:34:51,956 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 12:34:51,956 - utils.helpers - INFO - Preço obtido para AAPL: $242.69000244140625
+2025-09-19 12:34:51,957 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 1.257s
+2025-09-19 12:39:12,635 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:39:12,640 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.004s
+2025-09-19 12:39:12,658 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 12:39:12,665 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.007s
+2025-09-19 12:39:12,675 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 12:39:12,678 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-19 12:39:12,680 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:39:12,681 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:39:12,691 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:39:12,691 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:39:13,375 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-19 12:39:13,375 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin
+2025-09-19 12:39:13,376 - utils.helpers - INFO - Preço obtido para bitcoin: $115726
+2025-09-19 12:39:13,377 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.686s
+2025-09-19 12:39:15,203 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:39:15,204 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:39:15,206 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:39:15,207 - utils.helpers - INFO - Buscando preço para: BBSA3
+2025-09-19 12:39:22,068 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBSA3"}}}
+2025-09-19 12:39:23,096 - yfinance - ERROR - $BBSA3: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-19 12:39:23,096 - utils.helpers - ERROR - BBSA3: Nenhum dado encontrado.
+2025-09-19 12:39:23,097 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 7.890s
+2025-09-19 12:39:41,805 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:39:41,809 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.005s
+2025-09-19 12:39:41,833 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 12:39:41,836 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.002s
+2025-09-19 12:39:41,862 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 12:39:41,863 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-19 12:39:41,865 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:39:41,867 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.002s
+2025-09-19 12:39:41,872 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:39:41,872 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:39:41,875 - utils.helpers - INFO - Preço obtido para bitcoin: $115726
+2025-09-19 12:39:41,876 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 12:39:56,693 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:39:59,772 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:39:59,773 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:39:59,774 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:39:59,784 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:39:59,790 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 12:39:59,796 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.006s
+2025-09-19 12:39:59,838 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:39:59,839 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:39:59,847 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:39:59,848 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 12:39:59,851 - utils.helpers - INFO - Preço obtido para bitcoin: $115726
+2025-09-19 12:39:59,852 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.006s
+2025-09-19 12:40:00,088 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 12:40:02,721 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 12:40:02,721 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 12:40:02,722 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 12:40:02,728 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 12:40:10,644 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:40:10,645 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:40:10,647 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:40:10,648 - utils.helpers - INFO - Buscando preço para: ITUB4
+2025-09-19 12:40:12,961 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ITUB4"}}}
+2025-09-19 12:40:13,963 - yfinance - ERROR - $ITUB4: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-19 12:40:13,964 - utils.helpers - ERROR - ITUB4: Nenhum dado encontrado.
+2025-09-19 12:40:13,968 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 3.321s
+2025-09-19 12:40:17,234 - utils.helpers - INFO - 📥 GET /api/v1/assets - Client: 127.0.0.1
+2025-09-19 12:40:17,235 - utils.helpers - INFO - 📤 GET /api/v1/assets - Status: 200 - Time: 0.001s
+2025-09-19 12:40:17,241 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 12:40:17,241 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-19 12:40:17,491 - utils.helpers - INFO - Dados salvos para NVDA
+2025-09-19 12:40:17,491 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 12:40:17,491 - utils.helpers - INFO - Preço obtido para NVDA: $175.9893035888672
+2025-09-19 12:40:17,492 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.251s
+2025-09-19 13:12:23,972 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:12:24,006 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.037s
+2025-09-19 13:12:24,094 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 13:12:24,101 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 13:12:24,128 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 200 - Time: 0.027s
+2025-09-19 13:12:24,129 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.035s
+2025-09-19 13:12:24,149 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 13:12:24,153 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:12:24,155 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.005s
+2025-09-19 13:12:24,155 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-19 13:12:24,157 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:12:24,157 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:12:24,166 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:12:24,678 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-19 13:12:24,679 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin
+2025-09-19 13:12:24,681 - utils.helpers - INFO - Preço obtido para bitcoin: $116005
+2025-09-19 13:12:24,683 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.527s
+2025-09-19 13:12:24,684 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.527s
+2025-09-19 13:12:28,941 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:12:28,941 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 13:12:30,309 - utils.helpers - INFO - Dados salvos para ethereum
+2025-09-19 13:12:30,309 - utils.helpers - INFO - Dados de crypto obtidos para ethereum
+2025-09-19 13:12:30,311 - utils.helpers - INFO - Preço obtido para ethereum: $4483.91
+2025-09-19 13:12:30,311 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:12:30,312 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 1.372s
+2025-09-19 13:12:30,313 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-19 13:12:33,114 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:12:33,115 - utils.helpers - INFO - Buscando preço para: ITUB4
+2025-09-19 13:12:34,676 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ITUB4"}}}
+2025-09-19 13:12:35,538 - yfinance - ERROR - $ITUB4: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-19 13:12:35,538 - utils.helpers - ERROR - ITUB4: Nenhum dado encontrado.
+2025-09-19 13:12:35,539 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:12:35,540 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 2.426s
+2025-09-19 13:12:35,540 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:12:37,863 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:12:37,863 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-19 13:12:38,232 - utils.helpers - INFO - Dados salvos para cardano
+2025-09-19 13:12:38,232 - utils.helpers - INFO - Dados de crypto obtidos para cardano
+2025-09-19 13:12:38,233 - utils.helpers - INFO - Preço obtido para cardano: $0.900954
+2025-09-19 13:12:38,234 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:12:38,235 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.372s
+2025-09-19 13:12:38,235 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:13:45,576 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:13:45,577 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-19 13:13:45,612 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 13:13:45,615 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.002s
+2025-09-19 13:13:45,643 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:13:45,647 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.004s
+2025-09-19 13:13:45,648 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:13:45,648 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:13:45,649 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:13:45,651 - utils.helpers - INFO - Preço obtido para bitcoin: $116005
+2025-09-19 13:13:45,653 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.005s
+2025-09-19 13:13:45,654 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.005s
+2025-09-19 13:13:45,692 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 13:13:45,694 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-19 13:13:47,922 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:13:47,922 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-19 13:13:47,954 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 13:13:47,955 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:13:47,956 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-19 13:13:47,957 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-19 13:13:47,958 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:13:47,958 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:13:47,959 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:13:47,960 - utils.helpers - INFO - Preço obtido para bitcoin: $116005
+2025-09-19 13:13:47,961 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 13:13:47,961 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.003s
+2025-09-19 13:13:50,268 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:13:50,269 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-19 13:13:50,296 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:13:50,297 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-19 13:13:50,300 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:13:50,301 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:13:50,304 - utils.helpers - INFO - Preço obtido para bitcoin: $116005
+2025-09-19 13:13:50,305 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:13:50,305 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.005s
+2025-09-19 13:13:50,306 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:14:21,813 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:14:21,814 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-19 13:14:21,848 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 13:14:21,849 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.002s
+2025-09-19 13:14:21,887 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:14:21,888 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-19 13:14:21,899 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:14:21,900 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:14:21,903 - utils.helpers - INFO - Preço obtido para bitcoin: $116005
+2025-09-19 13:14:21,906 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.007s
+2025-09-19 13:14:21,906 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:14:21,908 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-19 13:14:21,933 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 13:14:21,937 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-19 13:14:46,035 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:14:46,036 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-19 13:14:46,037 - utils.helpers - INFO - Preço obtido para cardano: $0.900954
+2025-09-19 13:14:46,038 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:14:46,038 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 13:14:46,039 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:14:59,297 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:14:59,297 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-19 13:14:59,701 - utils.helpers - INFO - Dados salvos para dogecoin
+2025-09-19 13:14:59,701 - utils.helpers - INFO - Dados de crypto obtidos para dogecoin
+2025-09-19 13:14:59,702 - utils.helpers - INFO - Preço obtido para dogecoin: $0.267591
+2025-09-19 13:14:59,703 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:14:59,704 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.407s
+2025-09-19 13:14:59,705 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:16:25,920 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:16:25,921 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-19 13:16:25,922 - utils.helpers - INFO - Preço obtido para dogecoin: $0.267591
+2025-09-19 13:16:25,923 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:17:35,753 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 13:17:39,408 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 13:17:39,409 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 13:17:39,410 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 13:17:39,420 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 13:17:40,326 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:17:40,334 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.007s
+2025-09-19 13:17:40,359 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 13:17:40,374 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.015s
+2025-09-19 13:17:40,399 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:17:40,404 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.004s
+2025-09-19 13:17:40,407 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:17:40,407 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:17:40,409 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:17:40,414 - utils.helpers - INFO - Preço obtido para bitcoin: $116005
+2025-09-19 13:17:40,417 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.010s
+2025-09-19 13:17:40,417 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.010s
+2025-09-19 13:17:54,025 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:17:54,025 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 13:17:54,026 - utils.helpers - INFO - Preço obtido para ethereum: $4483.91
+2025-09-19 13:17:54,027 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:17:54,027 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 13:17:54,027 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:19:30,062 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 13:19:40,656 - utils.helpers - INFO - 🎯 Iniciando servidor de desenvolvimento...
+2025-09-19 13:19:41,951 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 13:19:41,951 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 13:19:41,951 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 13:19:41,960 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 13:19:52,210 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:19:52,218 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.008s
+2025-09-19 13:19:52,263 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 13:19:52,277 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 200 - Time: 0.014s
+2025-09-19 13:19:52,296 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 13:19:52,300 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-19 13:19:52,303 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:19:52,305 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:19:52,305 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-19 13:19:52,306 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:19:52,311 - utils.helpers - INFO - Preço obtido para bitcoin: $116005
+2025-09-19 13:19:52,313 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.008s
+2025-09-19 13:19:52,325 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:19:52,326 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:19:52,373 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:19:52,375 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 13:19:52,889 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 13:19:52,905 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.532s
+2025-09-19 13:19:52,949 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:19:52,950 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 13:19:53,401 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 13:19:53,424 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 13:19:53,425 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.476s
+2025-09-19 13:20:06,764 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:20:06,764 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 13:20:06,765 - utils.helpers - INFO - Preço obtido para ethereum: $4483.91
+2025-09-19 13:20:06,766 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:20:06,770 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:20:06,771 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:20:06,815 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:20:06,816 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-19 13:20:07,223 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (14 dias)
+2025-09-19 13:20:07,227 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.412s
+2025-09-19 13:20:07,273 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:20:07,274 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-19 13:20:07,631 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (30 dias)
+2025-09-19 13:20:07,639 - utils.helpers - INFO - Previsão gerada para ethereum: tendência Alta
+2025-09-19 13:20:07,639 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.367s
+2025-09-19 13:20:09,580 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:20:09,581 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-19 13:20:09,581 - utils.helpers - INFO - Preço obtido para cardano: $0.900954
+2025-09-19 13:20:09,582 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:20:09,586 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:20:09,586 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:20:09,630 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:20:09,631 - utils.helpers - INFO - Gerando análise técnica para: cardano
+2025-09-19 13:20:10,003 - utils.helpers - INFO - Dados de crypto obtidos para cardano (14 dias)
+2025-09-19 13:20:10,009 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.378s
+2025-09-19 13:20:10,053 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:20:10,054 - utils.helpers - INFO - Gerando previsão para: cardano (3 dias)
+2025-09-19 13:20:10,710 - utils.helpers - INFO - Dados de crypto obtidos para cardano (30 dias)
+2025-09-19 13:20:10,719 - utils.helpers - INFO - Previsão gerada para cardano: tendência Alta
+2025-09-19 13:20:10,720 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.667s
+2025-09-19 13:21:48,648 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:21:48,649 - utils.helpers - INFO - Buscando preço para: BBDC4
+2025-09-19 13:21:50,752 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBDC4"}}}
+2025-09-19 13:21:51,983 - yfinance - ERROR - $BBDC4: possibly delisted; no price data found  (period=2d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-19 13:21:51,984 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 3.336s
+2025-09-19 13:21:54,727 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:21:54,728 - utils.helpers - INFO - Buscando preço para: BBSA3
+2025-09-19 13:21:55,972 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBSA3"}}}
+2025-09-19 13:21:57,307 - yfinance - ERROR - $BBSA3: possibly delisted; no price data found  (period=2d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-19 13:21:57,309 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 2.581s
+2025-09-19 13:22:10,788 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 13:22:13,518 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 13:22:13,518 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 13:22:13,518 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 13:22:13,531 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 13:22:14,236 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 13:22:16,698 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 13:22:16,698 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 13:22:16,698 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 13:22:16,704 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 13:22:16,715 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:22:16,723 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.008s
+2025-09-19 13:22:16,745 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 13:22:16,757 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 200 - Time: 0.011s
+2025-09-19 13:22:16,758 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 13:22:16,760 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.002s
+2025-09-19 13:22:16,837 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 13:22:16,840 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:22:16,840 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-19 13:22:16,841 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:22:16,841 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-19 13:22:16,842 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:22:16,843 - utils.helpers - INFO - Preço obtido para bitcoin: $116005
+2025-09-19 13:22:16,844 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 13:22:16,857 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:22:16,858 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:22:16,905 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:22:16,906 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 13:22:22,717 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 13:22:22,723 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 5.818s
+2025-09-19 13:22:22,767 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:22:22,767 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 13:22:22,934 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 13:22:22,943 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 13:22:22,944 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.177s
+2025-09-19 13:22:57,505 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:22:57,506 - utils.helpers - INFO - Buscando preço para: AMD
+2025-09-19 13:22:58,688 - utils.helpers - INFO - Dados salvos para AMD
+2025-09-19 13:22:58,688 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 13:22:58,688 - utils.helpers - INFO - Preço obtido para AMD: $157.33160400390625
+2025-09-19 13:22:58,689 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 1.184s
+2025-09-19 13:22:58,691 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:22:58,692 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:22:58,736 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:22:58,736 - utils.helpers - INFO - Gerando análise técnica para: AMD
+2025-09-19 13:22:58,996 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 13:22:58,996 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 13:22:59,000 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.264s
+2025-09-19 13:22:59,047 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:22:59,048 - utils.helpers - INFO - Gerando previsão para: AMD (3 dias)
+2025-09-19 13:22:59,277 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 13:22:59,277 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 13:22:59,284 - utils.helpers - INFO - Previsão gerada para AMD: tendência Estável
+2025-09-19 13:22:59,285 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.237s
+2025-09-19 13:23:01,802 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:01,803 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-19 13:23:02,033 - utils.helpers - INFO - Dados salvos para NVDA
+2025-09-19 13:23:02,033 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 13:23:02,033 - utils.helpers - INFO - Preço obtido para NVDA: $176.10000610351562
+2025-09-19 13:23:02,034 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.232s
+2025-09-19 13:23:02,037 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:23:02,037 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:23:02,080 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:23:02,081 - utils.helpers - INFO - Gerando análise técnica para: NVDA
+2025-09-19 13:23:02,553 - utils.helpers - INFO - Dados históricos salvos para NVDA
+2025-09-19 13:23:02,553 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 13:23:02,557 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.477s
+2025-09-19 13:23:02,601 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:23:02,601 - utils.helpers - INFO - Gerando previsão para: NVDA (3 dias)
+2025-09-19 13:23:02,913 - utils.helpers - INFO - Dados históricos salvos para NVDA
+2025-09-19 13:23:02,913 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 13:23:02,920 - utils.helpers - INFO - Previsão gerada para NVDA: tendência Baixa
+2025-09-19 13:23:02,921 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.320s
+2025-09-19 13:23:04,408 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:04,408 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:23:04,652 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-19 13:23:04,652 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (1 dias)
+2025-09-19 13:23:04,653 - utils.helpers - INFO - Preço obtido para bitcoin: $115988
+2025-09-19 13:23:04,654 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.246s
+2025-09-19 13:23:04,656 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:23:04,656 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:23:04,699 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:23:04,700 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 13:23:05,094 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 13:23:05,107 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.407s
+2025-09-19 13:23:05,154 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:23:05,155 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 13:23:05,503 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 13:23:05,511 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 13:23:05,511 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.357s
+2025-09-19 13:23:18,888 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:18,888 - utils.helpers - INFO - Buscando preço para: eth
+2025-09-19 13:23:19,746 - utils.helpers - INFO - Dados salvos para ETH
+2025-09-19 13:23:19,746 - utils.helpers - INFO - Dados de ação obtidos para ETH
+2025-09-19 13:23:19,747 - utils.helpers - INFO - Preço obtido para eth: $42.20000076293945
+2025-09-19 13:23:19,747 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.859s
+2025-09-19 13:23:19,750 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:23:19,751 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:23:19,794 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:23:19,795 - utils.helpers - INFO - Gerando análise técnica para: eth
+2025-09-19 13:23:20,149 - utils.helpers - ERROR - Erro ao buscar dados crypto para eth: 404 Client Error: Not Found for url: https://api.coingecko.com/api/v3/coins/eth/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:23:20,349 - utils.helpers - INFO - Dados históricos salvos para ETH
+2025-09-19 13:23:20,349 - utils.helpers - INFO - Dados de ação obtidos para ETH
+2025-09-19 13:23:20,353 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.558s
+2025-09-19 13:23:20,397 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:23:20,397 - utils.helpers - INFO - Gerando previsão para: eth (3 dias)
+2025-09-19 13:23:20,890 - utils.helpers - ERROR - Erro ao buscar dados crypto para eth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/eth/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:23:21,191 - utils.helpers - INFO - Dados históricos salvos para ETH
+2025-09-19 13:23:21,191 - utils.helpers - INFO - Dados de ação obtidos para ETH
+2025-09-19 13:23:21,197 - utils.helpers - INFO - Previsão gerada para eth: tendência Alta
+2025-09-19 13:23:21,198 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.801s
+2025-09-19 13:23:30,205 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:30,206 - utils.helpers - INFO - Buscando preço para: ethbtc
+2025-09-19 13:23:30,426 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethbtc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethbtc&vs_currencies=usd&include_24hr_change=true
+2025-09-19 13:23:32,640 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ETHBTC"}}}
+2025-09-19 13:23:33,931 - yfinance - ERROR - $ETHBTC: possibly delisted; no price data found  (period=2d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-19 13:23:33,932 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 3.727s
+2025-09-19 13:23:35,594 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:35,594 - utils.helpers - INFO - Buscando preço para: ethbtc
+2025-09-19 13:23:36,782 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethbtc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethbtc&vs_currencies=usd&include_24hr_change=true
+2025-09-19 13:23:37,863 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ETHBTC"}}}
+2025-09-19 13:23:38,988 - yfinance - ERROR - $ETHBTC: possibly delisted; no price data found  (period=2d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-19 13:23:38,989 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 3.395s
+2025-09-19 13:23:41,695 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:41,696 - utils.helpers - INFO - Buscando preço para: btc
+2025-09-19 13:23:42,191 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btc&vs_currencies=usd&include_24hr_change=true
+2025-09-19 13:23:42,574 - utils.helpers - INFO - Dados salvos para BTC
+2025-09-19 13:23:42,574 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 13:23:42,574 - utils.helpers - INFO - Preço obtido para btc: $51.37799835205078
+2025-09-19 13:23:42,574 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.879s
+2025-09-19 13:23:42,577 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:23:42,577 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:23:42,621 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:23:42,622 - utils.helpers - INFO - Gerando análise técnica para: btc
+2025-09-19 13:23:42,763 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/btc/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:23:42,995 - utils.helpers - INFO - Dados históricos salvos para BTC
+2025-09-19 13:23:42,995 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 13:23:42,999 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.378s
+2025-09-19 13:23:43,043 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:23:43,043 - utils.helpers - INFO - Gerando previsão para: btc (3 dias)
+2025-09-19 13:23:44,232 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/btc/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:23:44,428 - utils.helpers - INFO - Dados históricos salvos para BTC
+2025-09-19 13:23:44,428 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 13:23:44,435 - utils.helpers - INFO - Previsão gerada para btc: tendência Estável
+2025-09-19 13:23:44,436 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 1.393s
+2025-09-19 13:23:45,744 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:45,744 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:23:45,745 - utils.helpers - INFO - Preço obtido para bitcoin: $115988
+2025-09-19 13:23:45,746 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:23:45,750 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:23:45,751 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:23:45,795 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:23:45,795 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 13:23:45,952 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:23:45,954 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.159s
+2025-09-19 13:23:45,999 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:23:46,000 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 13:23:46,156 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:23:46,157 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.158s
+2025-09-19 13:23:48,544 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:48,544 - utils.helpers - INFO - Buscando preço para: solana
+2025-09-19 13:23:49,732 - utils.helpers - ERROR - Erro ao buscar dados crypto para solana: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true
+2025-09-19 13:23:49,734 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 1.190s
+2025-09-19 13:23:52,031 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:52,032 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-19 13:23:52,033 - utils.helpers - INFO - Preço obtido para dogecoin: $0.267591
+2025-09-19 13:23:52,034 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:23:52,036 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:23:52,037 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:23:52,080 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:23:52,081 - utils.helpers - INFO - Gerando análise técnica para: dogecoin
+2025-09-19 13:23:53,234 - utils.helpers - ERROR - Erro ao buscar dados crypto para dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:23:53,236 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 1.156s
+2025-09-19 13:23:53,279 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:23:53,280 - utils.helpers - INFO - Gerando previsão para: dogecoin (3 dias)
+2025-09-19 13:23:53,627 - utils.helpers - ERROR - Erro ao buscar dados crypto para dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:23:53,629 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.350s
+2025-09-19 13:23:55,589 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:55,589 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 13:23:55,892 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.303s
+2025-09-19 13:23:58,790 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:23:58,791 - utils.helpers - INFO - Buscando preço para: MSFT
+2025-09-19 13:23:59,014 - utils.helpers - INFO - Dados salvos para MSFT
+2025-09-19 13:23:59,014 - utils.helpers - INFO - Dados de ação obtidos para MSFT
+2025-09-19 13:23:59,014 - utils.helpers - INFO - Preço obtido para MSFT: $513.0499877929688
+2025-09-19 13:23:59,014 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.224s
+2025-09-19 13:23:59,016 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:23:59,017 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.000s
+2025-09-19 13:23:59,063 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:23:59,063 - utils.helpers - INFO - Gerando análise técnica para: MSFT
+2025-09-19 13:23:59,300 - utils.helpers - INFO - Dados históricos salvos para MSFT
+2025-09-19 13:23:59,300 - utils.helpers - INFO - Dados de ação obtidos para MSFT
+2025-09-19 13:23:59,304 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.242s
+2025-09-19 13:23:59,348 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:23:59,348 - utils.helpers - INFO - Gerando previsão para: MSFT (3 dias)
+2025-09-19 13:23:59,594 - utils.helpers - INFO - Dados históricos salvos para MSFT
+2025-09-19 13:23:59,594 - utils.helpers - INFO - Dados de ação obtidos para MSFT
+2025-09-19 13:23:59,601 - utils.helpers - INFO - Previsão gerada para MSFT: tendência Estável
+2025-09-19 13:23:59,602 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.254s
+2025-09-19 13:24:05,596 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:24:05,596 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-19 13:24:05,597 - utils.helpers - INFO - Preço obtido para NVDA: $176.10000610351562
+2025-09-19 13:24:05,598 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:24:05,600 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:24:05,600 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.000s
+2025-09-19 13:24:05,645 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:24:05,645 - utils.helpers - INFO - Gerando análise técnica para: NVDA
+2025-09-19 13:24:05,938 - utils.helpers - INFO - Dados históricos salvos para NVDA
+2025-09-19 13:24:05,938 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 13:24:05,942 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.297s
+2025-09-19 13:24:05,985 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:24:05,985 - utils.helpers - INFO - Gerando previsão para: NVDA (3 dias)
+2025-09-19 13:24:06,190 - utils.helpers - INFO - Dados históricos salvos para NVDA
+2025-09-19 13:24:06,191 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 13:24:06,197 - utils.helpers - INFO - Previsão gerada para NVDA: tendência Baixa
+2025-09-19 13:24:06,197 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.213s
+2025-09-19 13:24:09,416 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:24:09,416 - utils.helpers - INFO - Buscando preço para: solana
+2025-09-19 13:24:09,569 - utils.helpers - ERROR - Erro ao buscar dados crypto para solana: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true
+2025-09-19 13:24:09,570 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.154s
+2025-09-19 13:26:25,262 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:25,264 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:26:25,268 - utils.helpers - INFO - Preço obtido para bitcoin: $115988
+2025-09-19 13:26:25,271 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.008s
+2025-09-19 13:26:25,283 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:25,285 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-19 13:26:25,336 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:25,337 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 13:26:25,758 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 13:26:25,765 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.429s
+2025-09-19 13:26:25,811 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:25,811 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 13:26:26,219 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 13:26:26,227 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 13:26:26,228 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.418s
+2025-09-19 13:26:26,526 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:26,526 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 13:26:26,708 - utils.helpers - INFO - Dados salvos para ethereum
+2025-09-19 13:26:26,708 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (1 dias)
+2025-09-19 13:26:26,709 - utils.helpers - INFO - Preço obtido para ethereum: $4481.88
+2025-09-19 13:26:26,710 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.184s
+2025-09-19 13:26:26,714 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:26,715 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-19 13:26:26,760 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:26,760 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-19 13:26:27,135 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (14 dias)
+2025-09-19 13:26:27,141 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.381s
+2025-09-19 13:26:27,186 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:27,186 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-19 13:26:27,543 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (30 dias)
+2025-09-19 13:26:27,552 - utils.helpers - INFO - Previsão gerada para ethereum: tendência Alta
+2025-09-19 13:26:27,553 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.367s
+2025-09-19 13:26:27,952 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:27,953 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-19 13:26:28,130 - utils.helpers - ERROR - Erro ao buscar dados crypto para cardano: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=usd&include_24hr_change=true
+2025-09-19 13:26:28,132 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.180s
+2025-09-19 13:26:38,590 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 13:26:41,306 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 13:26:41,306 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 13:26:41,306 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 13:26:41,320 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 13:26:41,924 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 13:26:44,637 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 13:26:44,637 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 13:26:44,637 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 13:26:44,646 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 13:26:45,118 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:26:45,127 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.009s
+2025-09-19 13:26:45,170 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 13:26:45,172 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 13:26:45,194 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.023s
+2025-09-19 13:26:45,194 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 200 - Time: 0.022s
+2025-09-19 13:26:45,229 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 13:26:45,233 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.004s
+2025-09-19 13:26:45,242 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:26:45,245 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.003s
+2025-09-19 13:26:45,247 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:45,248 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:26:45,251 - utils.helpers - INFO - Preço obtido para bitcoin: $115988
+2025-09-19 13:26:45,253 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.005s
+2025-09-19 13:26:45,304 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:45,305 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-19 13:26:45,313 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:45,314 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 13:26:45,522 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:26:45,525 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.212s
+2025-09-19 13:26:45,627 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 13:26:48,286 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 13:26:48,286 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 13:26:48,287 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 13:26:48,293 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 13:26:48,298 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:48,299 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 13:26:48,740 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:26:48,746 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.448s
+2025-09-19 13:26:49,328 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 13:26:49,334 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.006s
+2025-09-19 13:26:49,422 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 13:26:49,426 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.004s
+2025-09-19 13:26:49,427 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 13:26:49,429 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:49,430 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:26:49,434 - utils.helpers - INFO - Preço obtido para bitcoin: $115988
+2025-09-19 13:26:49,435 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.007s
+2025-09-19 13:26:49,436 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.007s
+2025-09-19 13:26:49,454 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:49,455 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:49,505 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:49,507 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 13:26:49,657 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:26:49,661 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.155s
+2025-09-19 13:26:49,707 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:49,708 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 13:26:49,901 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:26:49,904 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.197s
+2025-09-19 13:26:50,873 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:50,873 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 13:26:50,875 - utils.helpers - INFO - Preço obtido para ethereum: $4481.88
+2025-09-19 13:26:50,876 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 13:26:50,878 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:50,879 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:50,924 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:50,924 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-19 13:26:51,090 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:26:51,092 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.169s
+2025-09-19 13:26:51,136 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:51,137 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-19 13:26:51,304 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:26:51,306 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.170s
+2025-09-19 13:26:51,624 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:51,625 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 13:26:51,627 - utils.helpers - INFO - Preço obtido para bitcoin: $115988
+2025-09-19 13:26:51,627 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 13:26:51,631 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:51,632 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:51,677 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:51,678 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 13:26:51,843 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:26:51,845 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.168s
+2025-09-19 13:26:51,890 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:51,890 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 13:26:52,081 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:26:52,083 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.193s
+2025-09-19 13:26:52,241 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:52,242 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 13:26:53,159 - utils.helpers - INFO - Dados salvos para AAPL
+2025-09-19 13:26:53,159 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 13:26:53,159 - utils.helpers - INFO - Preço obtido para AAPL: $244.47999572753906
+2025-09-19 13:26:53,160 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.919s
+2025-09-19 13:26:53,163 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:53,164 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:53,206 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:53,207 - utils.helpers - INFO - Gerando análise técnica para: AAPL
+2025-09-19 13:26:53,449 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 13:26:53,449 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 13:26:53,453 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.247s
+2025-09-19 13:26:53,498 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:53,499 - utils.helpers - INFO - Gerando previsão para: AAPL (3 dias)
+2025-09-19 13:26:53,762 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 13:26:53,763 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 13:26:53,774 - utils.helpers - INFO - Previsão gerada para AAPL: tendência Baixa
+2025-09-19 13:26:53,775 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.277s
+2025-09-19 13:26:54,414 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:54,414 - utils.helpers - INFO - Buscando preço para: GOOGL
+2025-09-19 13:26:54,601 - utils.helpers - INFO - Dados salvos para GOOGL
+2025-09-19 13:26:54,601 - utils.helpers - INFO - Dados de ação obtidos para GOOGL
+2025-09-19 13:26:54,602 - utils.helpers - INFO - Preço obtido para GOOGL: $253.8170928955078
+2025-09-19 13:26:54,602 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.188s
+2025-09-19 13:26:54,604 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:54,605 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:54,648 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:54,649 - utils.helpers - INFO - Gerando análise técnica para: GOOGL
+2025-09-19 13:26:54,901 - utils.helpers - INFO - Dados históricos salvos para GOOGL
+2025-09-19 13:26:54,901 - utils.helpers - INFO - Dados de ação obtidos para GOOGL
+2025-09-19 13:26:54,905 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.257s
+2025-09-19 13:26:54,949 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:54,949 - utils.helpers - INFO - Gerando previsão para: GOOGL (3 dias)
+2025-09-19 13:26:55,215 - utils.helpers - INFO - Dados históricos salvos para GOOGL
+2025-09-19 13:26:55,215 - utils.helpers - INFO - Dados de ação obtidos para GOOGL
+2025-09-19 13:26:55,222 - utils.helpers - INFO - Previsão gerada para GOOGL: tendência Estável
+2025-09-19 13:26:55,222 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.274s
+2025-09-19 13:26:55,688 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:55,688 - utils.helpers - INFO - Buscando preço para: MSFT
+2025-09-19 13:26:55,689 - utils.helpers - INFO - Preço obtido para MSFT: $513.0499877929688
+2025-09-19 13:26:55,690 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:26:55,692 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:55,693 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:55,738 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:55,738 - utils.helpers - INFO - Gerando análise técnica para: MSFT
+2025-09-19 13:26:56,233 - utils.helpers - INFO - Dados históricos salvos para MSFT
+2025-09-19 13:26:56,233 - utils.helpers - INFO - Dados de ação obtidos para MSFT
+2025-09-19 13:26:56,238 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.500s
+2025-09-19 13:26:56,282 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:56,282 - utils.helpers - INFO - Gerando previsão para: MSFT (3 dias)
+2025-09-19 13:26:56,544 - utils.helpers - INFO - Dados históricos salvos para MSFT
+2025-09-19 13:26:56,544 - utils.helpers - INFO - Dados de ação obtidos para MSFT
+2025-09-19 13:26:56,552 - utils.helpers - INFO - Previsão gerada para MSFT: tendência Estável
+2025-09-19 13:26:56,553 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.271s
+2025-09-19 13:26:56,743 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:56,744 - utils.helpers - INFO - Buscando preço para: TSLA
+2025-09-19 13:26:57,042 - utils.helpers - INFO - Dados salvos para TSLA
+2025-09-19 13:26:57,042 - utils.helpers - INFO - Dados de ação obtidos para TSLA
+2025-09-19 13:26:57,042 - utils.helpers - INFO - Preço obtido para TSLA: $423.06689453125
+2025-09-19 13:26:57,042 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.299s
+2025-09-19 13:26:57,045 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:57,046 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:57,092 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:57,093 - utils.helpers - INFO - Gerando análise técnica para: TSLA
+2025-09-19 13:26:57,354 - utils.helpers - INFO - Dados históricos salvos para TSLA
+2025-09-19 13:26:57,355 - utils.helpers - INFO - Dados de ação obtidos para TSLA
+2025-09-19 13:26:57,358 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.267s
+2025-09-19 13:26:57,402 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:57,402 - utils.helpers - INFO - Gerando previsão para: TSLA (3 dias)
+2025-09-19 13:26:57,679 - utils.helpers - INFO - Dados históricos salvos para TSLA
+2025-09-19 13:26:57,679 - utils.helpers - INFO - Dados de ação obtidos para TSLA
+2025-09-19 13:26:57,687 - utils.helpers - INFO - Previsão gerada para TSLA: tendência Estável
+2025-09-19 13:26:57,688 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.286s
+2025-09-19 13:26:57,814 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:57,814 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-19 13:26:57,815 - utils.helpers - INFO - Preço obtido para NVDA: $176.10000610351562
+2025-09-19 13:26:57,816 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:26:57,820 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:57,820 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:57,865 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:57,865 - utils.helpers - INFO - Gerando análise técnica para: NVDA
+2025-09-19 13:26:58,600 - utils.helpers - INFO - Dados históricos salvos para NVDA
+2025-09-19 13:26:58,600 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 13:26:58,604 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.739s
+2025-09-19 13:26:58,648 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:58,648 - utils.helpers - INFO - Gerando previsão para: NVDA (3 dias)
+2025-09-19 13:26:58,908 - utils.helpers - INFO - Dados históricos salvos para NVDA
+2025-09-19 13:26:58,908 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 13:26:58,915 - utils.helpers - INFO - Previsão gerada para NVDA: tendência Baixa
+2025-09-19 13:26:58,916 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.268s
+2025-09-19 13:26:58,918 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:26:58,919 - utils.helpers - INFO - Buscando preço para: AMZN
+2025-09-19 13:26:59,304 - utils.helpers - INFO - Dados salvos para AMZN
+2025-09-19 13:26:59,304 - utils.helpers - INFO - Dados de ação obtidos para AMZN
+2025-09-19 13:26:59,304 - utils.helpers - INFO - Preço obtido para AMZN: $233.75
+2025-09-19 13:26:59,305 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.387s
+2025-09-19 13:26:59,307 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:26:59,308 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:26:59,310 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:26:59,311 - utils.helpers - INFO - Gerando análise técnica para: AMZN
+2025-09-19 13:26:59,506 - utils.helpers - INFO - Dados históricos salvos para AMZN
+2025-09-19 13:26:59,507 - utils.helpers - INFO - Dados de ação obtidos para AMZN
+2025-09-19 13:26:59,511 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.200s
+2025-09-19 13:26:59,554 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:26:59,554 - utils.helpers - INFO - Gerando previsão para: AMZN (3 dias)
+2025-09-19 13:26:59,834 - utils.helpers - INFO - Dados históricos salvos para AMZN
+2025-09-19 13:26:59,834 - utils.helpers - INFO - Dados de ação obtidos para AMZN
+2025-09-19 13:26:59,841 - utils.helpers - INFO - Previsão gerada para AMZN: tendência Baixa
+2025-09-19 13:26:59,841 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.288s
+2025-09-19 13:27:00,209 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:27:00,209 - utils.helpers - INFO - Buscando preço para: META
+2025-09-19 13:27:00,630 - utils.helpers - INFO - Dados salvos para META
+2025-09-19 13:27:00,630 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-19 13:27:00,630 - utils.helpers - INFO - Preço obtido para META: $772.1099853515625
+2025-09-19 13:27:00,630 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.421s
+2025-09-19 13:27:00,633 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:27:00,634 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:27:00,677 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:27:00,678 - utils.helpers - INFO - Gerando análise técnica para: META
+2025-09-19 13:27:01,004 - utils.helpers - INFO - Dados históricos salvos para META
+2025-09-19 13:27:01,004 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-19 13:27:01,009 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.331s
+2025-09-19 13:27:01,054 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:27:01,055 - utils.helpers - INFO - Gerando previsão para: META (3 dias)
+2025-09-19 13:27:01,367 - utils.helpers - INFO - Dados históricos salvos para META
+2025-09-19 13:27:01,367 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-19 13:27:01,377 - utils.helpers - INFO - Previsão gerada para META: tendência Estável
+2025-09-19 13:27:01,378 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.324s
+2025-09-19 13:27:01,478 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:27:01,478 - utils.helpers - INFO - Buscando preço para: NFLX
+2025-09-19 13:27:01,965 - utils.helpers - INFO - Dados salvos para NFLX
+2025-09-19 13:27:01,965 - utils.helpers - INFO - Dados de ação obtidos para NFLX
+2025-09-19 13:27:01,965 - utils.helpers - INFO - Preço obtido para NFLX: $1222.31005859375
+2025-09-19 13:27:01,966 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.488s
+2025-09-19 13:27:01,969 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:27:01,970 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:27:02,013 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:27:02,014 - utils.helpers - INFO - Gerando análise técnica para: NFLX
+2025-09-19 13:27:02,276 - utils.helpers - INFO - Dados históricos salvos para NFLX
+2025-09-19 13:27:02,276 - utils.helpers - INFO - Dados de ação obtidos para NFLX
+2025-09-19 13:27:02,280 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.267s
+2025-09-19 13:27:02,324 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:27:02,324 - utils.helpers - INFO - Gerando previsão para: NFLX (3 dias)
+2025-09-19 13:27:02,792 - utils.helpers - INFO - Dados históricos salvos para NFLX
+2025-09-19 13:27:02,792 - utils.helpers - INFO - Dados de ação obtidos para NFLX
+2025-09-19 13:27:02,798 - utils.helpers - INFO - Previsão gerada para NFLX: tendência Estável
+2025-09-19 13:27:02,799 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.475s
+2025-09-19 13:27:02,846 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:27:02,847 - utils.helpers - INFO - Buscando preço para: INTC
+2025-09-19 13:27:03,494 - utils.helpers - INFO - Dados salvos para INTC
+2025-09-19 13:27:03,494 - utils.helpers - INFO - Dados de ação obtidos para INTC
+2025-09-19 13:27:03,494 - utils.helpers - INFO - Preço obtido para INTC: $29.96619987487793
+2025-09-19 13:27:03,495 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.648s
+2025-09-19 13:27:03,537 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:27:03,538 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:27:03,581 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:27:03,582 - utils.helpers - INFO - Gerando análise técnica para: INTC
+2025-09-19 13:27:03,818 - utils.helpers - INFO - Dados históricos salvos para INTC
+2025-09-19 13:27:03,818 - utils.helpers - INFO - Dados de ação obtidos para INTC
+2025-09-19 13:27:03,822 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-19 13:27:03,830 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:27:03,830 - utils.helpers - INFO - Gerando previsão para: INTC (3 dias)
+2025-09-19 13:27:04,122 - utils.helpers - INFO - Dados históricos salvos para INTC
+2025-09-19 13:27:04,122 - utils.helpers - INFO - Dados de ação obtidos para INTC
+2025-09-19 13:27:04,130 - utils.helpers - INFO - Previsão gerada para INTC: tendência Estável
+2025-09-19 13:27:04,131 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.302s
+2025-09-19 13:27:05,042 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:27:05,043 - utils.helpers - INFO - Buscando preço para: AMD
+2025-09-19 13:27:05,046 - utils.helpers - INFO - Preço obtido para AMD: $157.33160400390625
+2025-09-19 13:27:05,047 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.005s
+2025-09-19 13:27:05,050 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:27:05,050 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:27:05,095 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:27:05,095 - utils.helpers - INFO - Gerando análise técnica para: AMD
+2025-09-19 13:27:05,340 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 13:27:05,340 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 13:27:05,344 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.249s
+2025-09-19 13:27:05,387 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:27:05,387 - utils.helpers - INFO - Gerando previsão para: AMD (3 dias)
+2025-09-19 13:27:05,657 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 13:27:05,658 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 13:27:05,666 - utils.helpers - INFO - Previsão gerada para AMD: tendência Estável
+2025-09-19 13:27:05,667 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.280s
+2025-09-19 13:27:11,705 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 13:27:13,752 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 13:27:13,752 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 13:27:13,752 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 13:27:13,756 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 13:27:38,918 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:27:38,919 - utils.helpers - INFO - Buscando preço para: btc
+2025-09-19 13:27:39,327 - utils.helpers - INFO - Preço obtido para btc: $51.37799835205078
+2025-09-19 13:27:39,328 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.409s
+2025-09-19 13:27:39,331 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:27:39,334 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.003s
+2025-09-19 13:27:39,379 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:27:39,380 - utils.helpers - INFO - Gerando análise técnica para: btc
+2025-09-19 13:27:39,736 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 404 Client Error: Not Found for url: https://api.coingecko.com/api/v3/coins/btc/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 13:27:40,692 - utils.helpers - INFO - Dados históricos salvos para BTC
+2025-09-19 13:27:40,692 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 13:27:40,696 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 1.317s
+2025-09-19 13:27:40,740 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:27:40,740 - utils.helpers - INFO - Gerando previsão para: btc (3 dias)
+2025-09-19 13:27:41,056 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 404 Client Error: Not Found for url: https://api.coingecko.com/api/v3/coins/btc/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 13:27:41,304 - utils.helpers - INFO - Dados históricos salvos para BTC
+2025-09-19 13:27:41,304 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 13:27:41,311 - utils.helpers - INFO - Previsão gerada para btc: tendência Estável
+2025-09-19 13:27:41,311 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.572s
+2025-09-19 13:27:46,138 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 13:27:46,139 - utils.helpers - INFO - Buscando preço para: aapl
+2025-09-19 13:27:46,140 - utils.helpers - INFO - Preço obtido para aapl: $244.47999572753906
+2025-09-19 13:27:46,141 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 13:27:46,144 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 13:27:46,144 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 13:27:46,188 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 13:27:46,189 - utils.helpers - INFO - Gerando análise técnica para: aapl
+2025-09-19 13:27:46,508 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 13:27:46,509 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 13:27:46,512 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.324s
+2025-09-19 13:27:46,557 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 13:27:46,558 - utils.helpers - INFO - Gerando previsão para: aapl (3 dias)
+2025-09-19 13:27:46,827 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 13:27:46,827 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 13:27:46,835 - utils.helpers - INFO - Previsão gerada para aapl: tendência Baixa
+2025-09-19 13:27:46,835 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.278s
+2025-09-19 14:00:39,121 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:00:39,134 - utils.helpers - INFO - Buscando preço para: AMD
+2025-09-19 14:00:39,544 - utils.helpers - INFO - Dados salvos para AMD
+2025-09-19 14:00:39,544 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 14:00:39,544 - utils.helpers - INFO - Preço obtido para AMD: $156.8300018310547
+2025-09-19 14:00:39,546 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.427s
+2025-09-19 14:00:39,551 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:00:39,554 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.004s
+2025-09-19 14:00:39,604 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:00:39,606 - utils.helpers - INFO - Gerando análise técnica para: AMD
+2025-09-19 14:00:39,903 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 14:00:39,903 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 14:00:39,914 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.310s
+2025-09-19 14:00:39,959 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:00:39,960 - utils.helpers - INFO - Gerando previsão para: AMD (3 dias)
+2025-09-19 14:00:40,177 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 14:00:40,177 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 14:00:40,202 - utils.helpers - INFO - Previsão gerada para AMD: tendência Estável
+2025-09-19 14:00:40,203 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.244s
+2025-09-19 14:00:51,938 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 14:00:51,951 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.013s
+2025-09-19 14:00:51,994 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 14:00:52,019 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.026s
+2025-09-19 14:00:52,021 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 14:00:52,023 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.002s
+2025-09-19 14:00:52,042 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 14:00:52,044 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-19 14:00:52,048 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:00:52,049 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-19 14:00:52,051 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:00:52,051 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:00:52,686 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-19 14:00:52,686 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (1 dias)
+2025-09-19 14:00:52,687 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:00:52,690 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.639s
+2025-09-19 14:00:52,791 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 14:00:55,843 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 14:00:55,843 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 14:00:55,843 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 14:00:55,858 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 14:00:55,864 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:00:55,866 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.003s
+2025-09-19 14:00:55,873 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:00:55,873 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:00:56,348 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 14:00:56,355 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.482s
+2025-09-19 14:00:56,400 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:00:56,401 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:00:56,783 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 14:00:56,797 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 14:00:56,798 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.398s
+2025-09-19 14:01:12,699 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 14:01:14,661 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 14:01:14,661 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 14:01:14,661 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 14:01:14,666 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 14:01:36,068 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 14:01:36,078 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.009s
+2025-09-19 14:01:36,131 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:01:36,134 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.003s
+2025-09-19 14:01:36,135 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:01:36,135 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:01:36,138 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:01:36,139 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.005s
+2025-09-19 14:01:36,152 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:01:36,152 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:01:36,199 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:01:36,199 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:01:36,755 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 14:01:36,762 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.563s
+2025-09-19 14:01:36,822 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:01:36,825 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:01:37,147 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 14:01:37,157 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 14:01:37,158 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.337s
+2025-09-19 14:02:12,311 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 14:02:12,313 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.003s
+2025-09-19 14:02:12,376 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 14:02:12,396 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 200 - Time: 0.019s
+2025-09-19 14:02:12,413 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:02:12,420 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:02:12,421 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:02:12,427 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:02:12,428 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.015s
+2025-09-19 14:02:12,428 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.009s
+2025-09-19 14:02:12,444 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:02:12,445 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:02:12,493 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:02:12,494 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:02:12,856 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 14:02:12,867 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.374s
+2025-09-19 14:02:12,916 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:02:12,917 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:02:13,231 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 14:02:13,250 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 14:02:13,251 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.335s
+2025-09-19 14:02:16,914 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 14:02:16,915 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-19 14:02:16,958 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:02:16,958 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:02:16,959 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:02:16,960 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:02:16,960 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.003s
+2025-09-19 14:02:16,961 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 14:02:16,971 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:02:16,973 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-19 14:02:17,018 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:02:17,019 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:02:17,202 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 14:02:17,208 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.191s
+2025-09-19 14:02:17,253 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:02:17,254 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:02:17,398 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 14:02:17,414 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 14:02:17,414 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.161s
+2025-09-19 14:02:49,700 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 14:02:54,676 - utils.helpers - INFO - 🎯 Iniciando servidor de desenvolvimento...
+2025-09-19 14:02:56,143 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 14:02:56,143 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 14:02:56,143 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 14:02:56,159 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 14:02:56,575 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 14:02:56,579 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.004s
+2025-09-19 14:02:56,627 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:02:56,629 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:02:56,629 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:02:56,632 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:02:56,633 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.007s
+2025-09-19 14:02:56,635 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.006s
+2025-09-19 14:02:56,644 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:02:56,644 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:02:56,690 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:02:56,690 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:02:57,448 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 14:02:57,455 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.765s
+2025-09-19 14:02:57,499 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:02:57,500 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:02:57,652 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:02:57,653 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.154s
+2025-09-19 14:03:01,512 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 14:03:01,513 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-19 14:03:01,546 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 14:03:01,547 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:03:01,548 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-19 14:03:01,549 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-19 14:03:01,550 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:01,550 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:03:01,552 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:03:01,552 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 14:03:01,557 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:01,557 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:01,603 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:01,604 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:03:02,007 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:03:02,009 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.406s
+2025-09-19 14:03:02,053 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:02,053 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:03:02,198 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:03:02,202 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.149s
+2025-09-19 14:03:04,103 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:04,104 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:03:04,105 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:03:04,105 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:03:04,111 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:04,112 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:04,115 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:04,116 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:03:04,269 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:03:04,270 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.155s
+2025-09-19 14:03:04,313 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:04,314 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:03:04,454 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:03:04,458 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.144s
+2025-09-19 14:03:05,560 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:05,561 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 14:03:05,726 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true
+2025-09-19 14:03:05,730 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.171s
+2025-09-19 14:03:08,386 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:08,387 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 14:03:09,105 - utils.helpers - INFO - Dados salvos para AAPL
+2025-09-19 14:03:09,105 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 14:03:09,105 - utils.helpers - INFO - Preço obtido para AAPL: $244.92999267578125
+2025-09-19 14:03:09,106 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.719s
+2025-09-19 14:03:09,108 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:09,109 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:09,119 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:09,120 - utils.helpers - INFO - Gerando análise técnica para: AAPL
+2025-09-19 14:03:09,414 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 14:03:09,414 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 14:03:09,419 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.301s
+2025-09-19 14:03:09,465 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:09,465 - utils.helpers - INFO - Gerando previsão para: AAPL (3 dias)
+2025-09-19 14:03:09,726 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 14:03:09,726 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 14:03:09,735 - utils.helpers - INFO - Previsão gerada para AAPL: tendência Baixa
+2025-09-19 14:03:09,736 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.271s
+2025-09-19 14:03:11,919 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:11,920 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:03:11,921 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:03:11,921 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:03:11,924 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:11,925 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:11,928 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:11,928 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:03:12,070 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:03:12,071 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.144s
+2025-09-19 14:03:12,115 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:12,115 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:03:12,258 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:03:12,259 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.144s
+2025-09-19 14:03:21,518 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 14:03:23,933 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 14:03:23,933 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 14:03:23,934 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 14:03:23,939 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 14:03:24,645 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 14:03:26,746 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 14:03:26,746 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 14:03:26,746 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 14:03:26,752 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 14:03:27,457 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 14:03:30,131 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 14:03:30,131 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 14:03:30,131 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 14:03:30,138 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 14:03:31,648 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 14:03:33,992 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 14:03:33,992 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 14:03:33,992 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 14:03:33,998 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 14:03:35,575 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 14:03:35,580 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.005s
+2025-09-19 14:03:35,629 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 14:03:35,634 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.005s
+2025-09-19 14:03:35,635 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:03:35,635 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:35,636 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:03:35,640 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:03:35,641 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.007s
+2025-09-19 14:03:35,642 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.007s
+2025-09-19 14:03:35,646 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:35,647 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:35,691 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:35,692 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:03:35,919 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:03:35,921 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.229s
+2025-09-19 14:03:35,967 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:35,968 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:03:36,174 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:03:36,176 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.210s
+2025-09-19 14:03:38,383 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:38,383 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 14:03:38,385 - utils.helpers - INFO - Preço obtido para AAPL: $244.92999267578125
+2025-09-19 14:03:38,385 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:03:38,388 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:38,389 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:38,433 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:38,434 - utils.helpers - INFO - Gerando análise técnica para: AAPL
+2025-09-19 14:03:39,090 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 14:03:39,090 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 14:03:39,094 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.661s
+2025-09-19 14:03:39,138 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:39,138 - utils.helpers - INFO - Gerando previsão para: AAPL (3 dias)
+2025-09-19 14:03:39,427 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 14:03:39,427 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 14:03:39,438 - utils.helpers - INFO - Previsão gerada para AAPL: tendência Baixa
+2025-09-19 14:03:39,439 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.301s
+2025-09-19 14:03:41,216 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:41,216 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-19 14:03:41,458 - utils.helpers - INFO - Dados salvos para NVDA
+2025-09-19 14:03:41,458 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 14:03:41,458 - utils.helpers - INFO - Preço obtido para NVDA: $175.7917022705078
+2025-09-19 14:03:41,458 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.242s
+2025-09-19 14:03:41,461 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:41,462 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:41,505 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:41,505 - utils.helpers - INFO - Gerando análise técnica para: NVDA
+2025-09-19 14:03:41,778 - utils.helpers - INFO - Dados históricos salvos para NVDA
+2025-09-19 14:03:41,778 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 14:03:41,782 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.277s
+2025-09-19 14:03:41,827 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:41,827 - utils.helpers - INFO - Gerando previsão para: NVDA (3 dias)
+2025-09-19 14:03:42,086 - utils.helpers - INFO - Dados históricos salvos para NVDA
+2025-09-19 14:03:42,086 - utils.helpers - INFO - Dados de ação obtidos para NVDA
+2025-09-19 14:03:42,093 - utils.helpers - INFO - Previsão gerada para NVDA: tendência Baixa
+2025-09-19 14:03:42,094 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.267s
+2025-09-19 14:03:43,941 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:43,941 - utils.helpers - INFO - Buscando preço para: AMD
+2025-09-19 14:03:43,943 - utils.helpers - INFO - Preço obtido para AMD: $156.8300018310547
+2025-09-19 14:03:43,943 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:03:43,946 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:43,947 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:43,991 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:43,991 - utils.helpers - INFO - Gerando análise técnica para: AMD
+2025-09-19 14:03:44,228 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 14:03:44,228 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 14:03:44,232 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.242s
+2025-09-19 14:03:44,276 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:44,276 - utils.helpers - INFO - Gerando previsão para: AMD (3 dias)
+2025-09-19 14:03:44,541 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 14:03:44,541 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 14:03:44,549 - utils.helpers - INFO - Previsão gerada para AMD: tendência Estável
+2025-09-19 14:03:44,550 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.274s
+2025-09-19 14:03:45,624 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:45,624 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:03:45,626 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:03:45,626 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:03:45,628 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:45,629 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:45,673 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:45,673 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:03:45,870 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:03:45,872 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.199s
+2025-09-19 14:03:45,915 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:45,916 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:03:46,083 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:03:46,084 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.169s
+2025-09-19 14:03:50,305 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:50,305 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 14:03:50,437 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true
+2025-09-19 14:03:50,440 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.135s
+2025-09-19 14:03:54,814 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:03:54,814 - utils.helpers - INFO - Buscando preço para: eth
+2025-09-19 14:03:55,272 - utils.helpers - ERROR - Erro ao buscar dados crypto para eth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=eth&vs_currencies=usd&include_24hr_change=true
+2025-09-19 14:03:55,486 - utils.helpers - INFO - Dados salvos para ETH
+2025-09-19 14:03:55,486 - utils.helpers - INFO - Dados de ação obtidos para ETH
+2025-09-19 14:03:55,487 - utils.helpers - INFO - Preço obtido para eth: $42.1349983215332
+2025-09-19 14:03:55,487 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.673s
+2025-09-19 14:03:55,491 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:03:55,491 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:03:55,535 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:03:55,535 - utils.helpers - INFO - Gerando análise técnica para: eth
+2025-09-19 14:03:55,678 - utils.helpers - ERROR - Erro ao buscar dados crypto para eth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/eth/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:03:56,210 - utils.helpers - INFO - Dados históricos salvos para ETH
+2025-09-19 14:03:56,211 - utils.helpers - INFO - Dados de ação obtidos para ETH
+2025-09-19 14:03:56,215 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.680s
+2025-09-19 14:03:56,262 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:03:56,263 - utils.helpers - INFO - Gerando previsão para: eth (3 dias)
+2025-09-19 14:03:57,013 - utils.helpers - ERROR - Erro ao buscar dados crypto para eth: 404 Client Error: Not Found for url: https://api.coingecko.com/api/v3/coins/eth/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:03:57,238 - utils.helpers - INFO - Dados históricos salvos para ETH
+2025-09-19 14:03:57,238 - utils.helpers - INFO - Dados de ação obtidos para ETH
+2025-09-19 14:03:57,247 - utils.helpers - INFO - Previsão gerada para eth: tendência Alta
+2025-09-19 14:03:57,248 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.987s
+2025-09-19 14:04:06,818 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:06,819 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:06,820 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:06,820 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:04:06,823 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:06,823 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:06,868 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:06,868 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:07,458 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 14:04:07,463 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.595s
+2025-09-19 14:04:07,507 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:07,507 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:07,659 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 14:04:07,666 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 14:04:07,667 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.160s
+2025-09-19 14:04:10,081 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:10,081 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 14:04:10,743 - utils.helpers - INFO - Dados salvos para ethereum
+2025-09-19 14:04:10,743 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (1 dias)
+2025-09-19 14:04:10,744 - utils.helpers - INFO - Preço obtido para ethereum: $4479.97
+2025-09-19 14:04:10,744 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.664s
+2025-09-19 14:04:10,749 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:10,749 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:10,793 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:10,793 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-19 14:04:11,148 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (14 dias)
+2025-09-19 14:04:11,154 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.362s
+2025-09-19 14:04:11,198 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:11,199 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-19 14:04:11,559 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (30 dias)
+2025-09-19 14:04:11,566 - utils.helpers - INFO - Previsão gerada para ethereum: tendência Alta
+2025-09-19 14:04:11,567 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.369s
+2025-09-19 14:04:17,047 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:17,048 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:17,049 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:17,049 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:04:17,052 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:17,052 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.000s
+2025-09-19 14:04:17,097 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:17,097 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:17,266 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:17,267 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.170s
+2025-09-19 14:04:17,311 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:17,311 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:18,009 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:18,010 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.699s
+2025-09-19 14:04:18,775 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:18,776 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:18,778 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:18,779 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 14:04:18,782 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:18,783 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:18,827 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:18,828 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:18,984 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:18,986 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.159s
+2025-09-19 14:04:19,029 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:19,029 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:19,193 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:19,194 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.165s
+2025-09-19 14:04:19,847 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:19,848 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:19,851 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:19,852 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.005s
+2025-09-19 14:04:19,857 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:19,858 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:19,904 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:19,905 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:20,076 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:20,079 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.174s
+2025-09-19 14:04:20,122 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:20,123 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:20,294 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:20,295 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.173s
+2025-09-19 14:04:22,703 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:22,703 - utils.helpers - INFO - Buscando preço para: NFLX
+2025-09-19 14:04:22,933 - utils.helpers - INFO - Dados salvos para NFLX
+2025-09-19 14:04:22,933 - utils.helpers - INFO - Dados de ação obtidos para NFLX
+2025-09-19 14:04:22,933 - utils.helpers - INFO - Preço obtido para NFLX: $1223.2099609375
+2025-09-19 14:04:22,934 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.231s
+2025-09-19 14:04:22,937 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:22,938 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.000s
+2025-09-19 14:04:22,981 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:22,982 - utils.helpers - INFO - Gerando análise técnica para: NFLX
+2025-09-19 14:04:23,244 - utils.helpers - INFO - Dados históricos salvos para NFLX
+2025-09-19 14:04:23,244 - utils.helpers - INFO - Dados de ação obtidos para NFLX
+2025-09-19 14:04:23,249 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.267s
+2025-09-19 14:04:23,293 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:23,293 - utils.helpers - INFO - Gerando previsão para: NFLX (3 dias)
+2025-09-19 14:04:23,568 - utils.helpers - INFO - Dados históricos salvos para NFLX
+2025-09-19 14:04:23,568 - utils.helpers - INFO - Dados de ação obtidos para NFLX
+2025-09-19 14:04:23,575 - utils.helpers - INFO - Previsão gerada para NFLX: tendência Estável
+2025-09-19 14:04:23,576 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.283s
+2025-09-19 14:04:26,227 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:26,228 - utils.helpers - INFO - Buscando preço para: NFLX
+2025-09-19 14:04:26,229 - utils.helpers - INFO - Preço obtido para NFLX: $1223.2099609375
+2025-09-19 14:04:26,229 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:04:26,232 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:26,233 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:26,289 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:26,294 - utils.helpers - INFO - Gerando análise técnica para: NFLX
+2025-09-19 14:04:26,386 - utils.helpers - INFO - Dados históricos salvos para NFLX
+2025-09-19 14:04:26,386 - utils.helpers - INFO - Dados de ação obtidos para NFLX
+2025-09-19 14:04:26,392 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.103s
+2025-09-19 14:04:26,438 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:26,439 - utils.helpers - INFO - Gerando previsão para: NFLX (3 dias)
+2025-09-19 14:04:26,528 - utils.helpers - INFO - Dados históricos salvos para NFLX
+2025-09-19 14:04:26,528 - utils.helpers - INFO - Dados de ação obtidos para NFLX
+2025-09-19 14:04:26,537 - utils.helpers - INFO - Previsão gerada para NFLX: tendência Estável
+2025-09-19 14:04:26,538 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.100s
+2025-09-19 14:04:28,281 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:28,282 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:28,283 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:28,283 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:04:28,285 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:28,286 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:28,329 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:28,329 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:28,486 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:28,488 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.159s
+2025-09-19 14:04:28,532 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:28,532 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:28,695 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:28,696 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.165s
+2025-09-19 14:04:29,804 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:29,804 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:29,805 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:29,805 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:04:29,807 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:29,808 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:29,851 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:29,852 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:30,001 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:30,003 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.151s
+2025-09-19 14:04:30,045 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:30,046 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:30,177 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:30,179 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.134s
+2025-09-19 14:04:30,535 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:30,536 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:30,537 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:30,538 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 14:04:30,541 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:30,542 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:30,586 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:30,586 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:30,738 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:30,742 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.156s
+2025-09-19 14:04:30,785 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:30,786 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:30,933 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:30,934 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.149s
+2025-09-19 14:04:32,852 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 14:04:32,852 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-19 14:04:32,886 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:04:32,887 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-19 14:04:32,888 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:32,889 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:32,890 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:32,891 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 14:04:32,895 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:32,896 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:32,939 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 14:04:32,939 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-19 14:04:32,942 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:32,943 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:33,112 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:33,114 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.172s
+2025-09-19 14:04:33,158 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:33,158 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:33,308 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:33,309 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.152s
+2025-09-19 14:04:34,146 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:34,146 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:34,147 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:34,147 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:04:34,150 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:34,151 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:34,195 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:34,196 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:34,346 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:34,347 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.152s
+2025-09-19 14:04:34,390 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:34,391 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:34,539 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:34,541 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.151s
+2025-09-19 14:04:39,591 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:39,591 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 14:04:39,593 - utils.helpers - INFO - Preço obtido para bitcoin: $116106
+2025-09-19 14:04:39,594 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 14:04:39,600 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:39,601 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:39,648 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:39,649 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:04:39,920 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:39,922 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.274s
+2025-09-19 14:04:39,966 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:39,966 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:04:40,110 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:40,113 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.148s
+2025-09-19 14:04:42,568 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:42,568 - utils.helpers - INFO - Buscando preço para: BTC
+2025-09-19 14:04:43,063 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btc&vs_currencies=usd&include_24hr_change=true
+2025-09-19 14:04:43,441 - utils.helpers - INFO - Dados salvos para BTC
+2025-09-19 14:04:43,441 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 14:04:43,441 - utils.helpers - INFO - Preço obtido para BTC: $51.38999938964844
+2025-09-19 14:04:43,441 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.873s
+2025-09-19 14:04:43,444 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:43,445 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:43,490 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:43,490 - utils.helpers - INFO - Gerando análise técnica para: BTC
+2025-09-19 14:04:43,619 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/btc/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:44,131 - utils.helpers - INFO - Dados históricos salvos para BTC
+2025-09-19 14:04:44,131 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 14:04:44,135 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.645s
+2025-09-19 14:04:44,179 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:44,179 - utils.helpers - INFO - Gerando previsão para: BTC (3 dias)
+2025-09-19 14:04:44,302 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/btc/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:44,562 - utils.helpers - INFO - Dados históricos salvos para BTC
+2025-09-19 14:04:44,562 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 14:04:44,568 - utils.helpers - INFO - Previsão gerada para BTC: tendência Estável
+2025-09-19 14:04:44,569 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.390s
+2025-09-19 14:04:50,150 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 14:04:50,150 - utils.helpers - INFO - Buscando preço para: BITCOIN
+2025-09-19 14:04:50,151 - utils.helpers - INFO - Preço obtido para BITCOIN: $116106
+2025-09-19 14:04:50,152 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-19 14:04:50,155 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:04:50,156 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:04:50,200 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:04:50,201 - utils.helpers - INFO - Gerando análise técnica para: BITCOIN
+2025-09-19 14:04:50,364 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 14:04:50,367 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.166s
+2025-09-19 14:04:50,414 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:04:50,414 - utils.helpers - INFO - Gerando previsão para: BITCOIN (3 dias)
+2025-09-19 14:04:50,693 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 14:04:50,695 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.281s
+2025-09-19 14:06:20,072 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 14:06:20,075 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-19 14:06:20,077 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 14:06:20,078 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-19 14:06:20,091 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 14:06:20,092 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 14:06:20,111 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 14:06:20,112 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 14:06:20,467 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 14:06:20,477 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.366s
+2025-09-19 14:06:20,541 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 14:06:20,541 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 14:06:20,889 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 14:06:20,899 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 14:06:20,900 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.359s
+2025-09-19 14:22:21,303 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
