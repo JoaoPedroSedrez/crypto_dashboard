@@ -107,7 +107,7 @@ class DataFetcher:
                     "include_24hr_change": "true"
                 }
                 
-                response = requests.get(url, params=params)
+                response = requests.get(url, params=params, timeout=10)
                 response.raise_for_status()
                 data = response.json()
                 
@@ -121,11 +121,11 @@ class DataFetcher:
                     'symbol': symbol,
                     'current_price': current_price,
                     'price_change_24h': price_change_24h,
-                    'asset_type': 'crypto'
+                    'asset_type': 'cryptocurrency'
                 }
                 
                 # Salvar no cache
-                self.db.save_price_data(symbol, result, 'crypto')
+                self.db.save_price_data(symbol, result, 'cryptocurrency')
                 
             else:
                 # Dados históricos - usar market_chart
@@ -136,21 +136,35 @@ class DataFetcher:
                     "interval": "daily" if days > 1 else "hourly"
                 }
                 
-                response = requests.get(url, params=params)
+                response = requests.get(url, params=params, timeout=15)
                 response.raise_for_status()
                 data = response.json()
                 
-                if 'prices' not in data:
+                if 'prices' not in data or not data['prices']:
+                    logger.warning(f"Nenhum dado de preço retornado para {symbol}")
                     return None
                 
                 prices = data['prices']  # [[timestamp, price], ...]
+                
+                # Buscar preço atual para incluir na resposta
+                current_price = prices[-1][1] if prices else 0
+                price_change_24h = 0
+                
+                # Calcular mudança de 24h se possível
+                if len(prices) >= 2:
+                    price_24h_ago = prices[-2][1] if len(prices) > 1 else prices[0][1]
+                    price_change_24h = ((current_price - price_24h_ago) / price_24h_ago) * 100
+                
                 result = {
                     'symbol': symbol,
                     'prices': prices,
-                    'asset_type': 'crypto'
+                    'current_price': current_price,
+                    'price_change_24h': price_change_24h,
+                    'asset_type': 'cryptocurrency'
                 }
+                
+                logger.info(f"Dados históricos crypto obtidos: {symbol} - {len(prices)} pontos para {days} dias")
             
-            logger.info(f"Dados de crypto obtidos para {symbol} ({days} dias)")
             return result
             
         except Exception as e:
@@ -161,16 +175,18 @@ class DataFetcher:
         """Busca dados de ação via yfinance"""
         try:
             # Verificar cache primeiro
-            cached_data = self.db.get_cached_data(symbol)
-            if cached_data and days == 1:
-                return cached_data
+            if days == 1:
+                cached_data = self.db.get_cached_data(symbol)
+                if cached_data:
+                    return cached_data
             
             ticker = yf.Ticker(symbol)
             
             if days == 1:
                 # Dados atuais
-                hist = ticker.history(period="2d")  # 2 dias para calcular variação
+                hist = ticker.history(period="5d")  # 5 dias para garantir dados suficientes
                 if len(hist) < 2:
+                    logger.warning(f"Dados insuficientes para {symbol}")
                     return None
                 
                 current_price = float(hist['Close'].iloc[-1])
@@ -188,9 +204,30 @@ class DataFetcher:
                 self.db.save_price_data(symbol, result, 'stock')
                 
             else:
-                # Dados históricos
-                period = f"{days}d" if days <= 60 else "3mo"
-                hist = ticker.history(period=period)
+                # CORREÇÃO PRINCIPAL: Melhorar o período para dados históricos
+                if days <= 30:
+                    period = "1mo"
+                elif days <= 90:
+                    period = "3mo"
+                elif days <= 180:
+                    period = "6mo"
+                elif days <= 365:
+                    period = "1y"
+                else:
+                    period = "2y"
+                
+                # Usar start e end dates para maior precisão
+                end_date = datetime.now()
+                start_date = end_date - timedelta(days=days + 5)  # +5 dias buffer para fins de semana
+                
+                hist = ticker.history(start=start_date, end=end_date, interval="1d")
+                
+                if hist.empty:
+                    logger.warning(f"Nenhum dado histórico retornado para {symbol}")
+                    return None
+                
+                # Limitar aos dias solicitados
+                hist = hist.tail(days) if len(hist) > days else hist
                 
                 prices_data = []
                 for date, row in hist.iterrows():
@@ -199,11 +236,23 @@ class DataFetcher:
                         float(row['Close'])
                     ])
                 
+                # Calcular preço atual e mudança de 24h
+                current_price = float(hist['Close'].iloc[-1]) if not hist.empty else 0
+                price_change_24h = 0
+                
+                if len(hist) >= 2:
+                    previous_price = float(hist['Close'].iloc[-2])
+                    price_change_24h = ((current_price - previous_price) / previous_price) * 100
+                
                 result = {
                     'symbol': symbol,
                     'prices': prices_data,
+                    'current_price': current_price,
+                    'price_change_24h': price_change_24h,
                     'asset_type': 'stock'
                 }
+                
+                logger.info(f"Dados históricos stock obtidos: {symbol} - {len(prices_data)} pontos para {days} dias")
                 
                 # Salvar dados históricos
                 historical_data = {}
@@ -217,7 +266,6 @@ class DataFetcher:
                     }
                 self.db.save_historical_data(symbol, historical_data)
             
-            logger.info(f"Dados de ação obtidos para {symbol}")
             return result
             
         except Exception as e:
@@ -225,31 +273,50 @@ class DataFetcher:
             return None
     
     def get_asset_data(self, symbol, days=1):
+        """Método principal para buscar dados de qualquer tipo de ativo"""
+        logger.info(f"Buscando dados para {symbol} - {days} dias")
+        
         # Cripto
         if symbol.lower() in [crypto.lower() for crypto in Config.CRYPTO_SYMBOLS]:
-            return self.fetch_crypto_data(symbol.lower(), days)
+            data = self.fetch_crypto_data(symbol.lower(), days)
+            if data:
+                logger.info(f"Dados crypto encontrados para {symbol}")
+                return data
 
         # FII
         if symbol.upper() in Config.FII_SYMBOLS:
             data = self.fetch_stock_data(symbol.upper(), days)
             if data:
                 data["asset_type"] = "fii"
-            return data
+                logger.info(f"Dados FII encontrados para {symbol}")
+                return data
 
         # Stock
         if symbol.upper() in Config.STOCK_SYMBOLS:
-            return self.fetch_stock_data(symbol.upper(), days)
+            data = self.fetch_stock_data(symbol.upper(), days)
+            if data:
+                logger.info(f"Dados stock encontrados para {symbol}")
+                return data
 
-        # Tentativa automática
+        # Tentativa automática - primeiro crypto
         crypto_data = self.fetch_crypto_data(symbol.lower(), days)
         if crypto_data:
+            logger.info(f"Dados crypto encontrados automaticamente para {symbol}")
             return crypto_data
 
+        # Depois stock/FII
         stock_data = self.fetch_stock_data(symbol.upper(), days)
-        if stock_data and symbol.upper() in Config.FII_SYMBOLS:
-            stock_data["asset_type"] = "fii"
-        return stock_data
-
+        if stock_data:
+            # Verificar se é FII
+            if symbol.upper().endswith('11') or symbol.upper() in Config.FII_SYMBOLS:
+                stock_data["asset_type"] = "fii"
+                logger.info(f"Dados FII encontrados automaticamente para {symbol}")
+            else:
+                logger.info(f"Dados stock encontrados automaticamente para {symbol}")
+            return stock_data
+        
+        logger.warning(f"Nenhum dado encontrado para {symbol}")
+        return None
 
 
 def generate_chart(prices_data, symbol, days=7):

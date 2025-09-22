@@ -4748,3 +4748,616 @@
 2025-09-22 15:27:12,386 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
 2025-09-22 15:27:12,397 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Alta
 2025-09-22 15:27:12,397 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.371s
+2025-09-22 15:42:32,661 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:42:32,661 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 15:42:33,088 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-22 15:42:33,088 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (1 dias)
+2025-09-22 15:42:33,089 - utils.helpers - INFO - Preço obtido para bitcoin: $112863
+2025-09-22 15:42:33,089 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.429s
+2025-09-22 15:42:33,093 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:42:33,093 - utils.helpers - INFO - Buscando histórico para: bitcoin (30 dias)
+2025-09-22 15:42:33,268 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-22 15:42:33,269 - utils.helpers - INFO - Histórico obtido para bitcoin: 31 pontos
+2025-09-22 15:42:33,270 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.177s
+2025-09-22 15:42:33,328 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:42:33,328 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 15:42:33,629 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-22 15:42:33,635 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.308s
+2025-09-22 15:42:33,679 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:42:33,679 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 15:42:33,890 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-22 15:42:33,898 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Alta
+2025-09-22 15:42:33,898 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.219s
+2025-09-22 15:42:36,353 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:42:36,353 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 15:42:36,354 - utils.helpers - INFO - Preço obtido para bitcoin: $112863
+2025-09-22 15:42:36,355 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:42:36,358 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:42:36,358 - utils.helpers - INFO - Buscando histórico para: bitcoin (90 dias)
+2025-09-22 15:42:36,770 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (90 dias)
+2025-09-22 15:42:36,772 - utils.helpers - INFO - Histórico obtido para bitcoin: 91 pontos
+2025-09-22 15:42:36,775 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.418s
+2025-09-22 15:42:36,837 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:42:36,837 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 15:42:37,000 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-22 15:42:37,002 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.165s
+2025-09-22 15:42:37,045 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:42:37,045 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 15:42:37,192 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 15:42:37,193 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.149s
+2025-09-22 15:42:39,338 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:42:39,339 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 15:42:39,341 - utils.helpers - INFO - Preço obtido para bitcoin: $112863
+2025-09-22 15:42:39,341 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-22 15:42:39,346 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:42:39,347 - utils.helpers - INFO - Buscando histórico para: bitcoin (180 dias)
+2025-09-22 15:42:39,582 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=180&interval=daily
+2025-09-22 15:42:39,583 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.237s
+2025-09-22 15:42:39,627 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:42:39,627 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 15:42:39,780 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-22 15:42:39,781 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.155s
+2025-09-22 15:42:39,824 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:42:39,825 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 15:42:39,981 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 15:42:39,982 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.158s
+2025-09-22 15:42:41,521 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:42:41,522 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-22 15:42:41,963 - utils.helpers - INFO - Dados salvos para BBAS3.SA
+2025-09-22 15:42:41,963 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:41,963 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.670000076293945
+2025-09-22 15:42:41,964 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.443s
+2025-09-22 15:42:41,966 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:42:41,967 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (180 dias)
+2025-09-22 15:42:42,239 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:42,239 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:42,240 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 66 pontos
+2025-09-22 15:42:42,241 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.275s
+2025-09-22 15:42:42,293 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:42:42,293 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-22 15:42:42,514 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:42,514 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:42,518 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.225s
+2025-09-22 15:42:42,565 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:42:42,566 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-22 15:42:42,786 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:42,786 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:42,795 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-22 15:42:42,796 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.231s
+2025-09-22 15:42:44,966 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:42:44,967 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-22 15:42:44,969 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.670000076293945
+2025-09-22 15:42:44,970 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-22 15:42:44,977 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:42:44,978 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (7 dias)
+2025-09-22 15:42:45,279 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:45,279 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:45,279 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 7 pontos
+2025-09-22 15:42:45,279 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.303s
+2025-09-22 15:42:45,327 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:42:45,328 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-22 15:42:45,373 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:45,373 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:45,378 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.050s
+2025-09-22 15:42:45,421 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:42:45,422 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-22 15:42:45,490 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:45,490 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:45,497 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-22 15:42:45,498 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.076s
+2025-09-22 15:42:49,228 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:42:49,228 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-22 15:42:49,229 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.670000076293945
+2025-09-22 15:42:49,229 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:42:49,233 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:42:49,234 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (30 dias)
+2025-09-22 15:42:49,298 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:49,298 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:49,299 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 30 pontos
+2025-09-22 15:42:49,299 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.066s
+2025-09-22 15:42:49,353 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:42:49,354 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-22 15:42:49,411 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:49,411 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:49,416 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.063s
+2025-09-22 15:42:49,461 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:42:49,462 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-22 15:42:49,521 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:49,521 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:49,527 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-22 15:42:49,528 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.067s
+2025-09-22 15:42:55,999 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:42:56,000 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-22 15:42:56,002 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.670000076293945
+2025-09-22 15:42:56,002 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-22 15:42:56,008 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:42:56,009 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (90 dias)
+2025-09-22 15:42:56,369 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:56,369 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:56,369 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 66 pontos
+2025-09-22 15:42:56,370 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.362s
+2025-09-22 15:42:56,422 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:42:56,422 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-22 15:42:56,650 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:56,650 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:56,654 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.232s
+2025-09-22 15:42:56,699 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:42:56,699 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-22 15:42:56,969 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:42:56,969 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:42:56,975 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-22 15:42:56,976 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.277s
+2025-09-22 15:43:06,375 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:43:06,376 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-22 15:43:06,377 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.670000076293945
+2025-09-22 15:43:06,378 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:43:06,381 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:43:06,381 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (180 dias)
+2025-09-22 15:43:06,469 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:43:06,470 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:43:06,470 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 66 pontos
+2025-09-22 15:43:06,471 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.090s
+2025-09-22 15:43:06,521 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:43:06,522 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-22 15:43:06,575 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:43:06,576 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:43:06,580 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.059s
+2025-09-22 15:43:06,624 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:43:06,624 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-22 15:43:06,688 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:43:06,688 - utils.helpers - INFO - Dados de ação obtidos para BBAS3.SA
+2025-09-22 15:43:06,698 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-22 15:43:06,698 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.075s
+2025-09-22 15:45:36,428 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-22 15:45:39,285 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-22 15:45:39,285 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-22 15:45:39,285 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-22 15:45:39,297 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-22 15:45:46,297 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 15:45:46,301 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.004s
+2025-09-22 15:45:46,321 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-22 15:45:46,333 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 200 - Time: 0.012s
+2025-09-22 15:45:46,335 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-22 15:45:46,337 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 200 - Time: 0.002s
+2025-09-22 15:45:46,695 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 15:45:46,697 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:45:46,697 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.003s
+2025-09-22 15:45:46,698 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 15:45:46,698 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-22 15:45:46,700 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:45:46,700 - utils.helpers - INFO - Preço obtido para bitcoin: $112863
+2025-09-22 15:45:46,700 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-22 15:45:46,718 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:45:46,719 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 15:45:46,719 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-22 15:45:47,236 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 8 pontos para 7 dias
+2025-09-22 15:45:47,237 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:45:47,237 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-22 15:45:47,238 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-22 15:45:47,238 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.520s
+2025-09-22 15:45:47,239 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-22 15:45:47,302 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:45:47,303 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 15:45:47,303 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-22 15:45:47,646 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-22 15:45:47,647 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:45:47,651 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.349s
+2025-09-22 15:45:47,695 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:45:47,696 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 15:45:47,696 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-22 15:45:48,008 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 31 pontos para 30 dias
+2025-09-22 15:45:48,009 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:45:48,019 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Alta
+2025-09-22 15:45:48,019 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.324s
+2025-09-22 15:45:49,833 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:45:49,833 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 15:45:49,833 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-22 15:45:49,834 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:45:49,834 - utils.helpers - INFO - Preço obtido para bitcoin: $112863
+2025-09-22 15:45:49,834 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:45:49,836 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:45:49,837 - utils.helpers - INFO - Buscando histórico para: bitcoin (30 dias)
+2025-09-22 15:45:49,837 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-22 15:45:50,206 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 31 pontos para 30 dias
+2025-09-22 15:45:50,207 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:45:50,207 - utils.helpers - INFO - Histórico obtido para bitcoin: 31 pontos
+2025-09-22 15:45:50,208 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.371s
+2025-09-22 15:45:50,258 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:45:50,259 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 15:45:50,259 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-22 15:45:50,415 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-22 15:45:50,416 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:45:50,420 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.162s
+2025-09-22 15:45:50,463 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:45:50,464 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 15:45:50,464 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-22 15:45:50,605 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 15:45:50,780 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 15:45:52,445 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BITCOIN"}}}
+2025-09-22 15:45:52,868 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-22 15:45:52,869 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-22 15:45:52,869 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-22 15:45:52,869 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 2.406s
+2025-09-22 15:45:55,178 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:45:55,179 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 15:45:55,179 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-22 15:45:55,180 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:45:55,180 - utils.helpers - INFO - Preço obtido para bitcoin: $112863
+2025-09-22 15:45:55,180 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:45:55,183 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:45:55,183 - utils.helpers - INFO - Buscando histórico para: bitcoin (90 dias)
+2025-09-22 15:45:55,183 - utils.helpers - INFO - Buscando dados para bitcoin - 90 dias
+2025-09-22 15:45:55,345 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=90&interval=daily
+2025-09-22 15:45:55,496 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=90&interval=daily
+2025-09-22 15:45:56,145 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BITCOIN"}}}
+2025-09-22 15:45:56,350 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-22 15:45:56,350 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-22 15:45:56,350 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-22 15:45:56,351 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 1.168s
+2025-09-22 15:45:56,395 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:45:56,396 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 15:45:56,396 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-22 15:45:56,557 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-22 15:45:56,722 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-22 15:45:56,724 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-22 15:45:56,725 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-22 15:45:56,725 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-22 15:45:56,725 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.330s
+2025-09-22 15:45:56,769 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:45:56,769 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 15:45:56,769 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-22 15:45:56,897 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 15:45:57,054 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 15:45:57,056 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-22 15:45:57,057 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-22 15:45:57,057 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-22 15:45:57,057 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.288s
+2025-09-22 15:45:58,158 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:45:58,159 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-22 15:45:58,159 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 1 dias
+2025-09-22 15:45:58,160 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:45:58,160 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.670000076293945
+2025-09-22 15:45:58,160 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:45:58,162 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:45:58,162 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (90 dias)
+2025-09-22 15:45:58,163 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 90 dias
+2025-09-22 15:45:58,410 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 67 pontos para 90 dias
+2025-09-22 15:45:58,473 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:45:58,473 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:45:58,474 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 67 pontos
+2025-09-22 15:45:58,475 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.313s
+2025-09-22 15:45:58,544 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:45:58,545 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-22 15:45:58,545 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 14 dias
+2025-09-22 15:45:58,818 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 14 pontos para 14 dias
+2025-09-22 15:45:58,831 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:45:58,831 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:45:58,840 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.296s
+2025-09-22 15:45:58,887 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:45:58,888 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-22 15:45:58,888 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 30 dias
+2025-09-22 15:45:59,125 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 26 pontos para 30 dias
+2025-09-22 15:45:59,146 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:45:59,146 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:45:59,155 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-22 15:45:59,155 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.268s
+2025-09-22 15:46:06,151 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:46:06,152 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-22 15:46:06,152 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 1 dias
+2025-09-22 15:46:06,153 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:46:06,153 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.670000076293945
+2025-09-22 15:46:06,153 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 15:46:06,155 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:46:06,155 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (180 dias)
+2025-09-22 15:46:06,155 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 180 dias
+2025-09-22 15:46:06,604 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 128 pontos para 180 dias
+2025-09-22 15:46:06,689 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:46:06,690 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:46:06,690 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 128 pontos
+2025-09-22 15:46:06,691 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.536s
+2025-09-22 15:46:06,747 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:46:06,747 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-22 15:46:06,748 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 14 dias
+2025-09-22 15:46:07,007 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 14 pontos para 14 dias
+2025-09-22 15:46:07,018 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:46:07,018 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:46:07,022 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.275s
+2025-09-22 15:46:07,067 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:46:07,068 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-22 15:46:07,069 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 30 dias
+2025-09-22 15:46:07,316 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 26 pontos para 30 dias
+2025-09-22 15:46:07,337 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:46:07,338 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:46:07,344 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-22 15:46:07,344 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.277s
+2025-09-22 15:46:10,122 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:46:10,123 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-22 15:46:10,123 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 1 dias
+2025-09-22 15:46:10,124 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:46:10,124 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.670000076293945
+2025-09-22 15:46:10,125 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-22 15:46:10,132 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:46:10,133 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (365 dias)
+2025-09-22 15:46:10,133 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 365 dias
+2025-09-22 15:46:10,397 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 253 pontos para 365 dias
+2025-09-22 15:46:10,575 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:46:10,576 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:46:10,577 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 253 pontos
+2025-09-22 15:46:10,579 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.447s
+2025-09-22 15:46:10,638 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:46:10,639 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-22 15:46:10,639 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 14 dias
+2025-09-22 15:46:10,904 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 14 pontos para 14 dias
+2025-09-22 15:46:10,920 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:46:10,920 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:46:10,925 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.286s
+2025-09-22 15:46:10,970 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:46:10,971 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-22 15:46:10,971 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 30 dias
+2025-09-22 15:46:11,208 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 26 pontos para 30 dias
+2025-09-22 15:46:11,229 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-22 15:46:11,229 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-22 15:46:11,237 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-22 15:46:11,238 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.268s
+2025-09-22 15:47:05,597 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:05,598 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:05,598 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:05,892 - utils.helpers - INFO - Dados salvos para ROXO34.SA
+2025-09-22 15:47:05,893 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:05,893 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:05,893 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.296s
+2025-09-22 15:47:05,896 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:05,897 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (365 dias)
+2025-09-22 15:47:05,897 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 365 dias
+2025-09-22 15:47:06,109 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 253 pontos para 365 dias
+2025-09-22 15:47:06,314 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:06,315 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:06,316 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 253 pontos
+2025-09-22 15:47:06,319 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.423s
+2025-09-22 15:47:06,395 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:06,395 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:06,395 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:06,606 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:06,622 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:06,622 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:06,626 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.232s
+2025-09-22 15:47:06,672 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:06,672 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:06,672 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:06,912 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:06,930 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:06,931 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:06,938 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:06,939 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.267s
+2025-09-22 15:47:09,494 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:09,494 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:09,495 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:09,496 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:09,496 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:09,496 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:47:09,498 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:09,499 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (180 dias)
+2025-09-22 15:47:09,499 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 180 dias
+2025-09-22 15:47:09,776 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 128 pontos para 180 dias
+2025-09-22 15:47:09,903 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:09,904 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:09,904 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 128 pontos
+2025-09-22 15:47:09,905 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.407s
+2025-09-22 15:47:09,959 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:09,959 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:09,959 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:10,189 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:10,201 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:10,202 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:10,207 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.248s
+2025-09-22 15:47:10,251 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:10,251 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:10,251 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:10,501 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:10,526 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:10,526 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:10,535 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:10,536 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.285s
+2025-09-22 15:47:11,335 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:11,336 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:11,336 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:11,337 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:11,337 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:11,338 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-22 15:47:11,340 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:11,341 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (90 dias)
+2025-09-22 15:47:11,341 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 90 dias
+2025-09-22 15:47:11,632 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 67 pontos para 90 dias
+2025-09-22 15:47:11,681 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:11,681 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:11,681 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 67 pontos
+2025-09-22 15:47:11,682 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.342s
+2025-09-22 15:47:11,736 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:11,737 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:11,737 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:11,935 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:11,952 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:11,952 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:11,959 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.223s
+2025-09-22 15:47:12,004 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:12,005 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:12,005 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:12,239 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:12,267 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:12,268 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:12,277 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:12,278 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.274s
+2025-09-22 15:47:23,421 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:23,421 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:23,421 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:23,422 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:23,422 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:23,422 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:47:23,424 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:23,425 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (30 dias)
+2025-09-22 15:47:23,425 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:23,707 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:23,728 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:23,728 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:23,729 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 26 pontos
+2025-09-22 15:47:23,729 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.305s
+2025-09-22 15:47:23,783 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:23,784 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:23,784 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:24,022 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:24,033 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:24,034 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:24,039 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.255s
+2025-09-22 15:47:24,095 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:24,095 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:24,095 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:24,286 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:24,307 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:24,307 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:24,314 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:24,314 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.220s
+2025-09-22 15:47:25,193 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:25,193 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:25,194 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:25,195 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:25,195 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:25,195 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-22 15:47:25,200 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:25,201 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (365 dias)
+2025-09-22 15:47:25,201 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 365 dias
+2025-09-22 15:47:25,467 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 253 pontos para 365 dias
+2025-09-22 15:47:25,693 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:25,693 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:25,694 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 253 pontos
+2025-09-22 15:47:25,698 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.498s
+2025-09-22 15:47:25,760 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:25,761 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:25,761 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:26,375 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:26,392 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:26,393 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:26,400 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.640s
+2025-09-22 15:47:26,444 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:26,444 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:26,444 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:26,657 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:26,684 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:26,684 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:26,694 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:26,694 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.250s
+2025-09-22 15:47:26,892 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:26,893 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:26,893 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:26,894 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:26,895 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:26,895 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-22 15:47:26,902 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:26,903 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (180 dias)
+2025-09-22 15:47:26,903 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 180 dias
+2025-09-22 15:47:27,193 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 128 pontos para 180 dias
+2025-09-22 15:47:27,310 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:27,310 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:27,311 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 128 pontos
+2025-09-22 15:47:27,312 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.410s
+2025-09-22 15:47:27,366 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:27,366 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:27,367 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:27,597 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:27,610 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:27,610 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:27,615 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.249s
+2025-09-22 15:47:27,658 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:27,659 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:27,659 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:27,911 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:27,936 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:27,937 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:27,945 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:27,945 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.287s
+2025-09-22 15:47:28,108 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:28,109 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:28,109 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:28,110 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:28,110 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:28,110 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:47:28,112 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:28,113 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (90 dias)
+2025-09-22 15:47:28,113 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 90 dias
+2025-09-22 15:47:28,429 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 67 pontos para 90 dias
+2025-09-22 15:47:28,489 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:28,490 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:28,490 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 67 pontos
+2025-09-22 15:47:28,491 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.378s
+2025-09-22 15:47:28,551 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:28,551 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:28,551 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:28,827 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:28,843 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:28,843 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:28,848 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.297s
+2025-09-22 15:47:28,892 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:28,892 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:28,892 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:29,341 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:29,371 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:29,372 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:29,379 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:29,380 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.488s
+2025-09-22 15:47:29,688 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:29,688 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:29,688 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:29,689 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:29,689 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:29,689 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:47:29,693 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:29,693 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (7 dias)
+2025-09-22 15:47:29,693 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 7 dias
+2025-09-22 15:47:29,963 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 7 pontos para 7 dias
+2025-09-22 15:47:29,970 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:29,970 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:29,971 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 7 pontos
+2025-09-22 15:47:29,971 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.279s
+2025-09-22 15:47:30,028 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:30,029 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:30,029 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:30,260 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:30,274 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:30,274 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:30,277 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.249s
+2025-09-22 15:47:30,322 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:30,322 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:30,322 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:30,773 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:30,794 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:30,795 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:30,803 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:30,804 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.482s
+2025-09-22 15:47:30,950 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:47:30,950 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-22 15:47:30,950 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-22 15:47:30,951 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:30,951 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.449999809265137
+2025-09-22 15:47:30,951 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:47:30,954 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:47:30,954 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (30 dias)
+2025-09-22 15:47:30,954 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:30,995 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:31,019 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:31,020 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:31,020 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 26 pontos
+2025-09-22 15:47:31,021 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.067s
+2025-09-22 15:47:31,071 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:47:31,072 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-22 15:47:31,072 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-22 15:47:31,285 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-22 15:47:31,298 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:31,299 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:31,304 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.232s
+2025-09-22 15:47:31,348 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:47:31,349 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-22 15:47:31,349 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-22 15:47:31,593 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-22 15:47:31,623 - utils.helpers - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-22 15:47:31,624 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-22 15:47:31,632 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
+2025-09-22 15:47:31,633 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.285s
