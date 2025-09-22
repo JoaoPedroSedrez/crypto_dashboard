@@ -20,18 +20,23 @@
             <div class="header-stats">
                 <div class="stat-card">
                     <i class="fas fa-coins"></i>
-                    <span id="total-assets">14</span>
-                    <small>Ativos Suportados</small>
+                    <span id="total-assets"></span>
+                    <small>Ativos favoritos</small>
                 </div>
                 <div class="stat-card">
-                    <i class="fas fa-chart-bar"></i>
-                    <span>5</span>
+                <i class="fa-brands fa-bitcoin"></i>                    
+                    <span id="crypto-count"></span>
                     <small>Criptomoedas</small>
                 </div>
                 <div class="stat-card">
-                    <i class="fas fa-building"></i>
-                    <span>9</span>
+                    <i class="fa-solid fa-money-bill-trend-up"></i>                    
+                    <span id="stock-count"></span>
                     <small>Ações</small>
+                </div>
+                    <div class="stat-card">
+                    <i class="fas fa-building"></i>
+                    <span id="fii-count"></span>
+                    <small>FIIs</small>
                 </div>
             </div>
         </header>
@@ -44,7 +49,8 @@
                     <button id="search-btn"><i class="fas fa-search"></i> Buscar</button>
                 </div>
                 <div class="quick-access">
-                    <h3>Acesso Rápido - Criptomoedas:</h3>
+                    <h3>Acesso Rápido</h3>
+                    <h3>Criptomoedas:</h3>
                     <div class="quick-buttons">
                         <button class="quick-btn crypto-btn" data-symbol="bitcoin">BITCOIN</button>
                         <button class="quick-btn crypto-btn" data-symbol="ethereum">ETHEREUM</button>
@@ -53,15 +59,22 @@
                     
                     <h3>Ações:</h3>
                     <div class="quick-buttons">
-                        <button class="quick-btn stock-btn" data-symbol="AAPL">AAPL</button>
-                        <button class="quick-btn stock-btn" data-symbol="GOOGL">GOOGL</button>
-                        <button class="quick-btn stock-btn" data-symbol="MSFT">MSFT</button>
-                        <button class="quick-btn stock-btn" data-symbol="TSLA">TSLA</button>
-                        <button class="quick-btn stock-btn" data-symbol="NVDA">NVDA</button>
-                        <button class="quick-btn stock-btn" data-symbol="AMZN">AMZN</button>
-                        <button class="quick-btn stock-btn" data-symbol="META">META</button>
-                        <button class="quick-btn stock-btn" data-symbol="NFLX">NFLX</button>
-                        <button class="quick-btn stock-btn" data-symbol="AMD">AMD</button>
+                        <button class="quick-btn stock-btn" data-symbol="BBAS3.SA">BBAS3</button>
+                        <button class="quick-btn stock-btn" data-symbol="PETR4.SA">PETR4</button>
+                        <button class="quick-btn stock-btn" data-symbol="SAPR11.SA">SAPR11</button>
+                        <button class="quick-btn stock-btn" data-symbol="CMIG4.SA">CMIG4</button>
+                        <button class="quick-btn stock-btn" data-symbol="VALE3.SA">VALE3</button>
+                        <button class="quick-btn stock-btn" data-symbol="ROXO34.SA">ROXO34</button>
+                    </div>
+
+                    <h3>Fundos Imobiliários:</h3>
+                    <div class="quick-buttons">
+                        <button class="quick-btn fii-btn" data-symbol="KNCR11.SA">KNCR11</button>
+                        <button class="quick-btn fii-btn" data-symbol="XPML11.SA">XPML11</button>
+                        <button class="quick-btn fii-btn" data-symbol="GARE11.SA">GARE11</button>
+                        <button class="quick-btn fii-btn" data-symbol="VISC11.SA">VISC11</button>
+                        <button class="quick-btn fii-btn" data-symbol="MXRF11.SA">MXRF11</button>
+                        <button class="quick-btn fii-btn" data-symbol="BTLG11.SA">BTLG11</button>
                     </div>
                 </div>
             </div>
@@ -94,6 +107,10 @@
                         <button class="period-btn active" data-days="7">7 Dias</button>
                         <button class="period-btn" data-days="30">30 Dias</button>
                         <button class="period-btn" data-days="90">90 Dias</button>
+                        <button class="period-btn" data-days="180">180 Dias</button>
+                        <button class="period-btn" data-days="365">1 ano</button>
+
+
                     </div>
                 </div>
                 <div class="chart-container">

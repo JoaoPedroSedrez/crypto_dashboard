@@ -385,9 +385,7 @@ quickBtns.forEach(btn => {
         if (btn.classList.contains('crypto-btn')) {
             const cryptoMap = {
                 'BTC': 'bitcoin',
-                'ETH': 'ethereum', 
-                'ADA': 'cardano',
-                'SOL': 'solana',
+                'ETH': 'ethereum',
                 'DOGE': 'dogecoin'
             };
             symbol = cryptoMap[symbol.toUpperCase()] || symbol.toLowerCase();
@@ -433,8 +431,21 @@ document.querySelectorAll('.modal').forEach(modal => {
 document.addEventListener('DOMContentLoaded', () => {
     // Carregar resumo do mercado
     loadMarketSummary();
-    
+
+    // Atualizar contagem de ativos
+    const cryptoButtons = document.querySelectorAll('.quick-btn.crypto-btn').length;
+    const stockButtons = document.querySelectorAll('.quick-btn.stock-btn').length;
+    const fiiButtons = document.querySelectorAll('.quick-btn.fii-btn').length;
+
+    document.getElementById('crypto-count').innerText = cryptoButtons;
+    document.getElementById('stock-count').innerText = stockButtons;
+    document.getElementById('fii-count').innerText = fiiButtons;
+
+    document.getElementById('total-assets').innerText = cryptoButtons + stockButtons + fiiButtons;
+    document.querySelector('.stat-card span#total-assets').nextElementSibling.innerText = 'Ativos Favoritos';
+
     // Carregar primeiro ativo (BTC/bitcoin)
+    const quickBtns = document.querySelectorAll('.quick-btn');
     if (quickBtns.length > 0) {
         quickBtns[0].click();
     }

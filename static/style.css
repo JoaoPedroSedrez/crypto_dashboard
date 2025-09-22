@@ -176,6 +176,7 @@ body {
     padding: 1.5rem;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
+    margin-bottom: 2rem;
 }
 
 .price-header {
@@ -229,6 +230,7 @@ body {
     padding: 1rem;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
+    margin-bottom: 2rem;
 }
 
 .chart-controls {

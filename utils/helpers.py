@@ -225,25 +225,32 @@ class DataFetcher:
             return None
     
     def get_asset_data(self, symbol, days=1):
-        """Identifica se é crypto ou stock e busca dados apropriados"""
-        # Primeiro tenta como crypto
+        # Cripto
         if symbol.lower() in [crypto.lower() for crypto in Config.CRYPTO_SYMBOLS]:
             return self.fetch_crypto_data(symbol.lower(), days)
-        
-        # Depois tenta como stock
+
+        # FII
+        if symbol.upper() in Config.FII_SYMBOLS:
+            data = self.fetch_stock_data(symbol.upper(), days)
+            if data:
+                data["asset_type"] = "fii"
+            return data
+
+        # Stock
         if symbol.upper() in Config.STOCK_SYMBOLS:
             return self.fetch_stock_data(symbol.upper(), days)
-        
-        # Tenta ambos se não estiver na lista conhecida
+
+        # Tentativa automática
         crypto_data = self.fetch_crypto_data(symbol.lower(), days)
         if crypto_data:
             return crypto_data
-        
+
         stock_data = self.fetch_stock_data(symbol.upper(), days)
-        if stock_data:
-            return stock_data
-        
-        return None
+        if stock_data and symbol.upper() in Config.FII_SYMBOLS:
+            stock_data["asset_type"] = "fii"
+        return stock_data
+
+
 
 def generate_chart(prices_data, symbol, days=7):
     """Gera gráfico de preços"""

@@ -28,40 +28,36 @@ class Config:
 
     # Supported assets - nomes corretos para APIs
     CRYPTO_SYMBOLS = [
-        'bitcoin',      # BTC
-        'ethereum',     # ETH
-        'cardano',      # ADA
-        'solana',       # SOL
-        'dogecoin'      # DOGE
+        'bitcoin',
+        'ethereum', 
+        'dogecoin' 
     ]
     
     # Display names para o frontend
     CRYPTO_DISPLAY_SYMBOLS = [
         'BITCOIN',
         'ETHEREUM', 
-        'CARDANO',
-        'SOLANA',
         'DOGECOIN'
     ]
     
     STOCK_SYMBOLS = [
-        'AAPL',   # Apple
-        'GOOGL',  # Google
-        'MSFT',   # Microsoft
-        'TSLA',   # Tesla
-        'NVDA',   # NVIDIA
-        'AMZN',   # Amazon
-        'META',   # Meta (Facebook)
-        'NFLX',   # Netflix
-        'AMD'     # AMD
+        'BBAS3.SA',  # Banco do Brasil
+        'PETR4.SA',  # Petrobras
+        'SAPR11.SA', # Sanepar
+        'CMIG4.SA',  # Cemig
+        'VALE3.SA',  # Vale
+        'ROXO34.SA'  # Roxo
+    ]
+
+    FII_SYMBOLS = [
+        "KNCR11.SA", "GARE11.SA", "MXRF11.SA", 
+        "XPML11.SA", "VISC11.SA", "BTLG11.SA"
     ]
     
     # Mapeamento de símbolos curtos para nomes completos (cryptos)
     CRYPTO_SYMBOL_MAP = {
         'btc': 'bitcoin',
         'eth': 'ethereum',
-        'ada': 'cardano',
-        'sol': 'solana',
         'doge': 'dogecoin'
     }
     
