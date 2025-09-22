@@ -1,27 +1,84 @@
 import os
 from dotenv import load_dotenv
 
-#Carregar variáveis de ambiente do arquivo .env
+# Carregar variáveis de ambiente do arquivo .env
 load_dotenv()
 
-class Config():
+class Config:
     # MongoDB
     MONGODB_URL = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
     DATABASE_NAME = os.getenv("DATABASE_NAME", "crypto_dashboard")
 
     # Cache settings
-    CACHE_EXPIRY_MINUTES = 10
+    CACHE_EXPIRY_MINUTES = int(os.getenv("CACHE_EXPIRY_MINUTES", 10))
 
     # API Rate Limits
-    API_RATE_LIMIT = 100 # requests por minuto
+    API_RATE_LIMIT = int(os.getenv("API_RATE_LIMIT", 100))  # requests por minuto
 
     # Logging
-    LOG_LEVEL = "INFO"
-    LOG_FILE = "crypto_dashboard.log"
+    LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+    LOG_FILE = os.getenv("LOG_FILE", "crypto_dashboard.log")
 
     # Externa APIs
     COINGECKO_URL = "https://api.coingecko.com/api/v3"
+    
+    # Alpha Vantage (para ações - opcional)
+    ALPHA_VANTAGE_API_KEY = os.getenv("ALPHA_VANTAGE_API_KEY", "")
+    ALPHA_VANTAGE_URL = "https://www.alphavantage.co/query"
 
-    # Supported assets
-    CRYPTO_SYMBOLS = ['bitcoin', 'ethereum']
-    STOCK_SYMBOLS = ['AAPL', 'GOOGL', 'MSFT', 'TSLA', 'NVDA', 'AMZN', 'META', 'NFLX', 'AMD']
+    # Supported assets - nomes corretos para APIs
+    CRYPTO_SYMBOLS = [
+        'bitcoin',      # BTC
+        'ethereum',     # ETH
+        'cardano',      # ADA
+        'solana',       # SOL
+        'dogecoin'      # DOGE
+    ]
+    
+    # Display names para o frontend
+    CRYPTO_DISPLAY_SYMBOLS = [
+        'BITCOIN',
+        'ETHEREUM', 
+        'CARDANO',
+        'SOLANA',
+        'DOGECOIN'
+    ]
+    
+    STOCK_SYMBOLS = [
+        'AAPL',   # Apple
+        'GOOGL',  # Google
+        'MSFT',   # Microsoft
+        'TSLA',   # Tesla
+        'NVDA',   # NVIDIA
+        'AMZN',   # Amazon
+        'META',   # Meta (Facebook)
+        'NFLX',   # Netflix
+        'AMD'     # AMD
+    ]
+    
+    # Mapeamento de símbolos curtos para nomes completos (cryptos)
+    CRYPTO_SYMBOL_MAP = {
+        'btc': 'bitcoin',
+        'eth': 'ethereum',
+        'ada': 'cardano',
+        'sol': 'solana',
+        'doge': 'dogecoin'
+    }
+    
+    # URLs de APIs externas
+    COINGECKO_ENDPOINTS = {
+        'price': f"{COINGECKO_URL}/simple/price",
+        'history': f"{COINGECKO_URL}/coins/{{symbol}}/market_chart",
+        'coins_list': f"{COINGECKO_URL}/coins/list"
+    }
+    
+    # Configurações de timeout
+    API_TIMEOUT = 15  # segundos
+    
+    # Configurações de retry
+    MAX_RETRIES = 3
+    RETRY_DELAY = 1  # segundos
+    
+    # Configurações de desenvolvimento
+    DEBUG = os.getenv("DEBUG", "False").lower() == "true"
+    DEVELOPMENT = os.getenv("ENVIRONMENT", "development") == "development"

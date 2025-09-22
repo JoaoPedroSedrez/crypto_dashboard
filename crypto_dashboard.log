@@ -1867,3 +1867,878 @@
 2025-09-19 14:06:20,899 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
 2025-09-19 14:06:20,900 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.359s
 2025-09-19 14:22:21,303 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-19 19:24:31,680 - utils.helpers - INFO - 🎯 Iniciando servidor de desenvolvimento...
+2025-09-19 19:24:33,134 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-19 19:24:33,134 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-19 19:24:33,134 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-19 19:24:33,145 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-19 19:25:50,095 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-19 19:25:50,102 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.007s
+2025-09-19 19:25:50,139 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-19 19:25:50,156 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 200 - Time: 0.017s
+2025-09-19 19:25:50,159 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-19 19:25:50,161 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 200 - Time: 0.002s
+2025-09-19 19:25:50,309 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-19 19:25:50,313 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-19 19:25:50,314 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.004s
+2025-09-19 19:25:50,316 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.003s
+2025-09-19 19:25:50,316 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:25:50,320 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 19:25:50,944 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-19 19:25:50,944 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (1 dias)
+2025-09-19 19:25:50,945 - utils.helpers - INFO - Preço obtido para bitcoin: $115584
+2025-09-19 19:25:50,947 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.630s
+2025-09-19 19:25:50,950 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:25:50,951 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 19:25:50,966 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:25:50,967 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 19:25:51,283 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 19:25:51,299 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.332s
+2025-09-19 19:25:51,344 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:25:51,344 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 19:25:51,693 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 19:25:51,714 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 19:25:51,714 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.370s
+2025-09-19 19:25:56,977 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:25:56,977 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 19:25:57,330 - utils.helpers - INFO - Dados salvos para ethereum
+2025-09-19 19:25:57,330 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (1 dias)
+2025-09-19 19:25:57,333 - utils.helpers - INFO - Preço obtido para ethereum: $4473.61
+2025-09-19 19:25:57,335 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.358s
+2025-09-19 19:25:57,342 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:25:57,343 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 19:25:57,389 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:25:57,390 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-19 19:25:57,738 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (14 dias)
+2025-09-19 19:25:57,746 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.356s
+2025-09-19 19:25:57,790 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:25:57,791 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-19 19:25:57,899 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 19:25:57,901 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.111s
+2025-09-19 19:26:01,099 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:26:01,099 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-19 19:26:08,872 - utils.helpers - INFO - Dados salvos para AAPL
+2025-09-19 19:26:08,872 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 19:26:08,872 - utils.helpers - INFO - Preço obtido para AAPL: $245.5
+2025-09-19 19:26:08,873 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 7.774s
+2025-09-19 19:26:08,876 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:26:08,877 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 19:26:08,921 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:26:08,921 - utils.helpers - INFO - Gerando análise técnica para: AAPL
+2025-09-19 19:26:09,218 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 19:26:09,218 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 19:26:09,224 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.303s
+2025-09-19 19:26:09,270 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:26:09,270 - utils.helpers - INFO - Gerando previsão para: AAPL (3 dias)
+2025-09-19 19:26:09,557 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-19 19:26:09,557 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-19 19:26:09,567 - utils.helpers - INFO - Previsão gerada para AAPL: tendência Baixa
+2025-09-19 19:26:09,568 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.298s
+2025-09-19 19:26:47,452 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:26:47,453 - utils.helpers - INFO - Buscando preço para: META
+2025-09-19 19:26:47,834 - utils.helpers - INFO - Dados salvos para META
+2025-09-19 19:26:47,835 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-19 19:26:47,835 - utils.helpers - INFO - Preço obtido para META: $778.3800048828125
+2025-09-19 19:26:47,835 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.383s
+2025-09-19 19:26:47,841 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:26:47,842 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 19:26:47,887 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:26:47,888 - utils.helpers - INFO - Gerando análise técnica para: META
+2025-09-19 19:26:48,140 - utils.helpers - INFO - Dados históricos salvos para META
+2025-09-19 19:26:48,140 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-19 19:26:48,148 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.261s
+2025-09-19 19:26:48,193 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:26:48,193 - utils.helpers - INFO - Gerando previsão para: META (3 dias)
+2025-09-19 19:26:48,462 - utils.helpers - INFO - Dados históricos salvos para META
+2025-09-19 19:26:48,462 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-19 19:26:48,473 - utils.helpers - INFO - Previsão gerada para META: tendência Estável
+2025-09-19 19:26:48,474 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.282s
+2025-09-19 19:26:54,945 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:26:54,946 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 19:26:54,948 - utils.helpers - INFO - Preço obtido para bitcoin: $115584
+2025-09-19 19:26:54,949 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 19:26:54,954 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:26:54,955 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 19:26:55,013 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:26:55,017 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 19:26:55,134 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 19:26:55,136 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.123s
+2025-09-19 19:26:55,181 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:26:55,182 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 19:26:55,283 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 19:26:55,285 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.104s
+2025-09-19 19:26:58,478 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:26:58,479 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-19 19:26:58,480 - utils.helpers - INFO - Preço obtido para ethereum: $4473.61
+2025-09-19 19:26:58,481 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 19:26:58,488 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:26:58,489 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-19 19:26:58,536 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:26:58,537 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-19 19:26:58,870 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (14 dias)
+2025-09-19 19:26:58,885 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.349s
+2025-09-19 19:26:58,931 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:26:58,932 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-19 19:26:59,049 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (30 dias)
+2025-09-19 19:26:59,064 - utils.helpers - INFO - Previsão gerada para ethereum: tendência Alta
+2025-09-19 19:26:59,065 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.134s
+2025-09-19 19:27:58,187 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:27:58,188 - utils.helpers - INFO - Buscando preço para: btc
+2025-09-19 19:27:58,692 - utils.helpers - INFO - Dados salvos para BTC
+2025-09-19 19:27:58,693 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 19:27:58,693 - utils.helpers - INFO - Preço obtido para btc: $50.97999954223633
+2025-09-19 19:27:58,693 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.506s
+2025-09-19 19:27:58,697 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:27:58,698 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 19:27:58,743 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:27:58,743 - utils.helpers - INFO - Gerando análise técnica para: btc
+2025-09-19 19:27:59,092 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 404 Client Error: Not Found for url: https://api.coingecko.com/api/v3/coins/btc/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-19 19:27:59,408 - utils.helpers - INFO - Dados históricos salvos para BTC
+2025-09-19 19:27:59,408 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 19:27:59,415 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.672s
+2025-09-19 19:27:59,459 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:27:59,460 - utils.helpers - INFO - Gerando previsão para: btc (3 dias)
+2025-09-19 19:27:59,786 - utils.helpers - ERROR - Erro ao buscar dados crypto para btc: 404 Client Error: Not Found for url: https://api.coingecko.com/api/v3/coins/btc/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-19 19:27:59,983 - utils.helpers - INFO - Dados históricos salvos para BTC
+2025-09-19 19:27:59,984 - utils.helpers - INFO - Dados de ação obtidos para BTC
+2025-09-19 19:27:59,992 - utils.helpers - INFO - Previsão gerada para btc: tendência Estável
+2025-09-19 19:27:59,993 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.534s
+2025-09-19 19:28:06,915 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:28:06,916 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 19:28:06,917 - utils.helpers - INFO - Preço obtido para bitcoin: $115584
+2025-09-19 19:28:06,918 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-19 19:28:06,921 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:28:06,922 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 19:28:06,966 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:28:06,967 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 19:28:07,275 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 19:28:07,283 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.317s
+2025-09-19 19:28:07,328 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:28:07,328 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 19:28:07,581 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 19:28:07,597 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 19:28:07,598 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.271s
+2025-09-19 19:28:28,973 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:28:28,973 - utils.helpers - INFO - Buscando preço para: AMD
+2025-09-19 19:28:29,148 - utils.helpers - INFO - Dados salvos para AMD
+2025-09-19 19:28:29,148 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 19:28:29,148 - utils.helpers - INFO - Preço obtido para AMD: $157.38999938964844
+2025-09-19 19:28:29,149 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.176s
+2025-09-19 19:28:29,153 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:28:29,155 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-19 19:28:29,201 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:28:29,202 - utils.helpers - INFO - Gerando análise técnica para: AMD
+2025-09-19 19:28:29,377 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 19:28:29,377 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 19:28:29,384 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.182s
+2025-09-19 19:28:29,428 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:28:29,429 - utils.helpers - INFO - Gerando previsão para: AMD (3 dias)
+2025-09-19 19:28:29,628 - utils.helpers - INFO - Dados históricos salvos para AMD
+2025-09-19 19:28:29,628 - utils.helpers - INFO - Dados de ação obtidos para AMD
+2025-09-19 19:28:29,639 - utils.helpers - INFO - Previsão gerada para AMD: tendência Estável
+2025-09-19 19:28:29,640 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.212s
+2025-09-19 19:28:41,967 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-19 19:28:41,968 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-19 19:28:41,970 - utils.helpers - INFO - Preço obtido para bitcoin: $115584
+2025-09-19 19:28:41,971 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-19 19:28:41,977 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-19 19:28:41,978 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-19 19:28:42,022 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-19 19:28:42,023 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-19 19:28:42,402 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-19 19:28:42,410 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.388s
+2025-09-19 19:28:42,455 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-19 19:28:42,455 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-19 19:28:42,812 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-19 19:28:42,823 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-19 19:28:42,823 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.369s
+2025-09-22 08:52:29,484 - utils.helpers - INFO - 🎯 Iniciando servidor de desenvolvimento...
+2025-09-22 08:52:30,756 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-22 08:52:30,756 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-22 08:52:30,756 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-22 08:52:30,769 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-22 08:52:35,023 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 08:52:35,027 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.004s
+2025-09-22 08:52:35,044 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-22 08:52:35,046 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-22 08:52:35,062 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.018s
+2025-09-22 08:52:35,063 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.016s
+2025-09-22 08:52:35,079 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-22 08:52:35,082 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 08:52:35,085 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.005s
+2025-09-22 08:52:35,087 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.005s
+2025-09-22 08:52:35,087 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 08:52:35,088 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 08:52:35,511 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-22 08:52:35,511 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (1 dias)
+2025-09-22 08:52:35,512 - utils.helpers - INFO - Preço obtido para bitcoin: $112868
+2025-09-22 08:52:35,513 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.426s
+2025-09-22 08:52:35,516 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 08:52:35,517 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 08:52:35,561 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 08:52:35,561 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 08:52:35,908 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-22 08:52:35,922 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.361s
+2025-09-22 08:52:35,970 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 08:52:35,971 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 08:52:36,116 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-22 08:52:36,130 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Alta
+2025-09-22 08:52:36,130 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.160s
+2025-09-22 08:52:38,624 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 08:52:38,624 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-22 08:52:38,904 - utils.helpers - INFO - Dados salvos para ethereum
+2025-09-22 08:52:38,904 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (1 dias)
+2025-09-22 08:52:38,905 - utils.helpers - INFO - Preço obtido para ethereum: $4183.4
+2025-09-22 08:52:38,905 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.282s
+2025-09-22 08:52:38,908 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 08:52:38,909 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 08:52:38,912 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 08:52:38,912 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-22 08:52:39,216 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (14 dias)
+2025-09-22 08:52:39,220 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.308s
+2025-09-22 08:52:39,264 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 08:52:39,264 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-22 08:52:39,390 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 08:52:39,392 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.128s
+2025-09-22 08:52:42,831 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 08:52:42,832 - utils.helpers - INFO - Buscando preço para: META
+2025-09-22 08:52:43,728 - utils.helpers - INFO - Dados salvos para META
+2025-09-22 08:52:43,728 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-22 08:52:43,728 - utils.helpers - INFO - Preço obtido para META: $778.3800048828125
+2025-09-22 08:52:43,729 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.897s
+2025-09-22 08:52:43,734 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 08:52:43,735 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 08:52:43,740 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 08:52:43,740 - utils.helpers - INFO - Gerando análise técnica para: META
+2025-09-22 08:52:43,925 - utils.helpers - INFO - Dados históricos salvos para META
+2025-09-22 08:52:43,925 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-22 08:52:43,929 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.189s
+2025-09-22 08:52:43,972 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 08:52:43,973 - utils.helpers - INFO - Gerando previsão para: META (3 dias)
+2025-09-22 08:52:44,166 - utils.helpers - INFO - Dados históricos salvos para META
+2025-09-22 08:52:44,166 - utils.helpers - INFO - Dados de ação obtidos para META
+2025-09-22 08:52:44,175 - utils.helpers - INFO - Previsão gerada para META: tendência Estável
+2025-09-22 08:52:44,175 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.203s
+2025-09-22 08:52:54,327 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 08:52:54,327 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 08:52:54,328 - utils.helpers - INFO - Preço obtido para bitcoin: $112868
+2025-09-22 08:52:54,328 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 08:52:54,330 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 08:52:54,331 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.000s
+2025-09-22 08:52:54,374 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 08:52:54,374 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 08:52:54,509 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-22 08:52:54,510 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.136s
+2025-09-22 08:52:54,552 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 08:52:54,553 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 08:52:54,689 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 08:52:54,691 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.138s
+2025-09-22 08:52:56,665 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 08:52:56,665 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-22 08:52:56,666 - utils.helpers - INFO - Preço obtido para ethereum: $4183.4
+2025-09-22 08:52:56,667 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 08:52:56,669 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 08:52:56,669 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 08:52:56,714 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 08:52:56,714 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-22 08:52:56,840 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-22 08:52:56,842 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.128s
+2025-09-22 08:52:56,885 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 08:52:56,886 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-22 08:52:57,009 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 08:52:57,010 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.125s
+2025-09-22 08:53:00,856 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 08:53:00,856 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-22 08:53:01,107 - utils.helpers - INFO - Dados salvos para AAPL
+2025-09-22 08:53:01,107 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 08:53:01,107 - utils.helpers - INFO - Preço obtido para AAPL: $245.5
+2025-09-22 08:53:01,108 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.252s
+2025-09-22 08:53:01,111 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 08:53:01,111 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.000s
+2025-09-22 08:53:01,157 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 08:53:01,158 - utils.helpers - INFO - Gerando análise técnica para: AAPL
+2025-09-22 08:53:01,418 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 08:53:01,418 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 08:53:01,422 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.265s
+2025-09-22 08:53:01,466 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 08:53:01,467 - utils.helpers - INFO - Gerando previsão para: AAPL (3 dias)
+2025-09-22 08:53:01,735 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 08:53:01,735 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 08:53:01,741 - utils.helpers - INFO - Previsão gerada para AAPL: tendência Baixa
+2025-09-22 08:53:01,742 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.276s
+2025-09-22 09:01:45,954 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-22 09:01:48,579 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-22 09:01:48,579 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-22 09:01:48,579 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-22 09:01:48,590 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-22 09:03:31,159 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-22 09:03:33,503 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-22 09:03:33,504 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-22 09:03:33,504 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-22 09:03:33,511 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-22 09:03:41,865 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-22 09:03:43,878 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-22 09:03:43,878 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-22 09:03:43,878 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-22 09:03:43,885 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-22 09:07:31,285 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:07:31,288 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.003s
+2025-09-22 09:07:31,584 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:07:31,586 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-22 09:07:31,587 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:07:31,587 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:07:31,592 - utils.helpers - INFO - Buscando dados de bitcoin da API (1 dias)
+2025-09-22 09:07:31,794 - utils.helpers - INFO - Dados de bitcoin obtidos e cached com sucesso
+2025-09-22 09:07:31,794 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:07:31,795 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.208s
+2025-09-22 09:07:31,798 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:07:31,798 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:07:31,800 - utils.helpers - INFO - Dados de bitcoin encontrados no cache do banco
+2025-09-22 09:07:31,801 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.003s
+2025-09-22 09:07:31,853 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:07:31,854 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:07:31,856 - utils.helpers - INFO - Dados de bitcoin encontrados no cache do banco
+2025-09-22 09:07:31,866 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:07:31,867 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.014s
+2025-09-22 09:07:31,912 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:07:31,912 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:07:31,915 - utils.helpers - INFO - Dados de bitcoin encontrados no cache do banco
+2025-09-22 09:07:31,919 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:07:31,919 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.008s
+2025-09-22 09:07:37,480 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:07:37,480 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-22 09:07:37,481 - utils.helpers - INFO - Buscando dados de ethereum da API (1 dias)
+2025-09-22 09:07:37,763 - utils.helpers - INFO - Dados de ethereum obtidos e cached com sucesso
+2025-09-22 09:07:37,763 - utils.helpers - INFO - Preço obtido para ethereum: $4176.31
+2025-09-22 09:07:37,763 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.284s
+2025-09-22 09:07:37,766 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:07:37,766 - utils.helpers - INFO - Buscando histórico para: ethereum (7 dias)
+2025-09-22 09:07:37,768 - utils.helpers - INFO - Dados de ethereum encontrados no cache do banco
+2025-09-22 09:07:37,768 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.003s
+2025-09-22 09:07:37,812 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:07:37,812 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-22 09:07:37,813 - utils.helpers - INFO - Dados de ethereum encontrados no cache do banco
+2025-09-22 09:07:37,816 - utils.helpers - ERROR - Erro na análise técnica para ethereum: attempt to get argmax of an empty sequence
+2025-09-22 09:07:37,817 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.005s
+2025-09-22 09:07:37,860 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:07:37,860 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-22 09:07:37,861 - utils.helpers - INFO - Dados de ethereum encontrados no cache do banco
+2025-09-22 09:07:37,863 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:07:37,864 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.004s
+2025-09-22 09:07:48,556 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:07:48,557 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-22 09:07:48,558 - utils.helpers - INFO - Buscando dados de dogecoin da API (1 dias)
+2025-09-22 09:07:48,824 - utils.helpers - INFO - Dados de dogecoin obtidos e cached com sucesso
+2025-09-22 09:07:48,824 - utils.helpers - INFO - Preço obtido para dogecoin: $0.23889
+2025-09-22 09:07:48,825 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.269s
+2025-09-22 09:07:48,827 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:07:48,827 - utils.helpers - INFO - Buscando histórico para: dogecoin (7 dias)
+2025-09-22 09:07:48,828 - utils.helpers - INFO - Dados de dogecoin encontrados no cache do banco
+2025-09-22 09:07:48,829 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.002s
+2025-09-22 09:07:48,872 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:07:48,873 - utils.helpers - INFO - Gerando análise técnica para: dogecoin
+2025-09-22 09:07:48,874 - utils.helpers - INFO - Dados de dogecoin encontrados no cache do banco
+2025-09-22 09:07:48,876 - utils.helpers - ERROR - Erro na análise técnica para dogecoin: attempt to get argmax of an empty sequence
+2025-09-22 09:07:48,876 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.004s
+2025-09-22 09:07:48,919 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:07:48,920 - utils.helpers - INFO - Gerando previsão para: dogecoin (3 dias)
+2025-09-22 09:07:48,921 - utils.helpers - INFO - Dados de dogecoin encontrados no cache do banco
+2025-09-22 09:07:48,923 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:07:48,923 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.005s
+2025-09-22 09:07:51,003 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:07:51,004 - utils.helpers - INFO - Buscando preço para: MSFT
+2025-09-22 09:07:51,005 - utils.helpers - INFO - Buscando dados de MSFT da API (1 dias)
+2025-09-22 09:07:51,199 - utils.helpers - WARNING - Não foi possível obter dados para MSFT
+2025-09-22 09:07:51,200 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.197s
+2025-09-22 09:07:53,733 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:07:53,733 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-22 09:07:53,735 - utils.helpers - INFO - Buscando dados de AAPL da API (1 dias)
+2025-09-22 09:07:54,054 - utils.helpers - INFO - Dados de AAPL obtidos e cached com sucesso
+2025-09-22 09:07:54,055 - utils.helpers - ERROR - Erro inesperado ao buscar preço para AAPL: type NoneType doesn't define __round__ method
+2025-09-22 09:07:54,055 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 500 - Time: 0.322s
+2025-09-22 09:08:02,493 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:08:02,495 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.002s
+2025-09-22 09:08:02,544 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:08:02,545 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-22 09:08:02,546 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:02,547 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:08:02,547 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:02,547 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:08:02,548 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 09:08:02,557 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:02,558 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:08:02,558 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:02,558 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:02,607 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:02,607 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:08:02,608 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:02,610 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:08:02,610 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.003s
+2025-09-22 09:08:02,653 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:02,654 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:08:02,654 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:02,657 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:02,657 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.004s
+2025-09-22 09:08:06,677 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:06,677 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:08:06,677 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:06,677 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:08:06,678 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:06,679 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:06,680 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:08:06,680 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:06,680 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:06,683 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:06,683 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:08:06,683 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:06,685 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:08:06,685 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.003s
+2025-09-22 09:08:06,728 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:06,729 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:08:06,729 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:06,731 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:06,731 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.003s
+2025-09-22 09:08:07,780 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:07,781 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-22 09:08:07,781 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:07,781 - utils.helpers - INFO - Preço obtido para ethereum: $4176.31
+2025-09-22 09:08:07,781 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:07,785 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:07,785 - utils.helpers - INFO - Buscando histórico para: ethereum (7 dias)
+2025-09-22 09:08:07,785 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:07,786 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:07,790 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:07,791 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-22 09:08:07,791 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:07,793 - utils.helpers - ERROR - Erro na análise técnica para ethereum: attempt to get argmax of an empty sequence
+2025-09-22 09:08:07,794 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.004s
+2025-09-22 09:08:07,838 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:07,839 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-22 09:08:07,839 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:07,841 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:07,841 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.003s
+2025-09-22 09:08:08,747 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:08,748 - utils.helpers - INFO - Buscando preço para: GOOGL
+2025-09-22 09:08:08,750 - utils.helpers - INFO - Buscando dados de GOOGL da API (1 dias)
+2025-09-22 09:08:08,998 - utils.helpers - WARNING - Não foi possível obter dados para GOOGL
+2025-09-22 09:08:08,999 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.251s
+2025-09-22 09:08:10,629 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:10,630 - utils.helpers - INFO - Buscando preço para: NVDA
+2025-09-22 09:08:10,631 - utils.helpers - INFO - Buscando dados de NVDA da API (1 dias)
+2025-09-22 09:08:10,667 - utils.helpers - ERROR - Erro de rede ao buscar crypto NVDA: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=nvda&vs_currencies=usd&include_24hr_change=true
+2025-09-22 09:08:10,668 - utils.helpers - WARNING - Não foi possível obter dados para NVDA
+2025-09-22 09:08:10,668 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.039s
+2025-09-22 09:08:17,385 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:08:17,388 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.004s
+2025-09-22 09:08:17,432 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:08:17,433 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-22 09:08:17,434 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:17,435 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:08:17,435 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:17,435 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:08:17,435 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:17,448 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:17,449 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:08:17,449 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:17,449 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:17,495 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:17,495 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:08:17,495 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:17,499 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:08:17,500 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.006s
+2025-09-22 09:08:17,548 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:17,548 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:08:17,548 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:17,550 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:17,551 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.003s
+2025-09-22 09:08:19,597 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:19,597 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-22 09:08:19,599 - utils.helpers - INFO - Buscando dados de cardano da API (1 dias)
+2025-09-22 09:08:19,632 - utils.helpers - ERROR - Erro de rede ao buscar crypto cardano: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=usd&include_24hr_change=true
+2025-09-22 09:08:19,632 - utils.helpers - WARNING - Não foi possível obter dados para cardano
+2025-09-22 09:08:19,633 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.036s
+2025-09-22 09:08:21,965 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:21,965 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-22 09:08:21,966 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:21,966 - utils.helpers - INFO - Preço obtido para ethereum: $4176.31
+2025-09-22 09:08:21,966 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:21,968 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:21,968 - utils.helpers - INFO - Buscando histórico para: ethereum (7 dias)
+2025-09-22 09:08:21,968 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:21,969 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:21,971 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:21,972 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-22 09:08:21,972 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:21,974 - utils.helpers - ERROR - Erro na análise técnica para ethereum: attempt to get argmax of an empty sequence
+2025-09-22 09:08:21,975 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.003s
+2025-09-22 09:08:22,018 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:22,018 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-22 09:08:22,018 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:22,020 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:22,021 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.003s
+2025-09-22 09:08:23,156 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:23,157 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-22 09:08:23,157 - utils.helpers - INFO - Dados de AAPL encontrados no cache em memória
+2025-09-22 09:08:23,157 - utils.helpers - ERROR - Erro inesperado ao buscar preço para AAPL: type NoneType doesn't define __round__ method
+2025-09-22 09:08:23,157 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 500 - Time: 0.001s
+2025-09-22 09:08:30,384 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:08:30,392 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.008s
+2025-09-22 09:08:30,491 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:08:30,493 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-22 09:08:30,494 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:30,495 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:08:30,495 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:30,495 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:08:30,495 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:30,501 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:30,501 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:08:30,501 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:30,502 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:30,546 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:30,547 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:08:30,547 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:30,550 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:08:30,550 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.004s
+2025-09-22 09:08:30,594 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:30,595 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:08:30,595 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:30,597 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:30,598 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.004s
+2025-09-22 09:08:37,797 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:08:37,801 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.004s
+2025-09-22 09:08:37,848 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:08:37,850 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.002s
+2025-09-22 09:08:37,851 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:37,852 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:08:37,853 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:37,853 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:08:37,853 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 09:08:37,862 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:37,863 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:08:37,863 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:37,863 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:37,908 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:37,908 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:08:37,909 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:37,911 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:08:37,911 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.003s
+2025-09-22 09:08:37,955 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:37,955 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:08:37,956 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:37,958 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:37,959 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.004s
+2025-09-22 09:08:48,902 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:08:48,903 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-22 09:08:48,939 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:08:48,940 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-22 09:08:48,941 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:48,941 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:08:48,941 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:48,941 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:08:48,942 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:48,945 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:48,945 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:08:48,946 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:48,946 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:48,991 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:48,991 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:08:48,992 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:48,993 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:08:48,993 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.002s
+2025-09-22 09:08:49,037 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:49,037 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:08:49,037 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:49,041 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:49,041 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.004s
+2025-09-22 09:08:51,807 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:51,807 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:08:51,807 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:51,807 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:08:51,808 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:51,810 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:51,811 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:08:51,811 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:51,811 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:51,814 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:51,815 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:08:51,815 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:51,819 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:08:51,819 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.005s
+2025-09-22 09:08:51,863 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:51,864 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:08:51,864 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:08:51,866 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:51,866 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.003s
+2025-09-22 09:08:52,553 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:52,554 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-22 09:08:52,554 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:52,554 - utils.helpers - INFO - Preço obtido para ethereum: $4176.31
+2025-09-22 09:08:52,554 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:52,557 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:52,557 - utils.helpers - INFO - Buscando histórico para: ethereum (7 dias)
+2025-09-22 09:08:52,557 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:52,558 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:52,560 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:52,561 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-22 09:08:52,561 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:52,562 - utils.helpers - ERROR - Erro na análise técnica para ethereum: attempt to get argmax of an empty sequence
+2025-09-22 09:08:52,563 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.003s
+2025-09-22 09:08:52,607 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:52,608 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-22 09:08:52,608 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:08:52,611 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:52,612 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.004s
+2025-09-22 09:08:53,440 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:53,441 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-22 09:08:53,442 - utils.helpers - INFO - Buscando dados de cardano da API (1 dias)
+2025-09-22 09:08:53,473 - utils.helpers - ERROR - Erro de rede ao buscar crypto cardano: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=usd&include_24hr_change=true
+2025-09-22 09:08:53,473 - utils.helpers - WARNING - Não foi possível obter dados para cardano
+2025-09-22 09:08:53,473 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.033s
+2025-09-22 09:08:55,781 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:55,781 - utils.helpers - INFO - Buscando preço para: solana
+2025-09-22 09:08:55,782 - utils.helpers - INFO - Buscando dados de solana da API (1 dias)
+2025-09-22 09:08:55,815 - utils.helpers - ERROR - Erro de rede ao buscar crypto solana: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true
+2025-09-22 09:08:55,815 - utils.helpers - WARNING - Não foi possível obter dados para solana
+2025-09-22 09:08:55,816 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.036s
+2025-09-22 09:08:57,370 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:57,370 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-22 09:08:57,370 - utils.helpers - INFO - Dados de dogecoin encontrados no cache em memória
+2025-09-22 09:08:57,370 - utils.helpers - INFO - Preço obtido para dogecoin: $0.23889
+2025-09-22 09:08:57,371 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:08:57,373 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:08:57,373 - utils.helpers - INFO - Buscando histórico para: dogecoin (7 dias)
+2025-09-22 09:08:57,373 - utils.helpers - INFO - Dados de dogecoin encontrados no cache em memória
+2025-09-22 09:08:57,373 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:08:57,376 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:08:57,376 - utils.helpers - INFO - Gerando análise técnica para: dogecoin
+2025-09-22 09:08:57,376 - utils.helpers - INFO - Dados de dogecoin encontrados no cache em memória
+2025-09-22 09:08:57,379 - utils.helpers - ERROR - Erro na análise técnica para dogecoin: attempt to get argmax of an empty sequence
+2025-09-22 09:08:57,380 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.004s
+2025-09-22 09:08:57,423 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:08:57,424 - utils.helpers - INFO - Gerando previsão para: dogecoin (3 dias)
+2025-09-22 09:08:57,424 - utils.helpers - INFO - Dados de dogecoin encontrados no cache em memória
+2025-09-22 09:08:57,426 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:08:57,426 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.003s
+2025-09-22 09:08:59,190 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:08:59,190 - utils.helpers - INFO - Buscando preço para: META
+2025-09-22 09:08:59,192 - utils.helpers - INFO - Buscando dados de META da API (1 dias)
+2025-09-22 09:08:59,224 - utils.helpers - ERROR - Erro de rede ao buscar crypto META: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=meta&vs_currencies=usd&include_24hr_change=true
+2025-09-22 09:08:59,224 - utils.helpers - WARNING - Não foi possível obter dados para META
+2025-09-22 09:08:59,224 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.034s
+2025-09-22 09:09:05,025 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:09:05,026 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-22 09:09:05,064 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-22 09:09:05,065 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-22 09:09:05,066 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:09:05,067 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:09:05,069 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:09:05,069 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:05,069 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:09:05,070 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.004s
+2025-09-22 09:09:05,070 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-22 09:09:05,078 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:09:05,078 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:09:05,078 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:05,078 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:09:05,125 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:09:05,126 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:09:05,126 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:05,128 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:09:05,128 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.003s
+2025-09-22 09:09:05,173 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:09:05,173 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:09:05,173 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:05,176 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:09:05,176 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.003s
+2025-09-22 09:09:06,889 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:09:06,889 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:09:06,889 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:06,889 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:09:06,889 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.001s
+2025-09-22 09:09:06,891 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:09:06,892 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:09:06,892 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:06,892 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:09:06,936 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:09:06,936 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:09:06,936 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:06,939 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:09:06,940 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.004s
+2025-09-22 09:09:06,985 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:09:06,985 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:09:06,985 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:06,988 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:09:06,989 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.005s
+2025-09-22 09:09:07,584 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:09:07,585 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-22 09:09:07,585 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:09:07,585 - utils.helpers - INFO - Preço obtido para ethereum: $4176.31
+2025-09-22 09:09:07,586 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 09:09:07,592 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:09:07,593 - utils.helpers - INFO - Buscando histórico para: ethereum (7 dias)
+2025-09-22 09:09:07,593 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:09:07,594 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:09:07,640 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:09:07,641 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-22 09:09:07,641 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:09:07,644 - utils.helpers - ERROR - Erro na análise técnica para ethereum: attempt to get argmax of an empty sequence
+2025-09-22 09:09:07,645 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.005s
+2025-09-22 09:09:07,688 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:09:07,688 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-22 09:09:07,688 - utils.helpers - INFO - Dados de ethereum encontrados no cache em memória
+2025-09-22 09:09:07,691 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:09:07,691 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.003s
+2025-09-22 09:09:08,455 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:09:08,455 - utils.helpers - INFO - Buscando preço para: cardano
+2025-09-22 09:09:08,457 - utils.helpers - INFO - Buscando dados de cardano da API (1 dias)
+2025-09-22 09:09:08,488 - utils.helpers - ERROR - Erro de rede ao buscar crypto cardano: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=usd&include_24hr_change=true
+2025-09-22 09:09:08,488 - utils.helpers - WARNING - Não foi possível obter dados para cardano
+2025-09-22 09:09:08,489 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.035s
+2025-09-22 09:09:28,822 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:09:28,824 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.002s
+2025-09-22 09:09:28,870 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-22 09:09:28,872 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-22 09:09:28,873 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:09:28,874 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:09:28,874 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-22 09:09:28,874 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:09:28,874 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:28,875 - utils.helpers - INFO - Preço obtido para bitcoin: $112760
+2025-09-22 09:09:28,876 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 09:09:28,885 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:09:28,885 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:09:28,886 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:28,886 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.001s
+2025-09-22 09:09:28,932 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:09:28,933 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:09:28,933 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:28,938 - utils.helpers - ERROR - Erro na análise técnica para bitcoin: attempt to get argmax of an empty sequence
+2025-09-22 09:09:28,938 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 500 - Time: 0.006s
+2025-09-22 09:09:28,983 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:09:28,983 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:09:28,983 - utils.helpers - INFO - Dados de bitcoin encontrados no cache em memória
+2025-09-22 09:09:28,987 - utils.helpers - ERROR - Erro ao preparar features: attempt to get argmax of an empty sequence
+2025-09-22 09:09:28,987 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 400 - Time: 0.004s
+2025-09-22 09:09:38,673 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-22 09:09:40,859 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-22 09:09:40,859 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-22 09:09:40,859 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-22 09:09:40,864 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-22 09:09:40,871 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 09:09:40,877 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.006s
+2025-09-22 09:09:40,909 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-22 09:09:40,914 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.004s
+2025-09-22 09:09:40,914 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 09:09:40,915 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:09:40,916 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 09:09:41,112 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-22 09:09:41,112 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (1 dias)
+2025-09-22 09:09:41,113 - utils.helpers - INFO - Preço obtido para bitcoin: $112717
+2025-09-22 09:09:41,114 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.200s
+2025-09-22 09:09:41,115 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.199s
+2025-09-22 09:09:41,118 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:09:41,119 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 09:09:41,564 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (7 dias)
+2025-09-22 09:09:41,565 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-22 09:09:41,566 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.448s
+2025-09-22 09:09:41,627 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:09:41,628 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 09:09:41,946 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (14 dias)
+2025-09-22 09:09:41,952 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.325s
+2025-09-22 09:09:41,996 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:09:41,996 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 09:09:42,284 - utils.helpers - INFO - Dados de crypto obtidos para bitcoin (30 dias)
+2025-09-22 09:09:42,296 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Alta
+2025-09-22 09:09:42,297 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.302s
+2025-09-22 09:10:11,074 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:10:11,075 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-22 09:10:11,475 - utils.helpers - INFO - Dados salvos para ethereum
+2025-09-22 09:10:11,475 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (1 dias)
+2025-09-22 09:10:11,476 - utils.helpers - INFO - Preço obtido para ethereum: $4176.4
+2025-09-22 09:10:11,476 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.402s
+2025-09-22 09:10:11,480 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:10:11,480 - utils.helpers - INFO - Buscando histórico para: ethereum (7 dias)
+2025-09-22 09:10:11,748 - utils.helpers - INFO - Dados de crypto obtidos para ethereum (7 dias)
+2025-09-22 09:10:11,749 - utils.helpers - INFO - Histórico obtido para ethereum: 8 pontos
+2025-09-22 09:10:11,750 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.270s
+2025-09-22 09:10:11,804 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:10:11,805 - utils.helpers - INFO - Gerando análise técnica para: ethereum
+2025-09-22 09:10:11,947 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-22 09:10:11,949 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.145s
+2025-09-22 09:10:11,992 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:10:11,992 - utils.helpers - INFO - Gerando previsão para: ethereum (3 dias)
+2025-09-22 09:10:12,123 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-22 09:10:12,124 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.133s
+2025-09-22 09:10:17,616 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:10:17,617 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-22 09:10:17,747 - utils.helpers - ERROR - Erro ao buscar dados crypto para dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd&include_24hr_change=true
+2025-09-22 09:10:17,748 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.132s
+2025-09-22 09:10:19,925 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:10:19,925 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-22 09:10:20,052 - utils.helpers - ERROR - Erro ao buscar dados crypto para dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd&include_24hr_change=true
+2025-09-22 09:10:20,055 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.130s
+2025-09-22 09:10:21,450 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:10:21,451 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-22 09:10:22,243 - utils.helpers - INFO - Dados salvos para AAPL
+2025-09-22 09:10:22,244 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:10:22,244 - utils.helpers - INFO - Preço obtido para AAPL: $245.5
+2025-09-22 09:10:22,244 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.794s
+2025-09-22 09:10:22,247 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:10:22,247 - utils.helpers - INFO - Buscando histórico para: AAPL (7 dias)
+2025-09-22 09:10:22,536 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:10:22,536 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:10:22,536 - utils.helpers - INFO - Histórico obtido para AAPL: 7 pontos
+2025-09-22 09:10:22,537 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.290s
+2025-09-22 09:10:22,587 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:10:22,587 - utils.helpers - INFO - Gerando análise técnica para: AAPL
+2025-09-22 09:10:22,849 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:10:22,849 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:10:22,853 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.266s
+2025-09-22 09:10:22,896 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:10:22,897 - utils.helpers - INFO - Gerando previsão para: AAPL (3 dias)
+2025-09-22 09:10:23,167 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:10:23,167 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:10:23,175 - utils.helpers - INFO - Previsão gerada para AAPL: tendência Baixa
+2025-09-22 09:10:23,176 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.280s
+2025-09-22 09:12:05,467 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:12:05,468 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-22 09:12:05,469 - utils.helpers - INFO - Preço obtido para AAPL: $245.5
+2025-09-22 09:12:05,469 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 09:12:05,471 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:12:05,472 - utils.helpers - INFO - Buscando histórico para: AAPL (30 dias)
+2025-09-22 09:12:05,745 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:12:05,745 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:12:05,746 - utils.helpers - INFO - Histórico obtido para AAPL: 30 pontos
+2025-09-22 09:12:05,746 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.275s
+2025-09-22 09:12:05,804 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:12:05,804 - utils.helpers - INFO - Gerando análise técnica para: AAPL
+2025-09-22 09:12:06,038 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:12:06,038 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:12:06,042 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.238s
+2025-09-22 09:12:06,085 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:12:06,085 - utils.helpers - INFO - Gerando previsão para: AAPL (3 dias)
+2025-09-22 09:12:06,139 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:12:06,140 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:12:06,148 - utils.helpers - INFO - Previsão gerada para AAPL: tendência Baixa
+2025-09-22 09:12:06,149 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.064s
+2025-09-22 09:12:06,888 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 09:12:06,889 - utils.helpers - INFO - Buscando preço para: AAPL
+2025-09-22 09:12:06,891 - utils.helpers - INFO - Preço obtido para AAPL: $245.5
+2025-09-22 09:12:06,891 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 09:12:06,896 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 09:12:06,897 - utils.helpers - INFO - Buscando histórico para: AAPL (90 dias)
+2025-09-22 09:12:07,431 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:12:07,431 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:12:07,432 - utils.helpers - INFO - Histórico obtido para AAPL: 64 pontos
+2025-09-22 09:12:07,432 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.536s
+2025-09-22 09:12:07,486 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 09:12:07,487 - utils.helpers - INFO - Gerando análise técnica para: AAPL
+2025-09-22 09:12:07,532 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:12:07,532 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:12:07,537 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.051s
+2025-09-22 09:12:07,582 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 09:12:07,582 - utils.helpers - INFO - Gerando previsão para: AAPL (3 dias)
+2025-09-22 09:12:07,653 - utils.helpers - INFO - Dados históricos salvos para AAPL
+2025-09-22 09:12:07,653 - utils.helpers - INFO - Dados de ação obtidos para AAPL
+2025-09-22 09:12:07,664 - utils.helpers - INFO - Previsão gerada para AAPL: tendência Baixa
+2025-09-22 09:12:07,665 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.083s
