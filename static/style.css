@@ -286,23 +286,6 @@ body {
     color: var(--text-secondary);
 }
 
-/* Market Summary */
-.market-section {
-    margin-top: 3rem;
-}
-
-.market-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1rem;
-}
-
-.loading-market {
-    color: var(--text-secondary);
-    text-align: center;
-    padding: 2rem;
-}
-
 /* Modals */
 .modal {
     display: none;
