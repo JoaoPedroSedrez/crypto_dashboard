@@ -89,6 +89,16 @@ class DataFetcher:
     def __init__(self):
         self.db = DatabaseManager()
     
+    def _is_brazilian_asset(self, symbol):
+        """Verifica se é um ativo brasileiro"""
+        return symbol.upper().endswith(".SA")
+    
+    def _get_currency_info(self, symbol):
+        """Retorna informações de moeda baseado no símbolo"""
+        if self._is_brazilian_asset(symbol):
+            return "BRL", "R$"
+        return "USD", "$"
+    
     def fetch_crypto_data(self, symbol, days=1):
         """Busca dados de criptomoeda via CoinGecko"""
         try:
@@ -121,7 +131,8 @@ class DataFetcher:
                     'symbol': symbol,
                     'current_price': current_price,
                     'price_change_24h': price_change_24h,
-                    'asset_type': 'cryptocurrency'
+                    'asset_type': 'cryptocurrency',
+                    'currency': 'USD'  # Cryptos sempre em USD
                 }
                 
                 # Salvar no cache
@@ -160,7 +171,8 @@ class DataFetcher:
                     'prices': prices,
                     'current_price': current_price,
                     'price_change_24h': price_change_24h,
-                    'asset_type': 'cryptocurrency'
+                    'asset_type': 'cryptocurrency',
+                    'currency': 'USD'  # Cryptos sempre em USD
                 }
                 
                 logger.info(f"Dados históricos crypto obtidos: {symbol} - {len(prices)} pontos para {days} dias")
@@ -182,6 +194,9 @@ class DataFetcher:
             
             ticker = yf.Ticker(symbol)
             
+            # Determinar moeda baseado no símbolo
+            currency_code, currency_symbol = self._get_currency_info(symbol)
+            
             if days == 1:
                 # Dados atuais
                 hist = ticker.history(period="5d")  # 5 dias para garantir dados suficientes
@@ -197,7 +212,8 @@ class DataFetcher:
                     'symbol': symbol,
                     'current_price': current_price,
                     'price_change_24h': price_change_24h,
-                    'asset_type': 'stock'
+                    'asset_type': 'stock',
+                    'currency': currency_code,
                 }
                 
                 # Salvar no cache
@@ -249,7 +265,8 @@ class DataFetcher:
                     'prices': prices_data,
                     'current_price': current_price,
                     'price_change_24h': price_change_24h,
-                    'asset_type': 'stock'
+                    'asset_type': 'stock',
+                    'currency': currency_code,
                 }
                 
                 logger.info(f"Dados históricos stock obtidos: {symbol} - {len(prices_data)} pontos para {days} dias")

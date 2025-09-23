@@ -18,8 +18,6 @@ const periodButtons = document.querySelectorAll('.period-btn');
 const technicalAnalysisEl = document.getElementById('technical-analysis');
 const predictionAnalysisEl = document.getElementById('prediction-analysis');
 const statisticsEl = document.getElementById('statistics');
-const marketGridEl = document.getElementById('market-grid');
-
 let chartInstance = null;
 
 // ---------------------
@@ -319,53 +317,7 @@ async function loadAsset(symbol, days=7) {
 }
 
 // ---------------------
-// Resumo do mercado
-// ---------------------
-async function loadMarketSummary() {
-    try {
-        marketGridEl.innerHTML = '<div class="loading-market">Carregando resumo do mercado...</div>';
-        const response = await fetch('/api/v1/history/summary?symbols=bitcoin,ethereum,cardano,solana,dogecoin,AAPL,GOOGL,MSFT,TSLA,NVDA');
-        
-        if (response.ok) {
-            const marketData = await response.json();
-            
-            if (marketData.assets && marketData.assets.length > 0) {
-                marketGridEl.innerHTML = marketData.assets.map(asset => `
-                    <div class="market-card ${asset.asset_type}" onclick="loadAssetFromMarket('${asset.symbol}')">
-                        <div class="market-header">
-                            <h4>${asset.symbol.toUpperCase()}</h4>
-                            <span class="performance-icon">${asset.performance}</span>
-                        </div>
-                        <div class="market-price">
-                            <span class="price">${formatPrice(asset.current_price)}</span>
-                            <span class="change ${asset.change_percent >= 0 ? 'positive' : 'negative'}">
-                                ${asset.change_percent >= 0 ? '+' : ''}${Number(asset.change_percent).toFixed(2)}%
-                            </span>
-                        </div>
-                        <div class="market-range">
-                            <small>Min: ${formatPrice(asset.min_price)} | Max: ${formatPrice(asset.max_price)}</small>
-                        </div>
-                    </div>
-                `).join('');
-            } else {
-                marketGridEl.innerHTML = '<div class="no-data">Nenhum dado de mercado disponível</div>';
-            }
-        } else {
-            marketGridEl.innerHTML = '<div class="error-market">Erro ao carregar resumo do mercado</div>';
-        }
-    } catch (error) {
-        marketGridEl.innerHTML = '<div class="error-market">Erro ao carregar resumo do mercado</div>';
-        console.error('Erro ao carregar resumo do mercado:', error);
-    }
-}
-
-function loadAssetFromMarket(symbol) {
-    assetInput.value = symbol;
-    loadAsset(symbol, getSelectedDays());
-}
-
-// ---------------------
-// Eventos (sua versão original)
+// Eventos
 // ---------------------
 searchBtn.addEventListener('click', () => {
     const symbol = assetInput.value.trim();
@@ -429,8 +381,6 @@ document.querySelectorAll('.modal').forEach(modal => {
 // Inicialização
 // ---------------------
 document.addEventListener('DOMContentLoaded', () => {
-    // Carregar resumo do mercado
-    loadMarketSummary();
 
     // Atualizar contagem de ativos
     const cryptoButtons = document.querySelectorAll('.quick-btn.crypto-btn').length;
