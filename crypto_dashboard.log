@@ -5361,3 +5361,825 @@
 2025-09-22 15:47:31,624 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
 2025-09-22 15:47:31,632 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Estável
 2025-09-22 15:47:31,633 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.285s
+2025-09-22 15:53:17,516 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:53:17,516 - utils.helpers - INFO - Buscando preço para: MXRF11.SA
+2025-09-22 15:53:17,516 - utils.helpers - INFO - Buscando dados para MXRF11.SA - 1 dias
+2025-09-22 15:53:18,224 - utils.helpers - INFO - Dados salvos para MXRF11.SA
+2025-09-22 15:53:18,224 - utils.helpers - INFO - Dados FII encontrados para MXRF11.SA
+2025-09-22 15:53:18,224 - utils.helpers - INFO - Preço obtido para MXRF11.SA: $9.789999961853027
+2025-09-22 15:53:18,225 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.709s
+2025-09-22 15:53:18,227 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:53:18,227 - utils.helpers - INFO - Buscando histórico para: MXRF11.SA (30 dias)
+2025-09-22 15:53:18,227 - utils.helpers - INFO - Buscando dados para MXRF11.SA - 30 dias
+2025-09-22 15:53:18,543 - utils.helpers - INFO - Dados históricos stock obtidos: MXRF11.SA - 26 pontos para 30 dias
+2025-09-22 15:53:18,570 - utils.helpers - INFO - Dados históricos salvos para MXRF11.SA
+2025-09-22 15:53:18,570 - utils.helpers - INFO - Dados FII encontrados para MXRF11.SA
+2025-09-22 15:53:18,570 - utils.helpers - INFO - Histórico obtido para MXRF11.SA: 26 pontos
+2025-09-22 15:53:18,571 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.344s
+2025-09-22 15:53:18,640 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:53:18,641 - utils.helpers - INFO - Gerando análise técnica para: MXRF11.SA
+2025-09-22 15:53:18,641 - utils.helpers - INFO - Buscando dados para MXRF11.SA - 14 dias
+2025-09-22 15:53:18,840 - utils.helpers - INFO - Dados históricos stock obtidos: MXRF11.SA - 14 pontos para 14 dias
+2025-09-22 15:53:18,857 - utils.helpers - INFO - Dados históricos salvos para MXRF11.SA
+2025-09-22 15:53:18,857 - utils.helpers - INFO - Dados FII encontrados para MXRF11.SA
+2025-09-22 15:53:18,862 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.222s
+2025-09-22 15:53:18,906 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:53:18,907 - utils.helpers - INFO - Gerando previsão para: MXRF11.SA (3 dias)
+2025-09-22 15:53:18,907 - utils.helpers - INFO - Buscando dados para MXRF11.SA - 30 dias
+2025-09-22 15:53:18,947 - utils.helpers - INFO - Dados históricos stock obtidos: MXRF11.SA - 26 pontos para 30 dias
+2025-09-22 15:53:18,976 - utils.helpers - INFO - Dados históricos salvos para MXRF11.SA
+2025-09-22 15:53:18,977 - utils.helpers - INFO - Dados FII encontrados para MXRF11.SA
+2025-09-22 15:53:18,986 - utils.helpers - INFO - Previsão gerada para MXRF11.SA: tendência Estável
+2025-09-22 15:53:18,987 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.080s
+2025-09-22 15:53:23,179 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:53:23,179 - utils.helpers - INFO - Buscando preço para: MXRF11.SA
+2025-09-22 15:53:23,180 - utils.helpers - INFO - Buscando dados para MXRF11.SA - 1 dias
+2025-09-22 15:53:23,180 - utils.helpers - INFO - Dados FII encontrados para MXRF11.SA
+2025-09-22 15:53:23,180 - utils.helpers - INFO - Preço obtido para MXRF11.SA: $9.789999961853027
+2025-09-22 15:53:23,181 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-22 15:53:23,183 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:53:23,183 - utils.helpers - INFO - Buscando histórico para: MXRF11.SA (365 dias)
+2025-09-22 15:53:23,183 - utils.helpers - INFO - Buscando dados para MXRF11.SA - 365 dias
+2025-09-22 15:53:23,466 - utils.helpers - INFO - Dados históricos stock obtidos: MXRF11.SA - 253 pontos para 365 dias
+2025-09-22 15:53:23,691 - utils.helpers - INFO - Dados históricos salvos para MXRF11.SA
+2025-09-22 15:53:23,691 - utils.helpers - INFO - Dados FII encontrados para MXRF11.SA
+2025-09-22 15:53:23,691 - utils.helpers - INFO - Histórico obtido para MXRF11.SA: 253 pontos
+2025-09-22 15:53:23,693 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.510s
+2025-09-22 15:53:23,755 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:53:23,756 - utils.helpers - INFO - Gerando análise técnica para: MXRF11.SA
+2025-09-22 15:53:23,756 - utils.helpers - INFO - Buscando dados para MXRF11.SA - 14 dias
+2025-09-22 15:53:23,957 - utils.helpers - INFO - Dados históricos stock obtidos: MXRF11.SA - 14 pontos para 14 dias
+2025-09-22 15:53:23,973 - utils.helpers - INFO - Dados históricos salvos para MXRF11.SA
+2025-09-22 15:53:23,974 - utils.helpers - INFO - Dados FII encontrados para MXRF11.SA
+2025-09-22 15:53:23,979 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.224s
+2025-09-22 15:53:24,023 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:53:24,024 - utils.helpers - INFO - Gerando previsão para: MXRF11.SA (3 dias)
+2025-09-22 15:53:24,024 - utils.helpers - INFO - Buscando dados para MXRF11.SA - 30 dias
+2025-09-22 15:53:24,265 - utils.helpers - INFO - Dados históricos stock obtidos: MXRF11.SA - 26 pontos para 30 dias
+2025-09-22 15:53:24,293 - utils.helpers - INFO - Dados históricos salvos para MXRF11.SA
+2025-09-22 15:53:24,293 - utils.helpers - INFO - Dados FII encontrados para MXRF11.SA
+2025-09-22 15:53:24,300 - utils.helpers - INFO - Previsão gerada para MXRF11.SA: tendência Estável
+2025-09-22 15:53:24,301 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.278s
+2025-09-22 15:53:39,083 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:53:39,083 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 15:53:39,083 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-22 15:53:39,297 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-22 15:53:39,298 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:53:39,299 - utils.helpers - INFO - Preço obtido para bitcoin: $112584
+2025-09-22 15:53:39,300 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.217s
+2025-09-22 15:53:39,309 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:53:39,310 - utils.helpers - INFO - Buscando histórico para: bitcoin (365 dias)
+2025-09-22 15:53:39,310 - utils.helpers - INFO - Buscando dados para bitcoin - 365 dias
+2025-09-22 15:53:39,720 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 366 pontos para 365 dias
+2025-09-22 15:53:39,722 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:53:39,723 - utils.helpers - INFO - Histórico obtido para bitcoin: 366 pontos
+2025-09-22 15:53:39,725 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.416s
+2025-09-22 15:53:39,789 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:53:39,789 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 15:53:39,789 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-22 15:53:40,129 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-22 15:53:40,130 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:53:40,134 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.345s
+2025-09-22 15:53:40,177 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:53:40,178 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 15:53:40,178 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-22 15:53:40,481 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 31 pontos para 30 dias
+2025-09-22 15:53:40,482 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 15:53:40,496 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Alta
+2025-09-22 15:53:40,497 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.320s
+2025-09-22 15:53:41,997 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 15:53:41,998 - utils.helpers - INFO - Buscando preço para: BTLG11.SA
+2025-09-22 15:53:41,998 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 1 dias
+2025-09-22 15:53:42,802 - utils.helpers - INFO - Dados salvos para BTLG11.SA
+2025-09-22 15:53:42,803 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-22 15:53:42,803 - utils.helpers - INFO - Preço obtido para BTLG11.SA: $102.23999786376953
+2025-09-22 15:53:42,804 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.806s
+2025-09-22 15:53:42,806 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 15:53:42,807 - utils.helpers - INFO - Buscando histórico para: BTLG11.SA (365 dias)
+2025-09-22 15:53:42,807 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 365 dias
+2025-09-22 15:53:43,018 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 253 pontos para 365 dias
+2025-09-22 15:53:43,338 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-22 15:53:43,338 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-22 15:53:43,339 - utils.helpers - INFO - Histórico obtido para BTLG11.SA: 253 pontos
+2025-09-22 15:53:43,341 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.535s
+2025-09-22 15:53:43,402 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 15:53:43,402 - utils.helpers - INFO - Gerando análise técnica para: BTLG11.SA
+2025-09-22 15:53:43,402 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 14 dias
+2025-09-22 15:53:43,846 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 14 pontos para 14 dias
+2025-09-22 15:53:43,866 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-22 15:53:43,867 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-22 15:53:43,872 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.470s
+2025-09-22 15:53:43,915 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 15:53:43,916 - utils.helpers - INFO - Gerando previsão para: BTLG11.SA (3 dias)
+2025-09-22 15:53:43,916 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 30 dias
+2025-09-22 15:53:44,110 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 26 pontos para 30 dias
+2025-09-22 15:53:44,147 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-22 15:53:44,147 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-22 15:53:44,156 - utils.helpers - INFO - Previsão gerada para BTLG11.SA: tendência Estável
+2025-09-22 15:53:44,157 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.242s
+2025-09-22 16:14:28,425 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-22 16:14:28,426 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-22 16:14:28,465 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-22 16:14:28,467 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-22 16:14:28,468 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.003s
+2025-09-22 16:14:28,469 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.003s
+2025-09-22 16:14:28,525 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-22 16:14:28,526 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-22 16:14:28,527 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-22 16:14:28,527 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-22 16:14:28,740 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-22 16:14:28,741 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 16:14:28,741 - utils.helpers - INFO - Preço obtido para bitcoin: $112611
+2025-09-22 16:14:28,742 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.216s
+2025-09-22 16:14:28,742 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.216s
+2025-09-22 16:14:28,745 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-22 16:14:28,745 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-22 16:14:28,745 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-22 16:14:29,132 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 8 pontos para 7 dias
+2025-09-22 16:14:29,133 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 16:14:29,133 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-22 16:14:29,134 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.389s
+2025-09-22 16:14:29,201 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-22 16:14:29,203 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-22 16:14:29,203 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-22 16:14:29,536 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-22 16:14:29,537 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 16:14:29,541 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.340s
+2025-09-22 16:14:29,586 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-22 16:14:29,587 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-22 16:14:29,588 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-22 16:14:29,945 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 31 pontos para 30 dias
+2025-09-22 16:14:29,946 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-22 16:14:29,956 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Alta
+2025-09-22 16:14:29,957 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.370s
+2025-09-23 08:20:14,805 - utils.helpers - INFO - 🎯 Iniciando servidor de desenvolvimento...
+2025-09-23 08:20:16,153 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-23 08:20:16,154 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-23 08:20:16,154 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-23 08:20:16,163 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-23 08:25:14,593 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-23 08:25:14,598 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.004s
+2025-09-23 08:25:14,640 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-23 08:25:14,654 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 200 - Time: 0.014s
+2025-09-23 08:25:14,657 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-23 08:25:14,658 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.001s
+2025-09-23 08:25:14,709 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-23 08:25:14,711 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:14,711 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-23 08:25:14,711 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-23 08:25:14,948 - utils.helpers - INFO - Dados salvos para bitcoin
+2025-09-23 08:25:14,949 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:25:14,949 - utils.helpers - INFO - Preço obtido para bitcoin: $112906
+2025-09-23 08:25:14,950 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.241s
+2025-09-23 08:25:14,951 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.240s
+2025-09-23 08:25:14,953 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-23 08:25:14,954 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-23 08:25:14,955 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:25:14,956 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-23 08:25:14,956 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-23 08:25:15,301 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 8 pontos para 7 dias
+2025-09-23 08:25:15,302 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:25:15,303 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-23 08:25:15,303 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.348s
+2025-09-23 08:25:15,374 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:25:15,375 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-23 08:25:15,375 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-23 08:25:15,718 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-23 08:25:15,719 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:25:15,733 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.359s
+2025-09-23 08:25:15,777 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:25:15,778 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-23 08:25:15,778 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-23 08:25:16,119 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 31 pontos para 30 dias
+2025-09-23 08:25:16,120 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:25:16,134 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-23 08:25:16,135 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.357s
+2025-09-23 08:25:19,732 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:19,732 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-23 08:25:19,732 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-23 08:25:19,733 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:25:19,733 - utils.helpers - INFO - Preço obtido para bitcoin: $112906
+2025-09-23 08:25:19,733 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-23 08:25:19,736 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:25:19,736 - utils.helpers - INFO - Buscando histórico para: bitcoin (365 dias)
+2025-09-23 08:25:19,737 - utils.helpers - INFO - Buscando dados para bitcoin - 365 dias
+2025-09-23 08:25:20,134 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 366 pontos para 365 dias
+2025-09-23 08:25:20,135 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:25:20,136 - utils.helpers - INFO - Histórico obtido para bitcoin: 366 pontos
+2025-09-23 08:25:20,139 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.403s
+2025-09-23 08:25:20,168 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:25:20,169 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-23 08:25:20,169 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-23 08:25:20,324 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:25:20,478 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:25:22,474 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BITCOIN"}}}
+2025-09-23 08:25:22,884 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:25:22,884 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:25:22,885 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:25:22,885 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 2.717s
+2025-09-23 08:25:22,930 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:25:22,930 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-23 08:25:22,930 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-23 08:25:23,075 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:25:23,217 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:25:23,907 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BITCOIN"}}}
+2025-09-23 08:25:23,938 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:25:23,938 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:25:23,938 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:25:23,939 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 1.009s
+2025-09-23 08:25:24,880 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:24,880 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-23 08:25:24,880 - utils.helpers - INFO - Buscando dados para ethereum - 1 dias
+2025-09-23 08:25:25,040 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:25:25,197 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:25:26,468 - yfinance - ERROR - $ETHEREUM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-23 08:25:26,468 - utils.helpers - WARNING - Dados insuficientes para ETHEREUM
+2025-09-23 08:25:26,468 - utils.helpers - WARNING - Nenhum dado encontrado para ethereum
+2025-09-23 08:25:26,469 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 1.589s
+2025-09-23 08:25:29,683 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:29,684 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-23 08:25:29,684 - utils.helpers - INFO - Buscando dados para dogecoin - 1 dias
+2025-09-23 08:25:29,842 - utils.helpers - ERROR - Erro ao buscar dados crypto para dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:25:29,982 - utils.helpers - ERROR - Erro ao buscar dados crypto para dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:25:31,281 - yfinance - ERROR - $DOGECOIN: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-23 08:25:31,281 - utils.helpers - WARNING - Dados insuficientes para DOGECOIN
+2025-09-23 08:25:31,282 - utils.helpers - WARNING - Nenhum dado encontrado para dogecoin
+2025-09-23 08:25:31,282 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 1.599s
+2025-09-23 08:25:33,861 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:33,861 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-23 08:25:33,861 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 1 dias
+2025-09-23 08:25:34,161 - utils.helpers - INFO - Dados salvos para BBAS3.SA
+2025-09-23 08:25:34,161 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:25:34,161 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.510000228881836
+2025-09-23 08:25:34,161 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.301s
+2025-09-23 08:25:34,164 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:25:34,164 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (365 dias)
+2025-09-23 08:25:34,164 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 365 dias
+2025-09-23 08:25:34,487 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 252 pontos para 365 dias
+2025-09-23 08:25:34,734 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:25:34,734 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:25:34,735 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 252 pontos
+2025-09-23 08:25:34,739 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.576s
+2025-09-23 08:25:34,817 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:25:34,817 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-23 08:25:34,817 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 14 dias
+2025-09-23 08:25:35,080 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 13 pontos para 14 dias
+2025-09-23 08:25:35,089 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:25:35,089 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:25:35,094 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:25:35,102 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:25:35,103 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-23 08:25:35,103 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 30 dias
+2025-09-23 08:25:35,388 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 25 pontos para 30 dias
+2025-09-23 08:25:35,413 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:25:35,413 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:25:35,420 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-23 08:25:35,421 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.319s
+2025-09-23 08:25:37,223 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:37,223 - utils.helpers - INFO - Buscando preço para: PETR4.SA
+2025-09-23 08:25:37,224 - utils.helpers - INFO - Buscando dados para PETR4.SA - 1 dias
+2025-09-23 08:25:37,445 - utils.helpers - INFO - Dados salvos para PETR4.SA
+2025-09-23 08:25:37,446 - utils.helpers - INFO - Dados stock encontrados para PETR4.SA
+2025-09-23 08:25:37,446 - utils.helpers - INFO - Preço obtido para PETR4.SA: $31.3700008392334
+2025-09-23 08:25:37,446 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.223s
+2025-09-23 08:25:37,449 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:25:37,450 - utils.helpers - INFO - Buscando histórico para: PETR4.SA (365 dias)
+2025-09-23 08:25:37,450 - utils.helpers - INFO - Buscando dados para PETR4.SA - 365 dias
+2025-09-23 08:25:37,763 - utils.helpers - INFO - Dados históricos stock obtidos: PETR4.SA - 252 pontos para 365 dias
+2025-09-23 08:25:38,175 - utils.helpers - INFO - Dados históricos salvos para PETR4.SA
+2025-09-23 08:25:38,175 - utils.helpers - INFO - Dados stock encontrados para PETR4.SA
+2025-09-23 08:25:38,176 - utils.helpers - INFO - Histórico obtido para PETR4.SA: 252 pontos
+2025-09-23 08:25:38,179 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.730s
+2025-09-23 08:25:38,246 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:25:38,247 - utils.helpers - INFO - Gerando análise técnica para: PETR4.SA
+2025-09-23 08:25:38,247 - utils.helpers - INFO - Buscando dados para PETR4.SA - 14 dias
+2025-09-23 08:25:38,467 - utils.helpers - INFO - Dados históricos stock obtidos: PETR4.SA - 13 pontos para 14 dias
+2025-09-23 08:25:38,482 - utils.helpers - INFO - Dados históricos salvos para PETR4.SA
+2025-09-23 08:25:38,482 - utils.helpers - INFO - Dados stock encontrados para PETR4.SA
+2025-09-23 08:25:38,489 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:25:38,496 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:25:38,497 - utils.helpers - INFO - Gerando previsão para: PETR4.SA (3 dias)
+2025-09-23 08:25:38,497 - utils.helpers - INFO - Buscando dados para PETR4.SA - 30 dias
+2025-09-23 08:25:38,977 - utils.helpers - INFO - Dados históricos stock obtidos: PETR4.SA - 25 pontos para 30 dias
+2025-09-23 08:25:39,007 - utils.helpers - INFO - Dados históricos salvos para PETR4.SA
+2025-09-23 08:25:39,007 - utils.helpers - INFO - Dados stock encontrados para PETR4.SA
+2025-09-23 08:25:39,016 - utils.helpers - INFO - Previsão gerada para PETR4.SA: tendência Estável
+2025-09-23 08:25:39,016 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.520s
+2025-09-23 08:25:40,824 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:40,825 - utils.helpers - INFO - Buscando preço para: KNCR11.SA
+2025-09-23 08:25:40,825 - utils.helpers - INFO - Buscando dados para KNCR11.SA - 1 dias
+2025-09-23 08:25:41,123 - utils.helpers - INFO - Dados salvos para KNCR11.SA
+2025-09-23 08:25:41,123 - utils.helpers - INFO - Dados FII encontrados para KNCR11.SA
+2025-09-23 08:25:41,123 - utils.helpers - INFO - Preço obtido para KNCR11.SA: $104.3499984741211
+2025-09-23 08:25:41,124 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.300s
+2025-09-23 08:25:41,127 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:25:41,128 - utils.helpers - INFO - Buscando histórico para: KNCR11.SA (365 dias)
+2025-09-23 08:25:41,128 - utils.helpers - INFO - Buscando dados para KNCR11.SA - 365 dias
+2025-09-23 08:25:41,479 - utils.helpers - INFO - Dados históricos stock obtidos: KNCR11.SA - 252 pontos para 365 dias
+2025-09-23 08:25:41,797 - utils.helpers - INFO - Dados históricos salvos para KNCR11.SA
+2025-09-23 08:25:41,798 - utils.helpers - INFO - Dados FII encontrados para KNCR11.SA
+2025-09-23 08:25:41,799 - utils.helpers - INFO - Histórico obtido para KNCR11.SA: 252 pontos
+2025-09-23 08:25:41,801 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.673s
+2025-09-23 08:25:41,863 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:25:41,864 - utils.helpers - INFO - Gerando análise técnica para: KNCR11.SA
+2025-09-23 08:25:41,864 - utils.helpers - INFO - Buscando dados para KNCR11.SA - 14 dias
+2025-09-23 08:25:42,152 - utils.helpers - INFO - Dados históricos stock obtidos: KNCR11.SA - 13 pontos para 14 dias
+2025-09-23 08:25:42,170 - utils.helpers - INFO - Dados históricos salvos para KNCR11.SA
+2025-09-23 08:25:42,170 - utils.helpers - INFO - Dados FII encontrados para KNCR11.SA
+2025-09-23 08:25:42,175 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:25:42,182 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:25:42,183 - utils.helpers - INFO - Gerando previsão para: KNCR11.SA (3 dias)
+2025-09-23 08:25:42,183 - utils.helpers - INFO - Buscando dados para KNCR11.SA - 30 dias
+2025-09-23 08:25:42,382 - utils.helpers - INFO - Dados históricos stock obtidos: KNCR11.SA - 25 pontos para 30 dias
+2025-09-23 08:25:42,405 - utils.helpers - INFO - Dados históricos salvos para KNCR11.SA
+2025-09-23 08:25:42,406 - utils.helpers - INFO - Dados FII encontrados para KNCR11.SA
+2025-09-23 08:25:42,414 - utils.helpers - INFO - Previsão gerada para KNCR11.SA: tendência Estável
+2025-09-23 08:25:42,414 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.232s
+2025-09-23 08:25:44,459 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:44,459 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-23 08:25:44,459 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-23 08:25:44,461 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:25:44,461 - utils.helpers - INFO - Preço obtido para bitcoin: $112906
+2025-09-23 08:25:44,461 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-23 08:25:44,464 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:25:44,464 - utils.helpers - INFO - Buscando histórico para: bitcoin (365 dias)
+2025-09-23 08:25:44,464 - utils.helpers - INFO - Buscando dados para bitcoin - 365 dias
+2025-09-23 08:25:44,620 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=365&interval=daily
+2025-09-23 08:25:44,788 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=365&interval=daily
+2025-09-23 08:25:44,791 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:25:44,791 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:25:44,791 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:25:44,791 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.328s
+2025-09-23 08:25:44,836 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:25:44,836 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-23 08:25:44,836 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-23 08:25:44,984 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:25:45,135 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:25:45,139 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:25:45,140 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:25:45,140 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:25:45,141 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.305s
+2025-09-23 08:25:45,187 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:25:45,188 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-23 08:25:45,188 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-23 08:25:45,346 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:25:45,489 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:25:45,491 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:25:45,491 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:25:45,491 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:25:45,491 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.305s
+2025-09-23 08:25:47,743 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:47,743 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-23 08:25:47,743 - utils.helpers - INFO - Buscando dados para ethereum - 1 dias
+2025-09-23 08:25:47,893 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:25:48,035 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:25:48,690 - yfinance - ERROR - $ETHEREUM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-23 08:25:48,691 - utils.helpers - WARNING - Dados insuficientes para ETHEREUM
+2025-09-23 08:25:48,692 - utils.helpers - WARNING - Nenhum dado encontrado para ethereum
+2025-09-23 08:25:48,692 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.950s
+2025-09-23 08:25:52,081 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:52,082 - utils.helpers - INFO - Buscando preço para: dogecoin
+2025-09-23 08:25:52,082 - utils.helpers - INFO - Buscando dados para dogecoin - 1 dias
+2025-09-23 08:25:52,215 - utils.helpers - ERROR - Erro ao buscar dados crypto para dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:25:52,364 - utils.helpers - ERROR - Erro ao buscar dados crypto para dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:25:53,097 - yfinance - ERROR - $DOGECOIN: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-23 08:25:53,098 - utils.helpers - WARNING - Dados insuficientes para DOGECOIN
+2025-09-23 08:25:53,098 - utils.helpers - WARNING - Nenhum dado encontrado para dogecoin
+2025-09-23 08:25:53,098 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 1.017s
+2025-09-23 08:25:56,267 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:56,268 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-23 08:25:56,268 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 1 dias
+2025-09-23 08:25:56,269 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:25:56,269 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.510000228881836
+2025-09-23 08:25:56,269 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-23 08:25:56,272 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:25:56,273 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (365 dias)
+2025-09-23 08:25:56,273 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 365 dias
+2025-09-23 08:25:56,496 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 252 pontos para 365 dias
+2025-09-23 08:25:56,648 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:25:56,648 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:25:56,649 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 252 pontos
+2025-09-23 08:25:56,651 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.379s
+2025-09-23 08:25:56,709 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:25:56,710 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-23 08:25:56,710 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 14 dias
+2025-09-23 08:25:56,908 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 13 pontos para 14 dias
+2025-09-23 08:25:56,920 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:25:56,921 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:25:56,924 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:25:56,929 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:25:56,929 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-23 08:25:56,930 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 30 dias
+2025-09-23 08:25:57,198 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 25 pontos para 30 dias
+2025-09-23 08:25:57,217 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:25:57,218 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:25:57,226 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-23 08:25:57,226 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.298s
+2025-09-23 08:25:58,769 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:25:58,770 - utils.helpers - INFO - Buscando preço para: XPML11.SA
+2025-09-23 08:25:58,770 - utils.helpers - INFO - Buscando dados para XPML11.SA - 1 dias
+2025-09-23 08:25:59,259 - utils.helpers - INFO - Dados salvos para XPML11.SA
+2025-09-23 08:25:59,259 - utils.helpers - INFO - Dados FII encontrados para XPML11.SA
+2025-09-23 08:25:59,259 - utils.helpers - INFO - Preço obtido para XPML11.SA: $104.8499984741211
+2025-09-23 08:25:59,259 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.490s
+2025-09-23 08:25:59,262 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:25:59,262 - utils.helpers - INFO - Buscando histórico para: XPML11.SA (365 dias)
+2025-09-23 08:25:59,262 - utils.helpers - INFO - Buscando dados para XPML11.SA - 365 dias
+2025-09-23 08:25:59,462 - utils.helpers - INFO - Dados históricos stock obtidos: XPML11.SA - 252 pontos para 365 dias
+2025-09-23 08:25:59,842 - utils.helpers - INFO - Dados históricos salvos para XPML11.SA
+2025-09-23 08:25:59,842 - utils.helpers - INFO - Dados FII encontrados para XPML11.SA
+2025-09-23 08:25:59,843 - utils.helpers - INFO - Histórico obtido para XPML11.SA: 252 pontos
+2025-09-23 08:25:59,845 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.584s
+2025-09-23 08:25:59,904 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:25:59,905 - utils.helpers - INFO - Gerando análise técnica para: XPML11.SA
+2025-09-23 08:25:59,905 - utils.helpers - INFO - Buscando dados para XPML11.SA - 14 dias
+2025-09-23 08:26:00,171 - utils.helpers - INFO - Dados históricos stock obtidos: XPML11.SA - 13 pontos para 14 dias
+2025-09-23 08:26:00,196 - utils.helpers - INFO - Dados históricos salvos para XPML11.SA
+2025-09-23 08:26:00,196 - utils.helpers - INFO - Dados FII encontrados para XPML11.SA
+2025-09-23 08:26:00,202 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:26:00,206 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:00,207 - utils.helpers - INFO - Gerando previsão para: XPML11.SA (3 dias)
+2025-09-23 08:26:00,207 - utils.helpers - INFO - Buscando dados para XPML11.SA - 30 dias
+2025-09-23 08:26:00,479 - utils.helpers - INFO - Dados históricos stock obtidos: XPML11.SA - 25 pontos para 30 dias
+2025-09-23 08:26:00,526 - utils.helpers - INFO - Dados históricos salvos para XPML11.SA
+2025-09-23 08:26:00,526 - utils.helpers - INFO - Dados FII encontrados para XPML11.SA
+2025-09-23 08:26:00,534 - utils.helpers - INFO - Previsão gerada para XPML11.SA: tendência Estável
+2025-09-23 08:26:00,535 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.329s
+2025-09-23 08:26:04,353 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:04,354 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-23 08:26:04,354 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 1 dias
+2025-09-23 08:26:04,356 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:26:04,356 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $21.510000228881836
+2025-09-23 08:26:04,357 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.004s
+2025-09-23 08:26:04,362 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:26:04,363 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (365 dias)
+2025-09-23 08:26:04,363 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 365 dias
+2025-09-23 08:26:04,684 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 252 pontos para 365 dias
+2025-09-23 08:26:04,851 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:26:04,852 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:26:04,853 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 252 pontos
+2025-09-23 08:26:04,857 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.495s
+2025-09-23 08:26:04,914 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:26:04,914 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-23 08:26:04,914 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 14 dias
+2025-09-23 08:26:05,184 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 13 pontos para 14 dias
+2025-09-23 08:26:05,197 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:26:05,197 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:26:05,201 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:26:05,205 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:05,206 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-23 08:26:05,206 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 30 dias
+2025-09-23 08:26:05,499 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 25 pontos para 30 dias
+2025-09-23 08:26:05,521 - utils.helpers - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-23 08:26:05,521 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-23 08:26:05,534 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-23 08:26:05,535 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.330s
+2025-09-23 08:26:20,343 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-23 08:26:20,344 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-23 08:26:20,399 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-23 08:26:20,400 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-23 08:26:20,401 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:20,402 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-23 08:26:20,402 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-23 08:26:20,403 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:26:20,403 - utils.helpers - INFO - Preço obtido para bitcoin: $112906
+2025-09-23 08:26:20,403 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-23 08:26:20,417 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:26:20,417 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-23 08:26:20,417 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-23 08:26:20,744 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 8 pontos para 7 dias
+2025-09-23 08:26:20,744 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:26:20,745 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-23 08:26:20,745 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.328s
+2025-09-23 08:26:20,811 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:26:20,812 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-23 08:26:20,812 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-23 08:26:21,257 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-23 08:26:21,259 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:26:21,266 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.455s
+2025-09-23 08:26:21,313 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:21,314 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-23 08:26:21,314 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-23 08:26:21,468 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:26:21,617 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:26:21,619 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:21,620 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:21,620 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:21,620 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.307s
+2025-09-23 08:26:25,336 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:25,337 - utils.helpers - INFO - Buscando preço para: KNCR11.SA
+2025-09-23 08:26:25,337 - utils.helpers - INFO - Buscando dados para KNCR11.SA - 1 dias
+2025-09-23 08:26:25,338 - utils.helpers - INFO - Dados FII encontrados para KNCR11.SA
+2025-09-23 08:26:25,338 - utils.helpers - INFO - Preço obtido para KNCR11.SA: $104.3499984741211
+2025-09-23 08:26:25,338 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-23 08:26:25,343 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:26:25,344 - utils.helpers - INFO - Buscando histórico para: KNCR11.SA (7 dias)
+2025-09-23 08:26:25,344 - utils.helpers - INFO - Buscando dados para KNCR11.SA - 7 dias
+2025-09-23 08:26:25,872 - utils.helpers - INFO - Dados históricos stock obtidos: KNCR11.SA - 7 pontos para 7 dias
+2025-09-23 08:26:25,881 - utils.helpers - INFO - Dados históricos salvos para KNCR11.SA
+2025-09-23 08:26:25,882 - utils.helpers - INFO - Dados FII encontrados para KNCR11.SA
+2025-09-23 08:26:25,882 - utils.helpers - INFO - Histórico obtido para KNCR11.SA: 7 pontos
+2025-09-23 08:26:25,882 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.539s
+2025-09-23 08:26:25,893 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:26:25,894 - utils.helpers - INFO - Gerando análise técnica para: KNCR11.SA
+2025-09-23 08:26:25,894 - utils.helpers - INFO - Buscando dados para KNCR11.SA - 14 dias
+2025-09-23 08:26:26,193 - utils.helpers - INFO - Dados históricos stock obtidos: KNCR11.SA - 13 pontos para 14 dias
+2025-09-23 08:26:26,203 - utils.helpers - INFO - Dados históricos salvos para KNCR11.SA
+2025-09-23 08:26:26,203 - utils.helpers - INFO - Dados FII encontrados para KNCR11.SA
+2025-09-23 08:26:26,208 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:26:26,211 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:26,212 - utils.helpers - INFO - Gerando previsão para: KNCR11.SA (3 dias)
+2025-09-23 08:26:26,212 - utils.helpers - INFO - Buscando dados para KNCR11.SA - 30 dias
+2025-09-23 08:26:26,485 - utils.helpers - INFO - Dados históricos stock obtidos: KNCR11.SA - 25 pontos para 30 dias
+2025-09-23 08:26:26,506 - utils.helpers - INFO - Dados históricos salvos para KNCR11.SA
+2025-09-23 08:26:26,506 - utils.helpers - INFO - Dados FII encontrados para KNCR11.SA
+2025-09-23 08:26:26,514 - utils.helpers - INFO - Previsão gerada para KNCR11.SA: tendência Estável
+2025-09-23 08:26:26,515 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.304s
+2025-09-23 08:26:28,821 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:28,822 - utils.helpers - INFO - Buscando preço para: GARE11.SA
+2025-09-23 08:26:28,822 - utils.helpers - INFO - Buscando dados para GARE11.SA - 1 dias
+2025-09-23 08:26:29,013 - utils.helpers - INFO - Dados salvos para GARE11.SA
+2025-09-23 08:26:29,013 - utils.helpers - INFO - Dados FII encontrados para GARE11.SA
+2025-09-23 08:26:29,013 - utils.helpers - INFO - Preço obtido para GARE11.SA: $9.09000015258789
+2025-09-23 08:26:29,014 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.193s
+2025-09-23 08:26:29,017 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:26:29,018 - utils.helpers - INFO - Buscando histórico para: GARE11.SA (7 dias)
+2025-09-23 08:26:29,018 - utils.helpers - INFO - Buscando dados para GARE11.SA - 7 dias
+2025-09-23 08:26:29,248 - utils.helpers - INFO - Dados históricos stock obtidos: GARE11.SA - 7 pontos para 7 dias
+2025-09-23 08:26:29,253 - utils.helpers - INFO - Dados históricos salvos para GARE11.SA
+2025-09-23 08:26:29,253 - utils.helpers - INFO - Dados FII encontrados para GARE11.SA
+2025-09-23 08:26:29,254 - utils.helpers - INFO - Histórico obtido para GARE11.SA: 7 pontos
+2025-09-23 08:26:29,254 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.237s
+2025-09-23 08:26:29,313 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:26:29,313 - utils.helpers - INFO - Gerando análise técnica para: GARE11.SA
+2025-09-23 08:26:29,313 - utils.helpers - INFO - Buscando dados para GARE11.SA - 14 dias
+2025-09-23 08:26:29,555 - utils.helpers - INFO - Dados históricos stock obtidos: GARE11.SA - 13 pontos para 14 dias
+2025-09-23 08:26:29,567 - utils.helpers - INFO - Dados históricos salvos para GARE11.SA
+2025-09-23 08:26:29,568 - utils.helpers - INFO - Dados FII encontrados para GARE11.SA
+2025-09-23 08:26:29,572 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:26:29,577 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:29,578 - utils.helpers - INFO - Gerando previsão para: GARE11.SA (3 dias)
+2025-09-23 08:26:29,578 - utils.helpers - INFO - Buscando dados para GARE11.SA - 30 dias
+2025-09-23 08:26:29,867 - utils.helpers - INFO - Dados históricos stock obtidos: GARE11.SA - 25 pontos para 30 dias
+2025-09-23 08:26:29,885 - utils.helpers - INFO - Dados históricos salvos para GARE11.SA
+2025-09-23 08:26:29,885 - utils.helpers - INFO - Dados FII encontrados para GARE11.SA
+2025-09-23 08:26:29,893 - utils.helpers - INFO - Previsão gerada para GARE11.SA: tendência Estável
+2025-09-23 08:26:29,894 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.317s
+2025-09-23 08:26:33,756 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:33,756 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-23 08:26:33,756 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-23 08:26:33,757 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:26:33,757 - utils.helpers - INFO - Preço obtido para bitcoin: $112906
+2025-09-23 08:26:33,758 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-23 08:26:33,760 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:26:33,760 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-23 08:26:33,760 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-23 08:26:33,918 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=daily
+2025-09-23 08:26:34,079 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=daily
+2025-09-23 08:26:34,083 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:34,083 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:34,084 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:34,084 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.325s
+2025-09-23 08:26:34,131 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:26:34,131 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-23 08:26:34,132 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-23 08:26:34,275 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:26:34,423 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:26:34,425 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:34,425 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:34,425 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:34,426 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.295s
+2025-09-23 08:26:34,469 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:34,470 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-23 08:26:34,470 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-23 08:26:34,614 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:26:34,776 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:26:34,778 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:34,778 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:34,778 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:34,779 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.310s
+2025-09-23 08:26:36,086 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:36,086 - utils.helpers - INFO - Buscando preço para: ethereum
+2025-09-23 08:26:36,086 - utils.helpers - INFO - Buscando dados para ethereum - 1 dias
+2025-09-23 08:26:36,215 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:26:36,381 - utils.helpers - ERROR - Erro ao buscar dados crypto para ethereum: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true
+2025-09-23 08:26:37,023 - yfinance - ERROR - $ETHEREUM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-23 08:26:37,023 - utils.helpers - WARNING - Dados insuficientes para ETHEREUM
+2025-09-23 08:26:37,023 - utils.helpers - WARNING - Nenhum dado encontrado para ethereum
+2025-09-23 08:26:37,024 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.939s
+2025-09-23 08:26:39,953 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:39,953 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-23 08:26:39,953 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-23 08:26:39,954 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:26:39,954 - utils.helpers - INFO - Preço obtido para bitcoin: $112906
+2025-09-23 08:26:39,954 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-23 08:26:39,956 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:26:39,957 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-23 08:26:39,957 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-23 08:26:40,108 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=daily
+2025-09-23 08:26:40,242 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=daily
+2025-09-23 08:26:40,245 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:40,246 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:40,246 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:40,246 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.290s
+2025-09-23 08:26:40,289 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:26:40,290 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-23 08:26:40,290 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-23 08:26:40,436 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:26:40,576 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:26:40,581 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:40,581 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:40,581 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:40,582 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.293s
+2025-09-23 08:26:40,627 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:40,627 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-23 08:26:40,628 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-23 08:26:40,796 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:26:40,961 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:26:40,963 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:40,963 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:40,963 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:40,963 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.337s
+2025-09-23 08:26:51,714 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-23 08:26:51,715 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-23 08:26:51,744 - utils.helpers - INFO - 📥 GET /api/v1/history/summary - Client: 127.0.0.1
+2025-09-23 08:26:51,745 - utils.helpers - INFO - 📤 GET /api/v1/history/summary - Status: 404 - Time: 0.001s
+2025-09-23 08:26:51,745 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:51,746 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-23 08:26:51,746 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-23 08:26:51,747 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:26:51,747 - utils.helpers - INFO - Preço obtido para bitcoin: $112906
+2025-09-23 08:26:51,748 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-23 08:26:51,751 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:26:51,751 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-23 08:26:51,751 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-23 08:26:51,889 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=daily
+2025-09-23 08:26:52,018 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=7&interval=daily
+2025-09-23 08:26:52,021 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:52,021 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:52,022 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:52,022 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 404 - Time: 0.272s
+2025-09-23 08:26:52,066 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:26:52,067 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-23 08:26:52,067 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-23 08:26:52,193 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:26:52,354 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-23 08:26:52,356 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:52,356 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:52,356 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:52,357 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 0.291s
+2025-09-23 08:26:52,400 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:52,400 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-23 08:26:52,400 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-23 08:26:52,541 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:26:52,683 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-23 08:26:52,685 - yfinance - ERROR - $BITCOIN: possibly delisted; no timezone found
+2025-09-23 08:26:52,686 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN
+2025-09-23 08:26:52,686 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-23 08:26:52,687 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 0.287s
+2025-09-23 08:26:54,625 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:26:54,625 - utils.helpers - INFO - Buscando preço para: CMIG4.SA
+2025-09-23 08:26:54,625 - utils.helpers - INFO - Buscando dados para CMIG4.SA - 1 dias
+2025-09-23 08:26:55,156 - utils.helpers - INFO - Dados salvos para CMIG4.SA
+2025-09-23 08:26:55,157 - utils.helpers - INFO - Dados stock encontrados para CMIG4.SA
+2025-09-23 08:26:55,157 - utils.helpers - INFO - Preço obtido para CMIG4.SA: $11.279999732971191
+2025-09-23 08:26:55,157 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.532s
+2025-09-23 08:26:55,159 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:26:55,160 - utils.helpers - INFO - Buscando histórico para: CMIG4.SA (7 dias)
+2025-09-23 08:26:55,160 - utils.helpers - INFO - Buscando dados para CMIG4.SA - 7 dias
+2025-09-23 08:26:55,464 - utils.helpers - INFO - Dados históricos stock obtidos: CMIG4.SA - 7 pontos para 7 dias
+2025-09-23 08:26:55,474 - utils.helpers - INFO - Dados históricos salvos para CMIG4.SA
+2025-09-23 08:26:55,474 - utils.helpers - INFO - Dados stock encontrados para CMIG4.SA
+2025-09-23 08:26:55,474 - utils.helpers - INFO - Histórico obtido para CMIG4.SA: 7 pontos
+2025-09-23 08:26:55,475 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.315s
+2025-09-23 08:26:55,491 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:26:55,492 - utils.helpers - INFO - Gerando análise técnica para: CMIG4.SA
+2025-09-23 08:26:55,492 - utils.helpers - INFO - Buscando dados para CMIG4.SA - 14 dias
+2025-09-23 08:26:55,771 - utils.helpers - INFO - Dados históricos stock obtidos: CMIG4.SA - 13 pontos para 14 dias
+2025-09-23 08:26:55,793 - utils.helpers - INFO - Dados históricos salvos para CMIG4.SA
+2025-09-23 08:26:55,793 - utils.helpers - INFO - Dados stock encontrados para CMIG4.SA
+2025-09-23 08:26:55,799 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:26:55,803 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:26:55,803 - utils.helpers - INFO - Gerando previsão para: CMIG4.SA (3 dias)
+2025-09-23 08:26:55,803 - utils.helpers - INFO - Buscando dados para CMIG4.SA - 30 dias
+2025-09-23 08:26:56,285 - utils.helpers - INFO - Dados históricos stock obtidos: CMIG4.SA - 25 pontos para 30 dias
+2025-09-23 08:26:56,326 - utils.helpers - INFO - Dados históricos salvos para CMIG4.SA
+2025-09-23 08:26:56,327 - utils.helpers - INFO - Dados stock encontrados para CMIG4.SA
+2025-09-23 08:26:56,338 - utils.helpers - INFO - Previsão gerada para CMIG4.SA: tendência Estável
+2025-09-23 08:26:56,339 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.536s
+2025-09-23 08:27:01,522 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:27:01,523 - utils.helpers - INFO - Buscando preço para: BTLG11.SA
+2025-09-23 08:27:01,523 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 1 dias
+2025-09-23 08:27:01,818 - utils.helpers - INFO - Dados salvos para BTLG11.SA
+2025-09-23 08:27:01,818 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:01,818 - utils.helpers - INFO - Preço obtido para BTLG11.SA: $101.88999938964844
+2025-09-23 08:27:01,818 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.296s
+2025-09-23 08:27:01,822 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:27:01,823 - utils.helpers - INFO - Buscando histórico para: BTLG11.SA (7 dias)
+2025-09-23 08:27:01,823 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 7 dias
+2025-09-23 08:27:02,008 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 7 pontos para 7 dias
+2025-09-23 08:27:02,016 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:02,017 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:02,017 - utils.helpers - INFO - Histórico obtido para BTLG11.SA: 7 pontos
+2025-09-23 08:27:02,018 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.196s
+2025-09-23 08:27:02,076 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:27:02,076 - utils.helpers - INFO - Gerando análise técnica para: BTLG11.SA
+2025-09-23 08:27:02,076 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 14 dias
+2025-09-23 08:27:02,330 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 13 pontos para 14 dias
+2025-09-23 08:27:02,349 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:02,349 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:02,354 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:27:02,359 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:27:02,360 - utils.helpers - INFO - Gerando previsão para: BTLG11.SA (3 dias)
+2025-09-23 08:27:02,360 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 30 dias
+2025-09-23 08:27:02,641 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 25 pontos para 30 dias
+2025-09-23 08:27:02,690 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:02,690 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:02,699 - utils.helpers - INFO - Previsão gerada para BTLG11.SA: tendência Estável
+2025-09-23 08:27:02,700 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.340s
+2025-09-23 08:27:03,869 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:27:03,870 - utils.helpers - INFO - Buscando preço para: BTLG11.SA
+2025-09-23 08:27:03,870 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 1 dias
+2025-09-23 08:27:03,871 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:03,872 - utils.helpers - INFO - Preço obtido para BTLG11.SA: $101.88999938964844
+2025-09-23 08:27:03,872 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-23 08:27:03,875 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:27:03,875 - utils.helpers - INFO - Buscando histórico para: BTLG11.SA (30 dias)
+2025-09-23 08:27:03,875 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 30 dias
+2025-09-23 08:27:04,414 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 25 pontos para 30 dias
+2025-09-23 08:27:04,454 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:04,455 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:04,455 - utils.helpers - INFO - Histórico obtido para BTLG11.SA: 25 pontos
+2025-09-23 08:27:04,456 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.581s
+2025-09-23 08:27:04,507 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:27:04,507 - utils.helpers - INFO - Gerando análise técnica para: BTLG11.SA
+2025-09-23 08:27:04,508 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 14 dias
+2025-09-23 08:27:05,503 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 13 pontos para 14 dias
+2025-09-23 08:27:05,525 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:05,525 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:05,533 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:27:05,536 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:27:05,536 - utils.helpers - INFO - Gerando previsão para: BTLG11.SA (3 dias)
+2025-09-23 08:27:05,536 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 30 dias
+2025-09-23 08:27:05,836 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 25 pontos para 30 dias
+2025-09-23 08:27:05,886 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:05,886 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:05,893 - utils.helpers - INFO - Previsão gerada para BTLG11.SA: tendência Estável
+2025-09-23 08:27:05,893 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.357s
+2025-09-23 08:27:06,437 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:27:06,437 - utils.helpers - INFO - Buscando preço para: BTLG11.SA
+2025-09-23 08:27:06,437 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 1 dias
+2025-09-23 08:27:06,438 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:06,438 - utils.helpers - INFO - Preço obtido para BTLG11.SA: $101.88999938964844
+2025-09-23 08:27:06,439 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-23 08:27:06,442 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:27:06,443 - utils.helpers - INFO - Buscando histórico para: BTLG11.SA (90 dias)
+2025-09-23 08:27:06,443 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 90 dias
+2025-09-23 08:27:06,642 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 67 pontos para 90 dias
+2025-09-23 08:27:06,730 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:06,730 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:06,730 - utils.helpers - INFO - Histórico obtido para BTLG11.SA: 67 pontos
+2025-09-23 08:27:06,731 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.290s
+2025-09-23 08:27:06,790 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:27:06,790 - utils.helpers - INFO - Gerando análise técnica para: BTLG11.SA
+2025-09-23 08:27:06,790 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 14 dias
+2025-09-23 08:27:07,050 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 13 pontos para 14 dias
+2025-09-23 08:27:07,068 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:07,069 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:07,072 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-23 08:27:07,078 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:27:07,079 - utils.helpers - INFO - Gerando previsão para: BTLG11.SA (3 dias)
+2025-09-23 08:27:07,079 - utils.helpers - INFO - Buscando dados para BTLG11.SA - 30 dias
+2025-09-23 08:27:07,347 - utils.helpers - INFO - Dados históricos stock obtidos: BTLG11.SA - 25 pontos para 30 dias
+2025-09-23 08:27:07,388 - utils.helpers - INFO - Dados históricos salvos para BTLG11.SA
+2025-09-23 08:27:07,388 - utils.helpers - INFO - Dados FII encontrados para BTLG11.SA
+2025-09-23 08:27:07,396 - utils.helpers - INFO - Previsão gerada para BTLG11.SA: tendência Estável
+2025-09-23 08:27:07,396 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.318s
+2025-09-23 08:27:24,609 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-23 08:27:24,612 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.003s
+2025-09-23 08:27:24,667 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-23 08:27:24,667 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-23 08:27:24,667 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-23 08:27:24,669 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:27:24,669 - utils.helpers - INFO - Preço obtido para bitcoin: $112906
+2025-09-23 08:27:24,670 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.003s
+2025-09-23 08:27:24,678 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-23 08:27:24,679 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-23 08:27:24,679 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-23 08:27:25,085 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 8 pontos para 7 dias
+2025-09-23 08:27:25,086 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:27:25,087 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-23 08:27:25,087 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.409s
+2025-09-23 08:27:25,149 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-23 08:27:25,150 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-23 08:27:25,150 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-23 08:27:25,478 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-23 08:27:25,479 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:27:25,484 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.335s
+2025-09-23 08:27:25,528 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-23 08:27:25,529 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-23 08:27:25,529 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-23 08:27:25,843 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 31 pontos para 30 dias
+2025-09-23 08:27:25,844 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-23 08:27:25,856 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-23 08:27:25,858 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.329s
