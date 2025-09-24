@@ -1,0 +1,6 @@
+.wallet-actions {
+    display: flex;
+    gap: 0.8rem;      /* Espaço horizontal entre os botões */
+    margin-bottom: 1.5rem; /* Espaço entre os botões e os itens abaixo */
+    flex-wrap: wrap;   /* Permite que os botões quebrem linha em telas pequenas */
+}

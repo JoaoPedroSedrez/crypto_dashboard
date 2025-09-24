@@ -11,6 +11,7 @@ from contextlib import asynccontextmanager
 from api.price import router as price_router
 from api.history import router as history_router
 from api.prediction import router as prediction_router
+from api.wallet import router as wallet_router
 
 # Importar configurações
 from config import Config
@@ -83,6 +84,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 app.include_router(price_router, prefix="/api/v1", tags=["Preços"])
 app.include_router(history_router, prefix="/api/v1", tags=["Histórico"])
 app.include_router(prediction_router, prefix="/api/v1", tags=["Previsões"])
+app.include_router(wallet_router, prefix="/api/v1/wallet", tags=["Carteira"])  
 
 # Rotas principais
 @app.get("/", response_class=HTMLResponse)
@@ -165,6 +167,14 @@ async def get_api_status():
             "Market Summary"
         ]
     }
+
+@app.get("/wallet", response_class=HTMLResponse)
+async def wallet(request: Request):
+    """Página da carteira (myWallet)"""
+    return templates.TemplateResponse("wallet.html", {
+        "request": request,
+        "title": "myWallet"
+    })
 
 # Handlers de erro globais
 @app.exception_handler(404)

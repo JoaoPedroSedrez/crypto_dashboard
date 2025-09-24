@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.stat-card span#total-assets').nextElementSibling.innerText = 'Ativos Favoritos';
 
     // Carregar primeiro ativo (BTC/bitcoin)
-    const quickBtns = document.querySelectorAll('.quick-btn');
+    const quickBtns = document.querySelectorAll('.quick-btn.crypto-btn, .quick-btn.stock-btn, .quick-btn.fii-btn');
     if (quickBtns.length > 0) {
         quickBtns[0].click();
     }

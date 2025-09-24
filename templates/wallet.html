@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myWallet - Portfolio Tracker</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+    <link href="/static/wallet.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <!-- Header do Wallet -->
+        <div class="header">
+            <h1><i class="fas fa-wallet"></i> myWallet</h1>
+            <p style="color: #94a3b8; margin: 0;">Acompanhe seu portfolio de criptomoedas e ações</p>
+            
+            <!-- Resumo do Portfolio -->
+            <div class="header-stats" id="wallet-summary">
+                <div class="stat-card">
+                    <h3>Valor Total</h3>
+                    <div class="value" id="total-value">$0.00</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Investido</h3>
+                    <div class="value" id="total-invested">$0.00</div>
+                </div>
+                <div class="stat-card">
+                    <h3>P&L Total</h3>
+                    <div class="value" id="total-pnl">$0.00</div>
+                    <div class="change" id="total-pnl-percent">0%</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Ativos</h3>
+                    <div class="value" id="assets-count">0</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ações do Wallet -->
+        <div class="wallet-actions">
+            <button class="quick-btn success" onclick="openAddTransactionModal()">
+                <i class="fas fa-plus"></i> Nova Transação
+            </button>
+            <button class="quick-btn secondary" onclick="refreshWallet()">
+                <i class="fas fa-rotate-right"></i> Atualizar
+            </button>
+            <button class="quick-btn secondary" onclick="window.location.href='/'">
+                <i class="fas fa-chart-line"></i> Dashboard
+            </button>
+        </div>
+
+        <!-- Holdings do Portfolio -->
+        <div class="holdings-section">
+            <h2 class="section-title">
+                <i class="fas fa-coins"></i> Meus Ativos
+            </h2>
+            <div class="results-section" id="holdings-grid">
+                <div class="loading">Carregando holdings...</div>
+            </div>
+        </div>
+
+        <!-- Histórico de Transações -->
+        <div class="analysis-card">
+            <h2 class="section-title">
+                <i class="fas fa-history"></i> Transações Recentes
+            </h2>
+            <div id="transactions-container">
+                <div class="loading">Carregando transações...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Adicionar Transação -->
+    <div id="transaction-modal" class="modal">
+        <div class="modal-content">
+            <h2 class="modal-title">
+                <i class="fas fa-plus-circle"></i> Nova Transação
+            </h2>
+            <form id="transaction-form">
+                <div class="form-group">
+                    <label class="form-label">Símbolo do Ativo</label>
+                    <input type="text" class="form-input" id="symbol" placeholder="Ex: BTC, AAPL" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Tipo de Transação</label>
+                    <select class="form-select" id="transaction-type" required>
+                        <option value="">Selecione</option>
+                        <option value="buy">Compra</option>
+                        <option value="sell">Venda</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Quantidade</label>
+                    <input type="number" class="form-input" id="quantity" step="any" placeholder="0.00" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Preço por Unidade (USD)</label>
+                    <input type="number" class="form-input" id="price-per-unit" step="any" placeholder="0.00" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Data da Transação</label>
+                    <input type="datetime-local" class="form-input" id="transaction-date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Observações (Opcional)</label>
+                    <input type="text" class="form-input" id="notes" placeholder="Notas sobre a transação">
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="action-btn secondary" onclick="closeTransactionModal()">Cancelar</button>
+                    <button type="submit" class="action-btn success">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/static/wallet.js"></script>
+    </body>
+</html>

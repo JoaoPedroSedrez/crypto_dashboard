@@ -1,3 +1,4 @@
+from utils.db import DatabaseManager
 import logging
 import pandas as pd
 import yfinance as yf
@@ -19,71 +20,6 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
-
-class DatabaseManager:
-    def __init__(self):
-        self.client = MongoClient(Config.MONGODB_URL)
-        self.db = self.client[Config.DATABASE_NAME]
-        self.prices_collection = self.db.prices
-        self.cache_collection = self.db.cache
-    
-    def save_price_data(self, symbol, data, asset_type):
-        """Salva dados de preço no MongoDB"""
-        try:
-            document = {
-                "symbol": symbol,
-                "asset_type": asset_type,
-                "data": data,
-                "timestamp": datetime.now(),
-                "expires_at": datetime.now() + timedelta(minutes=Config.CACHE_EXPIRY_MINUTES)
-            }
-            self.cache_collection.replace_one(
-                {"symbol": symbol}, 
-                document, 
-                upsert=True
-            )
-            logger.info(f"Dados salvos para {symbol}")
-            return True
-        except Exception as e:
-            logger.error(f"Erro ao salvar dados para {symbol}: {e}")
-            return False
-    
-    def get_cached_data(self, symbol):
-        """Busca dados em cache"""
-        try:
-            cached = self.cache_collection.find_one({
-                "symbol": symbol,
-                "expires_at": {"$gt": datetime.now()}
-            })
-            return cached['data'] if cached else None
-        except Exception as e:
-            logger.error(f"Erro ao buscar cache para {symbol}: {e}")
-            return None
-    
-    def save_historical_data(self, symbol, historical_data):
-        """Salva dados históricos"""
-        try:
-            for date, data in historical_data.items():
-                document = {
-                    "symbol": symbol,
-                    "date": date,
-                    "open": data.get('open'),
-                    "high": data.get('high'), 
-                    "low": data.get('low'),
-                    "close": data.get('close'),
-                    "volume": data.get('volume'),
-                    "timestamp": datetime.now()
-                }
-                self.prices_collection.replace_one(
-                    {"symbol": symbol, "date": date},
-                    document,
-                    upsert=True
-                )
-            logger.info(f"Dados históricos salvos para {symbol}")
-            return True
-        except Exception as e:
-            logger.error(f"Erro ao salvar histórico para {symbol}: {e}")
-            return False
 
 class DataFetcher:
     def __init__(self):
@@ -302,7 +238,11 @@ class DataFetcher:
 
         # FII
         if symbol.upper() in Config.FII_SYMBOLS:
-            data = self.fetch_stock_data(symbol.upper(), days)
+            yf_symbol = symbol.upper()
+            # Adiciona .SA se não estiver presente
+            if not yf_symbol.endswith(".SA"):
+                yf_symbol += ".SA"
+            data = self.fetch_stock_data(yf_symbol, days)
             if data:
                 data["asset_type"] = "fii"
                 logger.info(f"Dados FII encontrados para {symbol}")
@@ -310,8 +250,13 @@ class DataFetcher:
 
         # Stock
         if symbol.upper() in Config.STOCK_SYMBOLS:
-            data = self.fetch_stock_data(symbol.upper(), days)
+            yf_symbol = symbol.upper()
+            # Adiciona .SA se não estiver presente
+            if not yf_symbol.endswith(".SA"):
+                yf_symbol += ".SA"
+            data = self.fetch_stock_data(yf_symbol, days)
             if data:
+                data["asset_type"] = "stock"
                 logger.info(f"Dados stock encontrados para {symbol}")
                 return data
 
@@ -322,7 +267,10 @@ class DataFetcher:
             return crypto_data
 
         # Depois stock/FII
-        stock_data = self.fetch_stock_data(symbol.upper(), days)
+        yf_symbol = symbol.upper()
+        if not yf_symbol.endswith(".SA"):
+            yf_symbol += ".SA"
+        stock_data = self.fetch_stock_data(yf_symbol, days)
         if stock_data:
             # Verificar se é FII
             if symbol.upper().endswith('11') or symbol.upper() in Config.FII_SYMBOLS:
@@ -336,32 +284,57 @@ class DataFetcher:
         return None
 
 
-def generate_chart(prices_data, symbol, days=7):
-    """Gera gráfico de preços"""
-    try:
-        # Converter dados para DataFrame
-        df = pd.DataFrame(prices_data, columns=['timestamp', 'price'])
-        df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+    def generate_chart(prices_data, symbol, days=7):
+        """Gera gráfico de preços"""
+        try:
+            # Converter dados para DataFrame
+            df = pd.DataFrame(prices_data, columns=['timestamp', 'price'])
+            df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+            
+            # Criar gráfico
+            plt.figure(figsize=(12, 6))
+            plt.plot(df['timestamp'], df['price'], linewidth=2, color='#1f77b4')
+            plt.title(f'{symbol.upper()} - Últimos {days} dias', fontsize=16, fontweight='bold')
+            plt.xlabel('Data', fontsize=12)
+            plt.ylabel('Preço (USD)', fontsize=12)
+            plt.grid(True, alpha=0.3)
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            
+            # Converter para base64
+            buffer = io.BytesIO()
+            plt.savefig(buffer, format='png', dpi=150, bbox_inches='tight')
+            buffer.seek(0)
+            image_base64 = base64.b64encode(buffer.getvalue()).decode('utf-8')
+            plt.close()
+            
+            return image_base64
+            
+        except Exception as e:
+            logger.error(f"Erro ao gerar gráfico para {symbol}: {e}")
+            return None
         
-        # Criar gráfico
-        plt.figure(figsize=(12, 6))
-        plt.plot(df['timestamp'], df['price'], linewidth=2, color='#1f77b4')
-        plt.title(f'{symbol.upper()} - Últimos {days} dias', fontsize=16, fontweight='bold')
-        plt.xlabel('Data', fontsize=12)
-        plt.ylabel('Preço (USD)', fontsize=12)
-        plt.grid(True, alpha=0.3)
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-        
-        # Converter para base64
-        buffer = io.BytesIO()
-        plt.savefig(buffer, format='png', dpi=150, bbox_inches='tight')
-        buffer.seek(0)
-        image_base64 = base64.b64encode(buffer.getvalue()).decode('utf-8')
-        plt.close()
-        
-        return image_base64
-        
-    except Exception as e:
-        logger.error(f"Erro ao gerar gráfico para {symbol}: {e}")
-        return None
+    def determine_asset_type(self, symbol: str) -> str:
+        """Retorna o tipo de ativo: 'crypto', 'stock' ou 'fii'"""
+        sym_upper = symbol.upper()
+        sym_lower = symbol.lower()
+
+        # Crypto
+        if sym_lower in [crypto.lower() for crypto in Config.CRYPTO_SYMBOLS]:
+            return 'crypto'
+
+        # Normalizar FII
+        yf_symbol = sym_upper
+        if yf_symbol.endswith('11') and not yf_symbol.endswith('.SA'):
+            yf_symbol += '.SA'
+
+        # FII
+        if yf_symbol in Config.FII_SYMBOLS:
+            return 'fii'
+
+        # Stock
+        if yf_symbol in Config.STOCK_SYMBOLS or yf_symbol.endswith('.SA'):
+            return 'stock'
+
+        # fallback
+        return 'unknown'

@@ -41,12 +41,12 @@ class Config:
     ]
     
     STOCK_SYMBOLS = [
-        'BBAS3.SA',  # Banco do Brasil
-        'PETR4.SA',  # Petrobras
-        'SAPR11.SA', # Sanepar
-        'CMIG4.SA',  # Cemig
-        'VALE3.SA',  # Vale
-        'ROXO34.SA'  # Roxo
+        'BBAS3.SA', 
+        'PETR4.SA',  
+        'SAPR11.SA', 
+        'CMIG4.SA',  
+        'VALE3.SA',  
+        'ROXO34.SA'  
     ]
 
     FII_SYMBOLS = [
