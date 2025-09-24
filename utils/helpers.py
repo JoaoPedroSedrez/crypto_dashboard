@@ -91,7 +91,7 @@ class DataFetcher:
     
     def _is_brazilian_asset(self, symbol):
         """Verifica se é um ativo brasileiro"""
-        return symbol.upper().endswith(".SA")
+        return symbol.upper().endswith(".SA") 
     
     def _get_currency_info(self, symbol):
         """Retorna informações de moeda baseado no símbolo"""
