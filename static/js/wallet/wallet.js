@@ -88,6 +88,10 @@
                                 <div class="stat-value">${asset.total_quantity}</div>
                             </div>
                             <div class="stat-item">
+                                <div class="stat-label">Preço Atual</div>
+                                <div class="stat-value">R$${asset.current_price.toFixed(2)}</div>
+                            </div>
+                            <div class="stat-item">
                                 <div class="stat-label">Preço Médio</div>
                                 <div class="stat-value">R$${asset.average_buy_price.toFixed(2)}</div>
                             </div>
