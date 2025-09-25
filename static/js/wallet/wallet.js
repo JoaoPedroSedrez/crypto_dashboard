@@ -105,11 +105,27 @@
                 });
 
                 // Atualizar resumo
-                document.getElementById('total-value').innerText = `R$${data.summary.total_value.toFixed(2)}`;
-                document.getElementById('total-invested').innerText = `R$${data.summary.total_invested.toFixed(2)}`;
-                document.getElementById('total-pnl').innerText = `R$${data.summary.total_profit_loss.toFixed(2)}`;
-                document.getElementById('total-pnl-percent').innerText = `${data.summary.total_profit_loss_percent.toFixed(2)}%`;
-                document.getElementById('assets-count').innerText = data.summary.assets_count;
+                const totalValueAccount = data.summary.total_value;
+                document.getElementById('total-value').innerText = `R$${totalValueAccount.toFixed(2)}`;
+
+                const totalValueInvested = data.summary.total_invested;
+                document.getElementById('total-invested').innerText = `R$${totalValueInvested.toFixed(2)}`;
+
+                const totalAssetsAccount = data.summary.assets_count;
+                document.getElementById('assets-count').innerText = totalAssetsAccount;
+
+                const totalPnL = data.summary.total_profit_loss;
+                document.getElementById('total-pnl').innerText = `R$${totalPnL.toFixed(2)}`;
+                
+                const totalPLPercent = data.summary.total_profit_loss_percent;
+                const pnlPercentEl = document.getElementById('total-pnl-percent');
+
+                pnlPercentEl.classList.remove('positive', 'negative');
+
+                pnlPercentEl.classList.add(totalPLPercent >= 0 ? 'positive' : 'negative');
+
+                pnlPercentEl.innerText = `${totalPLPercent.toFixed(2)}%`;
+
             } else {
                 grid.innerHTML = '<div class="empty-state"><i class="fas fa-coins"></i><p>Nenhum ativo encontrado</p></div>';
             }

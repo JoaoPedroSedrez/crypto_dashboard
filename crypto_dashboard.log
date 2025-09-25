@@ -7211,3 +7211,133 @@
 2025-09-25 09:01:03,168 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
 2025-09-25 09:01:03,549 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
 2025-09-25 09:01:03,550 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.783s
+2025-09-25 09:12:45,862 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 09:12:45,863 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-25 09:12:45,878 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-25 09:12:45,879 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-25 09:12:45,880 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 09:12:45,880 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.003s
+2025-09-25 09:12:45,882 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.002s
+2025-09-25 09:12:45,884 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.004s
+2025-09-25 09:12:46,087 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-25 09:12:46,088 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-25 09:12:46,327 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 09:12:46,331 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 09:12:52,056 - utils.db - INFO - Dados salvos para PETR4.SA
+2025-09-25 09:12:52,056 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 09:12:52,057 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 09:12:52,691 - utils.db - INFO - Dados salvos para SAPR11.SA
+2025-09-25 09:12:52,691 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 09:12:52,692 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 6.365s
+2025-09-25 09:14:04,528 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 09:14:04,528 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-25 09:14:04,545 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-25 09:14:04,547 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-25 09:14:04,547 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 09:14:04,548 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.003s
+2025-09-25 09:14:04,549 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.002s
+2025-09-25 09:14:04,549 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.002s
+2025-09-25 09:14:04,733 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-25 09:14:04,734 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-25 09:14:04,968 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 09:14:04,977 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 09:14:05,333 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 09:14:05,335 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 09:14:05,797 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 09:14:05,799 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.831s
+2025-09-25 09:14:45,985 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 09:14:46,008 - utils.helpers - INFO - Adicionando transação: BBAS3 - buy
+2025-09-25 09:14:46,008 - utils.helpers - INFO - Buscando dados para BBAS3 - 1 dias
+2025-09-25 09:14:46,559 - utils.db - INFO - Dados salvos para BBAS3.SA
+2025-09-25 09:14:46,559 - utils.helpers - INFO - Dados stock encontrados automaticamente para BBAS3
+2025-09-25 09:14:46,585 - utils.helpers - INFO - Holdings atualizados para BBAS3: 20.0 unidades
+2025-09-25 09:14:46,586 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.601s
+2025-09-25 09:14:47,617 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 09:14:47,621 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 09:14:47,777 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 09:14:47,778 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 09:14:47,932 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 09:14:47,933 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 09:14:48,090 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:14:48,091 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 09:14:48,093 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.476s
+2025-09-25 09:14:56,800 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-25 09:14:56,801 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.001s
+2025-09-25 09:14:56,825 - utils.helpers - INFO - 📥 GET /static/js/dashboard/app.js - Client: 127.0.0.1
+2025-09-25 09:14:56,827 - utils.helpers - INFO - 📤 GET /static/js/dashboard/app.js - Status: 200 - Time: 0.002s
+2025-09-25 09:14:56,855 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-25 09:14:56,856 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-25 09:14:56,856 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-25 09:14:57,016 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:14:57,162 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:14:58,025 - yfinance - ERROR - $BITCOIN.SA: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-25 09:14:58,026 - utils.helpers - WARNING - Dados insuficientes para BITCOIN.SA
+2025-09-25 09:14:58,026 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-25 09:14:58,026 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 1.171s
+2025-09-25 09:15:00,420 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-25 09:15:00,420 - utils.helpers - INFO - Buscando preço para: BBAS3.SA
+2025-09-25 09:15:00,420 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 1 dias
+2025-09-25 09:15:00,421 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-25 09:15:00,421 - utils.helpers - INFO - Preço obtido para BBAS3.SA: $22.110000610351562
+2025-09-25 09:15:00,422 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-25 09:15:00,424 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-25 09:15:00,425 - utils.helpers - INFO - Buscando histórico para: BBAS3.SA (7 dias)
+2025-09-25 09:15:00,425 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 7 dias
+2025-09-25 09:15:00,693 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 7 pontos para 7 dias
+2025-09-25 09:15:00,703 - utils.db - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-25 09:15:00,703 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-25 09:15:00,703 - utils.helpers - INFO - Histórico obtido para BBAS3.SA: 7 pontos
+2025-09-25 09:15:00,704 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.280s
+2025-09-25 09:15:00,765 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-25 09:15:00,765 - utils.helpers - INFO - Gerando análise técnica para: BBAS3.SA
+2025-09-25 09:15:00,765 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 14 dias
+2025-09-25 09:15:01,007 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 13 pontos para 14 dias
+2025-09-25 09:15:01,020 - utils.db - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-25 09:15:01,020 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-25 09:15:01,025 - utils.helpers - ERROR - Erro interno: Out of range float values are not JSON compliant
+2025-09-25 09:15:01,028 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-25 09:15:01,029 - utils.helpers - INFO - Gerando previsão para: BBAS3.SA (3 dias)
+2025-09-25 09:15:01,029 - utils.helpers - INFO - Buscando dados para BBAS3.SA - 30 dias
+2025-09-25 09:15:01,305 - utils.helpers - INFO - Dados históricos stock obtidos: BBAS3.SA - 25 pontos para 30 dias
+2025-09-25 09:15:01,325 - utils.db - INFO - Dados históricos salvos para BBAS3.SA
+2025-09-25 09:15:01,325 - utils.helpers - INFO - Dados stock encontrados para BBAS3.SA
+2025-09-25 09:15:01,332 - utils.helpers - INFO - Previsão gerada para BBAS3.SA: tendência Estável
+2025-09-25 09:15:01,333 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.304s
+2025-09-25 09:15:03,496 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 09:15:03,498 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.002s
+2025-09-25 09:15:03,502 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-25 09:15:03,503 - utils.helpers - INFO - Buscando preço para: undefined
+2025-09-25 09:15:03,503 - utils.helpers - INFO - Buscando dados para undefined - 1 dias
+2025-09-25 09:15:03,667 - utils.helpers - ERROR - Erro ao buscar dados crypto para undefined: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=undefined&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:15:04,266 - yfinance - ERROR - $UNDEFINED.SA: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-25 09:15:04,267 - utils.helpers - WARNING - Dados insuficientes para UNDEFINED.SA
+2025-09-25 09:15:04,267 - utils.helpers - WARNING - Nenhum dado encontrado para undefined
+2025-09-25 09:15:04,267 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 09:15:04,268 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 0.766s
+2025-09-25 09:15:04,269 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.001s
+2025-09-25 09:15:04,278 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 09:15:04,282 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 09:15:04,441 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:15:04,443 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 09:15:04,444 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 09:15:04,595 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:15:04,596 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 09:15:04,598 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 09:15:04,766 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:15:04,769 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 09:15:04,772 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.494s
+2025-09-25 09:15:24,756 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 09:15:24,757 - utils.helpers - INFO - Adicionando transação: BBAS3 - sell
+2025-09-25 09:15:24,757 - utils.helpers - INFO - Buscando dados para BBAS3 - 1 dias
+2025-09-25 09:15:24,912 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:15:24,914 - utils.helpers - INFO - Dados stock encontrados automaticamente para BBAS3
+2025-09-25 09:15:24,921 - utils.helpers - INFO - Holdings atualizados para BBAS3: 0.0 unidades
+2025-09-25 09:15:24,922 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.166s
+2025-09-25 09:15:26,012 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 09:15:26,016 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 09:15:26,159 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:15:26,161 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 09:15:26,163 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 09:15:26,295 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 09:15:26,298 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 09:15:26,300 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.288s
