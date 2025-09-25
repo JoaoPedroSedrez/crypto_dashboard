@@ -31,7 +31,7 @@
             quantity: parseFloat(document.getElementById('quantity').value),
             price_per_unit: parseFloat(document.getElementById('price-per-unit').value),
             total_value: parseFloat(document.getElementById('quantity').value) * parseFloat(document.getElementById('price-per-unit').value),
-            asset_type: 'stock', 
+            asset_type: document.getElementById('asset-type').value,
             date: new Date(document.getElementById('transaction-date').value).toISOString(),
         };
 
@@ -78,7 +78,9 @@
                         <div class="holding-header">
                             <div class="asset-info">
                                 <div class="asset-symbol">${asset.symbol}</div>
-                                <div class="asset-type">${asset.asset_type}</div>
+                                <div class="asset-type">
+                                    ${asset.asset_type === 'stock' ? 'Ação' : asset.asset_type === 'fii' ? 'Fundo imobiliário' : asset.asset_type}
+                                </div>
                             </div>
                             <div class="stat-value">R$${asset.current_value.toFixed(2)}</div>
                         </div>

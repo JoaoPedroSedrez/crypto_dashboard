@@ -350,9 +350,11 @@ async def update_wallet_holdings(symbol: str):
 
         average_buy_price = weighted_price_sum / total_quantity if total_quantity > 0 else 0
 
+
+        asset_type = transactions[-1]["asset_type"] if transactions else "stock"
         holding_doc = {
             "symbol": symbol.lower(),
-            "asset_type": transactions[0]["asset_type"],
+            "asset_type": asset_type,
             "total_quantity": total_quantity,
             "average_buy_price": average_buy_price,
             "total_invested": total_invested,

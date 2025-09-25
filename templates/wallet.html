@@ -72,7 +72,13 @@
             <form id="transaction-form">
                 <div class="form-group">
                     <label class="form-label">Símbolo do Ativo</label>
-                    <input type="text" class="form-control" id="symbol" placeholder="Ex: BTC, AAPL" required>
+                    <input type="text" class="form-control" id="symbol" placeholder="Ex: BBAS3, PETR4" required>
+                    <label class="form-label">Tipo</label>
+                    <select class="form-control" id="asset-type" required>
+                        <option value="">Selecione</option>
+                        <option value="stock">Ação</option>
+                        <option value="fii">Fii</option>
+                    </select>
                 </div>
                 
                 <div class="form-group">
