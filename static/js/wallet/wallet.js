@@ -80,20 +80,20 @@
                                 <div class="asset-symbol">${asset.symbol}</div>
                                 <div class="asset-type">${asset.asset_type}</div>
                             </div>
-                            <div class="stat-value">$${asset.current_value.toFixed(2)}</div>
+                            <div class="stat-value">R$${asset.current_value.toFixed(2)}</div>
                         </div>
                         <div class="holding-stats">
                             <div class="stat-item">
                                 <div class="stat-label">Quantidade</div>
-                                <div class="stat-value">${asset.total_quantity}</div>
+                                <div class="stat-value">R${asset.total_quantity}</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-label">Preço Médio</div>
-                                <div class="stat-value">$${asset.average_buy_price.toFixed(2)}</div>
+                                <div class="stat-value">R$${asset.average_buy_price.toFixed(2)}</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-label">P&L</div>
-                                <div class="stat-value ${asset.profit_loss >= 0 ? 'positive' : 'negative'}">$${asset.profit_loss.toFixed(2)} (${asset.profit_loss_percent.toFixed(2)}%)</div>
+                                <div class="stat-value ${asset.profit_loss >= 0 ? 'positive' : 'negative'}">R$${asset.profit_loss.toFixed(2)} (${asset.profit_loss_percent.toFixed(2)}%)</div>
                             </div>
                         </div>
                     `;
@@ -101,9 +101,9 @@
                 });
 
                 // Atualizar resumo
-                document.getElementById('total-value').innerText = `$${data.summary.total_value.toFixed(2)}`;
-                document.getElementById('total-invested').innerText = `$${data.summary.total_invested.toFixed(2)}`;
-                document.getElementById('total-pnl').innerText = `$${data.summary.total_profit_loss.toFixed(2)}`;
+                document.getElementById('total-value').innerText = `R$${data.summary.total_value.toFixed(2)}`;
+                document.getElementById('total-invested').innerText = `R$${data.summary.total_invested.toFixed(2)}`;
+                document.getElementById('total-pnl').innerText = `R$${data.summary.total_profit_loss.toFixed(2)}`;
                 document.getElementById('total-pnl-percent').innerText = `${data.summary.total_profit_loss_percent.toFixed(2)}%`;
                 document.getElementById('assets-count').innerText = data.summary.assets_count;
             } else {
