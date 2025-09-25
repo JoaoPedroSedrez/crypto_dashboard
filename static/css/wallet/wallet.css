@@ -1,0 +1,104 @@
+/* =========================
+   Wallet Actions
+   ========================= */
+.wallet-actions {
+    display: flex;
+    gap: 0.8rem;            /* Espaço horizontal entre os botões */
+    margin-bottom: 1.5rem;  /* Espaço entre os botões e os itens abaixo */
+    flex-wrap: wrap;        /* Permite que os botões quebrem linha em telas pequenas */
+}
+
+/* =========================
+   Formulários
+   ========================= */
+.form-label {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+/* Base para inputs, selects e textarea */
+.form-control {
+    padding: 0.7rem 1rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control::placeholder {
+    color: var(--text-secondary);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+/* Textarea específico */
+.form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* =========================
+   Botões
+   ========================= */
+.btn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.1s;
+    box-shadow: var(--shadow);
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Variações de botões */
+.btn.primary { background: var(--primary-color); color: #fff; }
+.btn.primary:hover { background: var(--secondary-color); }
+
+.btn.secondary { background: var(--border-color); color: var(--text-primary); }
+.btn.secondary:hover { background: var(--text-secondary); }
+
+.btn.success { background: var(--success-color); color: #fff; }
+.btn.success:hover { background: #059669; }
+
+/* =========================
+   Ajustes no Modal
+   ========================= */
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center; /* centraliza os inputs */
+}
+
+/* Cada campo */
+.form-group {
+    width: 100%;
+    max-width: 400px; /* limite de largura */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ações do formulário */
+.form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}

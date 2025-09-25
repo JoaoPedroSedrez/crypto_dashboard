@@ -13,6 +13,7 @@ class DatabaseManager:
         self.db = self.client[Config.DATABASE_NAME]
         self.prices_collection = self.db.prices
         self.cache_collection = self.db.cache
+        self.wallet_transactions = self.db.wallet_transactions
 
     def update_holding(self, symbol: str, holding_doc: dict):
         """Atualiza ou cria o holding de um ativo"""

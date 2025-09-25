@@ -6053,3 +6053,878 @@
 2025-09-24 16:00:32,330 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
 2025-09-24 16:00:32,343 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.014s
 2025-09-24 16:00:46,414 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 19:56:10,343 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 19:56:10,343 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 19:56:10,344 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 19:56:10,355 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 19:56:11,587 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 19:56:11,592 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.004s
+2025-09-24 19:56:11,619 - utils.helpers - INFO - 📥 GET /static/style.css - Client: 127.0.0.1
+2025-09-24 19:56:11,620 - utils.helpers - INFO - 📥 GET /static/wallet.css - Client: 127.0.0.1
+2025-09-24 19:56:11,621 - utils.helpers - INFO - 📥 GET /static/wallet.js - Client: 127.0.0.1
+2025-09-24 19:56:11,637 - utils.helpers - INFO - 📤 GET /static/style.css - Status: 304 - Time: 0.019s
+2025-09-24 19:56:11,639 - utils.helpers - INFO - 📤 GET /static/wallet.js - Status: 304 - Time: 0.018s
+2025-09-24 19:56:11,639 - utils.helpers - INFO - 📤 GET /static/wallet.css - Status: 304 - Time: 0.019s
+2025-09-24 19:56:11,672 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 19:56:11,676 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.004s
+2025-09-24 19:56:11,680 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 19:56:11,693 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 19:56:18,062 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-24 19:56:18,062 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 19:56:18,064 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 19:56:18,623 - utils.db - INFO - Dados salvos para KNCR11.SA
+2025-09-24 19:56:18,623 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 19:56:18,625 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-24 19:56:18,625 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 6.946s
+2025-09-24 19:56:18,628 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 19:56:18,628 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.003s
+2025-09-24 19:56:18,635 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.007s
+2025-09-24 19:56:18,656 - utils.helpers - INFO - 📥 GET /static/app.js - Client: 127.0.0.1
+2025-09-24 19:56:18,657 - utils.helpers - INFO - 📤 GET /static/app.js - Status: 304 - Time: 0.001s
+2025-09-24 19:56:18,681 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 19:56:18,683 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-24 19:56:18,685 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-24 19:56:18,686 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-24 19:56:18,686 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-24 19:56:18,887 - utils.db - INFO - Dados salvos para bitcoin
+2025-09-24 19:56:18,888 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 19:56:18,888 - utils.helpers - INFO - Preço obtido para bitcoin: $113327
+2025-09-24 19:56:18,889 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.204s
+2025-09-24 19:56:18,892 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-24 19:56:18,893 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-24 19:56:18,893 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-24 19:56:19,226 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 8 pontos para 7 dias
+2025-09-24 19:56:19,227 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 19:56:19,227 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-24 19:56:19,227 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.335s
+2025-09-24 19:56:19,296 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-24 19:56:19,297 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-24 19:56:19,297 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-24 19:56:19,745 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-24 19:56:19,747 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 19:56:19,758 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.461s
+2025-09-24 19:56:19,802 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-24 19:56:19,803 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-24 19:56:19,803 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-24 19:56:19,964 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-24 19:56:20,114 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-24 19:56:21,889 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BITCOIN.SA"}}}
+2025-09-24 19:56:22,274 - yfinance - ERROR - $BITCOIN.SA: possibly delisted; no timezone found
+2025-09-24 19:56:22,274 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN.SA
+2025-09-24 19:56:22,274 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-24 19:56:22,275 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 2.473s
+2025-09-24 19:56:32,068 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 19:56:32,070 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 19:56:32,070 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-24 19:56:32,071 - utils.helpers - INFO - Buscando preço para: undefined
+2025-09-24 19:56:32,071 - utils.helpers - INFO - Buscando dados para undefined - 1 dias
+2025-09-24 19:56:32,233 - utils.helpers - ERROR - Erro ao buscar dados crypto para undefined: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=undefined&vs_currencies=usd&include_24hr_change=true
+2025-09-24 19:56:33,664 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: UNDEFINED.SA"}}}
+2025-09-24 19:56:34,792 - yfinance - ERROR - $UNDEFINED.SA: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-24 19:56:34,793 - utils.helpers - WARNING - Dados insuficientes para UNDEFINED.SA
+2025-09-24 19:56:34,793 - utils.helpers - WARNING - Nenhum dado encontrado para undefined
+2025-09-24 19:56:34,794 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 2.724s
+2025-09-24 19:56:34,837 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 19:56:34,838 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-24 19:56:34,848 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 19:56:34,853 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 19:56:34,989 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-24 19:56:34,990 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 19:56:34,992 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 19:56:35,146 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-24 19:56:35,147 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 19:56:35,149 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.301s
+2025-09-24 19:56:35,151 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 19:56:35,157 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.005s
+2025-09-24 20:06:16,983 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:06:16,985 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.002s
+2025-09-24 20:06:17,006 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:06:17,007 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:06:17,011 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:06:17,011 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.005s
+2025-09-24 20:06:17,012 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.004s
+2025-09-24 20:06:17,014 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.004s
+2025-09-24 20:06:17,367 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:06:17,368 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:06:17,645 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:06:17,649 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:06:19,072 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-24 20:06:19,072 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:06:19,073 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:06:19,617 - utils.db - INFO - Dados salvos para KNCR11.SA
+2025-09-24 20:06:19,617 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:06:19,619 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.974s
+2025-09-24 20:06:19,623 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:06:19,627 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.004s
+2025-09-24 20:09:40,594 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:09:40,598 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.004s
+2025-09-24 20:09:40,635 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:09:40,636 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:09:40,638 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:09:40,639 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.005s
+2025-09-24 20:09:40,640 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.004s
+2025-09-24 20:09:40,642 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.004s
+2025-09-24 20:09:40,839 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:09:40,839 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:09:41,118 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:09:41,128 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:09:41,654 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:09:41,656 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:09:42,062 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:09:42,064 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.946s
+2025-09-24 20:09:42,068 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:09:42,075 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.007s
+2025-09-24 20:10:05,010 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:10:05,012 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 20:10:05,028 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:10:05,029 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:10:05,031 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:10:05,031 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.004s
+2025-09-24 20:10:05,034 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.004s
+2025-09-24 20:10:05,036 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.005s
+2025-09-24 20:10:05,269 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:10:05,270 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:10:05,461 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:10:05,466 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:10:05,667 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:10:05,669 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:10:06,262 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:10:06,265 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.804s
+2025-09-24 20:10:06,268 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:10:06,273 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.005s
+2025-09-24 20:10:24,659 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:10:24,661 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.002s
+2025-09-24 20:10:24,682 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:10:24,685 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:10:24,687 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:10:24,687 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.005s
+2025-09-24 20:10:24,689 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.005s
+2025-09-24 20:10:24,690 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.003s
+2025-09-24 20:10:24,921 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:10:24,922 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:10:25,190 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:10:25,195 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:10:25,865 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:10:25,867 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:10:26,041 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:10:26,043 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.853s
+2025-09-24 20:10:26,047 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:10:26,054 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.007s
+2025-09-24 20:11:51,583 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:11:51,584 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 20:11:51,607 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:11:51,610 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:11:51,612 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:11:51,613 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.006s
+2025-09-24 20:11:51,615 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.005s
+2025-09-24 20:11:51,617 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.005s
+2025-09-24 20:11:51,924 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:11:51,925 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:11:52,282 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:11:52,286 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:11:52,661 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:11:52,662 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:11:53,031 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:11:53,034 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.751s
+2025-09-24 20:11:53,039 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:11:53,049 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.010s
+2025-09-24 20:13:06,604 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:13:06,605 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 20:13:06,627 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:13:06,629 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:13:06,631 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.004s
+2025-09-24 20:13:06,632 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:13:06,635 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.006s
+2025-09-24 20:13:06,635 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.004s
+2025-09-24 20:13:06,843 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:13:06,844 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:13:07,161 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:13:07,166 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:13:07,552 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:13:07,554 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:13:07,992 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:13:07,994 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.833s
+2025-09-24 20:13:07,997 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:13:08,002 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.005s
+2025-09-24 20:14:13,803 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:14:13,803 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 20:14:13,820 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:14:13,822 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:14:13,823 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:14:13,824 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.003s
+2025-09-24 20:14:13,825 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.003s
+2025-09-24 20:14:13,826 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.003s
+2025-09-24 20:14:14,235 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:14:14,235 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:14:14,358 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:14:14,362 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:14:14,763 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:14:14,764 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:14:15,115 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:14:15,117 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.759s
+2025-09-24 20:14:15,120 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:14:15,126 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.005s
+2025-09-24 20:18:14,590 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:18:14,592 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 20:18:14,611 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:18:14,613 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:18:14,613 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:18:14,615 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.003s
+2025-09-24 20:18:14,616 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.003s
+2025-09-24 20:18:14,617 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.004s
+2025-09-24 20:18:14,972 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:18:14,973 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:18:15,290 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:18:15,294 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:18:16,156 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-24 20:18:16,156 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:18:16,157 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:18:16,817 - utils.db - INFO - Dados salvos para KNCR11.SA
+2025-09-24 20:18:16,818 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:18:16,819 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.529s
+2025-09-24 20:18:16,822 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:18:16,828 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.006s
+2025-09-24 20:18:35,122 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:18:35,125 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:18:35,297 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:18:35,298 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:18:35,481 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:18:35,484 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.362s
+2025-09-24 20:18:35,490 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:18:35,501 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.011s
+2025-09-24 20:19:20,720 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:19:20,723 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:19:21,142 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:19:21,143 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:19:21,555 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:19:21,558 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.838s
+2025-09-24 20:19:21,565 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:19:21,572 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.008s
+2025-09-24 20:22:36,997 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:22:36,999 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 20:22:37,015 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:22:37,016 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:22:37,016 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:22:37,018 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.002s
+2025-09-24 20:22:37,019 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.003s
+2025-09-24 20:22:37,019 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.004s
+2025-09-24 20:22:37,349 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:22:37,350 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:22:37,522 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:22:37,528 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:22:37,961 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:22:37,962 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:22:38,316 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:22:38,318 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.796s
+2025-09-24 20:22:38,321 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:22:38,326 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.005s
+2025-09-24 20:22:50,916 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:22:50,936 - utils.helpers - INFO - Adicionando transação: KNCR11 - sell
+2025-09-24 20:22:50,936 - utils.helpers - INFO - Buscando dados para KNCR11 - 1 dias
+2025-09-24 20:22:51,113 - utils.helpers - INFO - Dados FII encontrados automaticamente para KNCR11
+2025-09-24 20:22:51,122 - utils.helpers - ERROR - Erro ao atualizar holdings para KNCR11: 'DatabaseManager' object has no attribute 'wallet_transactions'
+2025-09-24 20:22:51,122 - utils.helpers - ERROR - Erro ao adicionar transação: 'DatabaseManager' object has no attribute 'wallet_transactions'
+2025-09-24 20:22:51,123 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 500 - Time: 0.207s
+2025-09-24 20:24:25,878 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 20:24:31,399 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 20:24:31,400 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 20:24:31,400 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 20:24:31,409 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 20:24:31,510 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:24:31,515 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.005s
+2025-09-24 20:24:31,550 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 20:24:31,552 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:24:31,554 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:24:31,574 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.025s
+2025-09-24 20:24:31,576 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.021s
+2025-09-24 20:24:31,576 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.024s
+2025-09-24 20:24:31,737 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:24:31,740 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-24 20:24:31,966 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:24:31,976 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:24:32,394 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:24:32,395 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:24:32,864 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:24:32,867 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.901s
+2025-09-24 20:24:32,873 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:24:32,882 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.009s
+2025-09-24 20:24:39,984 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:24:39,992 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 20:24:40,178 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 20:24:40,179 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:24:40,346 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:24:40,348 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.363s
+2025-09-24 20:24:40,353 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:24:40,360 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.007s
+2025-09-24 20:24:57,635 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:24:57,635 - utils.helpers - INFO - Adicionando transação: XPML11 - sell
+2025-09-24 20:24:57,635 - utils.helpers - INFO - Buscando dados para XPML11 - 1 dias
+2025-09-24 20:24:57,812 - utils.helpers - INFO - Dados FII encontrados automaticamente para XPML11
+2025-09-24 20:24:57,823 - utils.helpers - WARNING - Venda de 2.0 excede holdings de 0 para XPML11
+2025-09-24 20:24:57,825 - utils.helpers - INFO - Holdings atualizados para XPML11: 0 unidades
+2025-09-24 20:24:57,826 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.191s
+2025-09-24 20:24:59,705 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:24:59,708 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:24:59,876 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-24 20:24:59,878 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:24:59,879 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.174s
+2025-09-24 20:24:59,882 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:24:59,888 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.006s
+2025-09-24 20:33:48,424 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:33:48,425 - utils.helpers - INFO - Adicionando transação: XPML11 - sell
+2025-09-24 20:33:48,425 - utils.helpers - INFO - Buscando dados para XPML11 - 1 dias
+2025-09-24 20:33:49,711 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-24 20:33:49,712 - utils.helpers - INFO - Dados FII encontrados automaticamente para XPML11
+2025-09-24 20:33:49,717 - utils.helpers - WARNING - Venda de 2.0 excede holdings de 0 para XPML11
+2025-09-24 20:33:49,718 - utils.helpers - WARNING - Venda de 2.0 excede holdings de 0 para XPML11
+2025-09-24 20:33:49,719 - utils.helpers - INFO - Holdings atualizados para XPML11: 0 unidades
+2025-09-24 20:33:49,719 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 1.295s
+2025-09-24 20:33:51,054 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:33:51,058 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:33:51,846 - utils.db - INFO - Dados salvos para KNCR11.SA
+2025-09-24 20:33:51,846 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:33:51,847 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.793s
+2025-09-24 20:33:51,851 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:33:51,857 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.005s
+2025-09-24 20:33:55,531 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:33:55,532 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 20:33:55,564 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 20:33:55,565 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 304 - Time: 0.001s
+2025-09-24 20:33:55,567 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 20:33:55,568 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 304 - Time: 0.001s
+2025-09-24 20:33:55,604 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 20:33:55,604 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 20:33:55,613 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:33:55,618 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-24 20:33:55,780 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-24 20:33:55,782 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.169s
+2025-09-24 20:33:55,784 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:33:55,789 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.004s
+2025-09-24 20:34:24,790 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:34:24,791 - utils.helpers - INFO - Adicionando transação: KNCR11 - sell
+2025-09-24 20:34:24,792 - utils.helpers - INFO - Buscando dados para KNCR11 - 1 dias
+2025-09-24 20:34:24,988 - utils.helpers - INFO - Dados FII encontrados automaticamente para KNCR11
+2025-09-24 20:34:24,997 - utils.helpers - WARNING - Venda de 2.0 excede holdings de 0 para KNCR11
+2025-09-24 20:34:24,998 - utils.helpers - WARNING - Venda de 2.0 excede holdings de 0 para KNCR11
+2025-09-24 20:34:24,999 - utils.helpers - INFO - Holdings atualizados para KNCR11: 0 unidades
+2025-09-24 20:34:25,000 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.210s
+2025-09-24 20:34:26,007 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:34:26,014 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.007s
+2025-09-24 20:34:26,018 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:34:26,022 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.004s
+2025-09-24 20:34:28,875 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 20:34:28,875 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 20:34:28,930 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:34:28,937 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.008s
+2025-09-24 20:34:28,941 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:34:28,948 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.006s
+2025-09-24 20:34:30,220 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:34:30,226 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.005s
+2025-09-24 20:34:30,230 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:34:30,236 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.006s
+2025-09-24 20:34:34,924 - utils.helpers - INFO - 📥 DELETE /api/v1/wallet/transactions/68d47dc99f3e601d5b4dc01f - Client: 127.0.0.1
+2025-09-24 20:34:34,935 - utils.helpers - WARNING - Venda de 2.0 excede holdings de 0 para xpml11
+2025-09-24 20:34:34,936 - utils.helpers - INFO - Holdings atualizados para xpml11: 0 unidades
+2025-09-24 20:34:34,937 - utils.helpers - INFO - 📤 DELETE /api/v1/wallet/transactions/68d47dc99f3e601d5b4dc01f - Status: 200 - Time: 0.012s
+2025-09-24 20:34:36,820 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:34:36,823 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.004s
+2025-09-24 20:34:36,827 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:34:36,834 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.008s
+2025-09-24 20:34:41,781 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:34:41,785 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.003s
+2025-09-24 20:34:41,788 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:34:41,795 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.007s
+2025-09-24 20:35:42,814 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 20:35:42,822 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.007s
+2025-09-24 20:35:42,825 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 20:35:42,829 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.004s
+2025-09-24 21:41:19,916 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 21:41:19,968 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.051s
+2025-09-24 21:41:19,971 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 21:41:19,976 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.005s
+2025-09-24 21:41:22,365 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 21:41:22,373 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.008s
+2025-09-24 21:41:22,379 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 21:41:22,384 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.006s
+2025-09-24 22:18:57,462 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-24 22:18:57,482 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.022s
+2025-09-24 22:18:57,531 - utils.helpers - INFO - 📥 GET /static/js/dashboard/app.js - Client: 127.0.0.1
+2025-09-24 22:18:57,535 - utils.helpers - INFO - 📤 GET /static/js/dashboard/app.js - Status: 200 - Time: 0.004s
+2025-09-24 22:18:57,573 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:18:57,576 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-24 22:18:57,581 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-24 22:18:57,585 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-24 22:18:57,586 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-24 22:18:57,857 - utils.db - INFO - Dados salvos para bitcoin
+2025-09-24 22:18:57,859 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:18:57,860 - utils.helpers - INFO - Preço obtido para bitcoin: $113259
+2025-09-24 22:18:57,862 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.281s
+2025-09-24 22:18:57,865 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-24 22:18:57,866 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-24 22:18:57,866 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-24 22:18:58,283 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 8 pontos para 7 dias
+2025-09-24 22:18:58,284 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:18:58,286 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-24 22:18:58,287 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.422s
+2025-09-24 22:18:58,352 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-24 22:18:58,353 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-24 22:18:58,353 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-24 22:18:59,001 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-24 22:18:59,002 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:18:59,069 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.718s
+2025-09-24 22:18:59,115 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-24 22:18:59,116 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-24 22:18:59,116 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-24 22:18:59,513 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 31 pontos para 30 dias
+2025-09-24 22:18:59,514 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:18:59,555 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-24 22:18:59,556 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.440s
+2025-09-24 22:32:29,844 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-24 22:32:29,852 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:32:29,858 - utils.helpers - INFO - Buscando preço para: undefined
+2025-09-24 22:32:29,858 - utils.helpers - INFO - Buscando dados para undefined - 1 dias
+2025-09-24 22:32:32,484 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: UNDEFINED.SA"}}}
+2025-09-24 22:32:33,510 - yfinance - ERROR - $UNDEFINED.SA: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-24 22:32:33,511 - utils.helpers - WARNING - Dados insuficientes para UNDEFINED.SA
+2025-09-24 22:32:33,511 - utils.helpers - WARNING - Nenhum dado encontrado para undefined
+2025-09-24 22:32:33,514 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 3.673s
+2025-09-24 22:32:33,515 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 3.663s
+2025-09-24 22:32:33,546 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:32:33,547 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:32:33,551 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.005s
+2025-09-24 22:32:33,553 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.006s
+2025-09-24 22:32:33,587 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:32:33,589 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-24 22:32:33,595 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:32:33,608 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.013s
+2025-09-24 22:32:33,657 - utils.helpers - INFO - 📥 GET /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:32:33,668 - utils.helpers - INFO - 📤 GET /api/v1/wallet/transactions - Status: 200 - Time: 0.012s
+2025-09-24 22:33:58,200 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:33:58,202 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.003s
+2025-09-24 22:33:58,221 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:33:58,223 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:33:58,227 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.004s
+2025-09-24 22:33:58,229 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.008s
+2025-09-24 22:33:58,230 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:33:58,231 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.001s
+2025-09-24 22:33:58,513 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:33:58,514 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 22:33:58,722 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:33:58,727 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.005s
+2025-09-24 22:38:29,404 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:38:34,061 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:38:34,061 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:38:34,061 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:38:34,112 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:38:35,521 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:38:38,677 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:38:38,678 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:38:38,678 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:38:38,684 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:38:47,840 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:38:50,003 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:38:50,004 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:38:50,004 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:38:50,008 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:38:52,826 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:38:55,220 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:38:55,220 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:38:55,220 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:38:55,224 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:43:25,279 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:43:25,293 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.015s
+2025-09-24 22:43:25,320 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:43:25,324 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:43:25,328 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:43:25,353 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.033s
+2025-09-24 22:43:25,354 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.031s
+2025-09-24 22:43:25,356 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.028s
+2025-09-24 22:43:30,494 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:43:30,496 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-24 22:43:30,785 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:43:30,815 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.030s
+2025-09-24 22:44:21,106 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:44:21,113 - utils.helpers - INFO - Adicionando transação: PETR4 - buy
+2025-09-24 22:44:21,113 - utils.helpers - INFO - Buscando dados para PETR4 - 1 dias
+2025-09-24 22:44:22,718 - utils.db - INFO - Dados salvos para PETR4.SA
+2025-09-24 22:44:22,719 - utils.helpers - INFO - Dados stock encontrados automaticamente para PETR4
+2025-09-24 22:44:22,730 - utils.helpers - INFO - Holdings atualizados para PETR4: 25.0 unidades
+2025-09-24 22:44:22,731 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 1.625s
+2025-09-24 22:44:25,679 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:44:25,683 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:44:25,841 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:44:25,844 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.165s
+2025-09-24 22:44:27,884 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:44:27,892 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:44:28,063 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:44:28,064 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.181s
+2025-09-24 22:44:28,815 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:44:28,820 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:44:28,996 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:44:28,999 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.184s
+2025-09-24 22:44:29,465 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:44:29,468 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:44:29,634 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:44:29,635 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.170s
+2025-09-24 22:44:30,407 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:44:30,411 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:44:30,565 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-24 22:44:30,567 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:44:30,568 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.161s
+2025-09-24 22:44:48,977 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:44:53,485 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:44:53,486 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:44:53,486 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:44:53,496 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:44:54,603 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:44:57,134 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:44:57,135 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:44:57,136 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:44:57,144 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:44:59,057 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:45:01,625 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:45:01,625 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:45:01,626 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:45:01,630 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:45:01,636 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:45:01,640 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.004s
+2025-09-24 22:45:01,662 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:45:01,663 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:45:01,664 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:45:01,675 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.011s
+2025-09-24 22:45:01,675 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.014s
+2025-09-24 22:45:01,676 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.013s
+2025-09-24 22:45:01,884 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:45:01,887 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-24 22:45:02,182 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:45:02,183 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:45:37,876 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:45:37,878 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 22:45:37,904 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:45:37,906 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:45:37,908 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:45:37,910 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.006s
+2025-09-24 22:45:37,912 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.006s
+2025-09-24 22:45:37,912 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.005s
+2025-09-24 22:45:38,192 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:45:38,193 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 22:45:38,330 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:45:38,331 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:45:49,620 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:45:49,620 - utils.helpers - INFO - Adicionando transação: XPML11 - buy
+2025-09-24 22:45:49,621 - utils.helpers - INFO - Buscando dados para XPML11 - 1 dias
+2025-09-24 22:45:56,285 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-24 22:45:56,285 - utils.helpers - INFO - Dados FII encontrados automaticamente para XPML11
+2025-09-24 22:45:56,295 - utils.helpers - INFO - Holdings atualizados para XPML11: 0.0 unidades
+2025-09-24 22:45:56,295 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 6.676s
+2025-09-24 22:45:56,297 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:45:56,299 - utils.helpers - INFO - Adicionando transação: XPML11 - buy
+2025-09-24 22:45:56,299 - utils.helpers - INFO - Buscando dados para XPML11 - 1 dias
+2025-09-24 22:45:56,572 - utils.helpers - INFO - Dados FII encontrados automaticamente para XPML11
+2025-09-24 22:45:56,579 - utils.helpers - INFO - Holdings atualizados para XPML11: 2.0 unidades
+2025-09-24 22:45:56,580 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.283s
+2025-09-24 22:45:58,123 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:45:58,123 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:46:00,184 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:46:00,185 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:46:01,778 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:46:01,778 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:46:02,447 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:46:02,448 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:46:03,195 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:46:03,196 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:46:28,689 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:46:31,095 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:46:31,096 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:46:31,096 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:46:31,101 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:46:54,023 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:46:54,026 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.003s
+2025-09-24 22:46:54,052 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:46:54,053 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:46:54,055 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:46:54,067 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.012s
+2025-09-24 22:46:54,067 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.015s
+2025-09-24 22:46:54,067 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.014s
+2025-09-24 22:46:54,406 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:46:54,409 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-24 22:46:54,538 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:46:54,539 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:46:55,133 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:46:55,134 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:46:55,732 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:46:55,733 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 404 - Time: 0.001s
+2025-09-24 22:48:05,092 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:48:08,858 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:48:08,858 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:48:08,859 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:48:08,869 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:48:38,438 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:48:41,094 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:48:41,095 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:48:41,095 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:48:41,100 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:48:41,107 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:48:41,111 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.004s
+2025-09-24 22:48:41,129 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:48:41,132 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:48:41,134 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:48:41,145 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.016s
+2025-09-24 22:48:41,146 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.012s
+2025-09-24 22:48:41,146 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.015s
+2025-09-24 22:48:41,491 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:48:41,493 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-24 22:48:41,626 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:48:41,641 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:48:42,183 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:48:42,186 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 22:48:42,552 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 22:48:42,556 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.931s
+2025-09-24 22:48:51,433 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:48:51,436 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:48:51,612 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:48:51,613 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-24 22:48:51,792 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-24 22:48:51,794 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.361s
+2025-09-24 22:49:20,177 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:49:20,179 - utils.helpers - INFO - Adicionando transação: XPML11 - sell
+2025-09-24 22:49:20,179 - utils.helpers - INFO - Buscando dados para XPML11 - 1 dias
+2025-09-24 22:49:20,383 - utils.helpers - INFO - Dados FII encontrados automaticamente para XPML11
+2025-09-24 22:49:20,396 - utils.helpers - INFO - Holdings atualizados para XPML11: 0.0 unidades
+2025-09-24 22:49:20,397 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.220s
+2025-09-24 22:49:22,354 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:49:22,358 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:49:22,530 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:49:22,532 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.178s
+2025-09-24 22:52:14,168 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-24 22:52:14,184 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.018s
+2025-09-24 22:52:14,266 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:52:14,271 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.005s
+2025-09-24 22:52:14,273 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-24 22:52:14,276 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-24 22:52:14,276 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-24 22:52:14,941 - utils.db - INFO - Dados salvos para bitcoin
+2025-09-24 22:52:14,942 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:52:14,942 - utils.helpers - INFO - Preço obtido para bitcoin: $112737
+2025-09-24 22:52:14,944 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.671s
+2025-09-24 22:52:14,947 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-24 22:52:14,948 - utils.helpers - INFO - Buscando histórico para: bitcoin (7 dias)
+2025-09-24 22:52:14,948 - utils.helpers - INFO - Buscando dados para bitcoin - 7 dias
+2025-09-24 22:52:15,751 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 8 pontos para 7 dias
+2025-09-24 22:52:15,754 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:52:15,759 - utils.helpers - INFO - Histórico obtido para bitcoin: 8 pontos
+2025-09-24 22:52:15,760 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.813s
+2025-09-24 22:52:15,849 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-24 22:52:15,850 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-24 22:52:15,851 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-24 22:52:16,262 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 15 pontos para 14 dias
+2025-09-24 22:52:16,264 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:52:16,321 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.472s
+2025-09-24 22:52:16,328 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-24 22:52:16,329 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-24 22:52:16,329 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-24 22:52:16,776 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 31 pontos para 30 dias
+2025-09-24 22:52:16,778 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:52:16,831 - utils.helpers - INFO - Previsão gerada para bitcoin: tendência Estável
+2025-09-24 22:52:16,831 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.503s
+2025-09-24 22:52:20,146 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-24 22:52:20,146 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-24 22:52:20,146 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-24 22:52:20,147 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:52:20,147 - utils.helpers - INFO - Preço obtido para bitcoin: $112737
+2025-09-24 22:52:20,147 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.002s
+2025-09-24 22:52:20,150 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-24 22:52:20,150 - utils.helpers - INFO - Buscando histórico para: bitcoin (365 dias)
+2025-09-24 22:52:20,150 - utils.helpers - INFO - Buscando dados para bitcoin - 365 dias
+2025-09-24 22:52:21,105 - utils.helpers - INFO - Dados históricos crypto obtidos: bitcoin - 366 pontos para 365 dias
+2025-09-24 22:52:21,106 - utils.helpers - INFO - Dados crypto encontrados para bitcoin
+2025-09-24 22:52:21,108 - utils.helpers - INFO - Histórico obtido para bitcoin: 366 pontos
+2025-09-24 22:52:21,112 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.962s
+2025-09-24 22:52:21,196 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-24 22:52:21,197 - utils.helpers - INFO - Gerando análise técnica para: bitcoin
+2025-09-24 22:52:21,197 - utils.helpers - INFO - Buscando dados para bitcoin - 14 dias
+2025-09-24 22:52:21,359 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-24 22:52:21,521 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=14&interval=daily
+2025-09-24 22:52:23,330 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BITCOIN.SA"}}}
+2025-09-24 22:52:23,736 - yfinance - ERROR - $BITCOIN.SA: possibly delisted; no timezone found
+2025-09-24 22:52:23,737 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN.SA
+2025-09-24 22:52:23,737 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-24 22:52:23,737 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 404 - Time: 2.542s
+2025-09-24 22:52:23,740 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-24 22:52:23,741 - utils.helpers - INFO - Gerando previsão para: bitcoin (3 dias)
+2025-09-24 22:52:23,741 - utils.helpers - INFO - Buscando dados para bitcoin - 30 dias
+2025-09-24 22:52:23,907 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-24 22:52:24,102 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=30&interval=daily
+2025-09-24 22:52:24,759 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BITCOIN.SA"}}}
+2025-09-24 22:52:24,789 - yfinance - ERROR - $BITCOIN.SA: possibly delisted; no timezone found
+2025-09-24 22:52:24,789 - utils.helpers - WARNING - Nenhum dado histórico retornado para BITCOIN.SA
+2025-09-24 22:52:24,790 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-24 22:52:24,791 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 404 - Time: 1.051s
+2025-09-24 22:52:24,792 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-24 22:52:24,793 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:52:24,793 - utils.helpers - INFO - Buscando preço para: undefined
+2025-09-24 22:52:24,793 - utils.helpers - INFO - Buscando dados para undefined - 1 dias
+2025-09-24 22:52:24,949 - utils.helpers - ERROR - Erro ao buscar dados crypto para undefined: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=undefined&vs_currencies=usd&include_24hr_change=true
+2025-09-24 22:52:26,500 - yfinance - ERROR - $UNDEFINED.SA: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-24 22:52:26,500 - utils.helpers - WARNING - Dados insuficientes para UNDEFINED.SA
+2025-09-24 22:52:26,501 - utils.helpers - WARNING - Nenhum dado encontrado para undefined
+2025-09-24 22:52:26,501 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 1.709s
+2025-09-24 22:52:26,501 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 1.709s
+2025-09-24 22:52:26,535 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:52:26,538 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 304 - Time: 0.004s
+2025-09-24 22:52:26,598 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:52:26,610 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:52:26,779 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-24 22:52:26,781 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:52:26,783 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.185s
+2025-09-24 22:54:19,678 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:54:19,678 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 22:54:19,694 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:54:19,696 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:54:19,697 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:54:19,697 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.003s
+2025-09-24 22:54:19,699 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.004s
+2025-09-24 22:54:19,700 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.003s
+2025-09-24 22:54:20,210 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:54:20,211 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 22:54:20,467 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:54:20,474 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:54:21,398 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:54:21,401 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.934s
+2025-09-24 22:55:31,926 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:55:35,296 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:55:35,296 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:55:35,296 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:55:35,305 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:55:35,310 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:55:35,315 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.005s
+2025-09-24 22:55:35,341 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:55:35,343 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:55:35,346 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:55:35,363 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.020s
+2025-09-24 22:55:35,364 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.023s
+2025-09-24 22:55:35,364 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.018s
+2025-09-24 22:55:36,254 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:55:36,257 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-24 22:55:36,579 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:55:36,589 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:55:38,058 - utils.db - INFO - Dados salvos para PETR4.SA
+2025-09-24 22:55:38,058 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:55:38,059 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.480s
+2025-09-24 22:56:05,116 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:56:05,117 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 404 - Time: 0.001s
+2025-09-24 22:56:13,278 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:56:15,549 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:56:15,550 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:56:15,550 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:56:15,554 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:56:15,561 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:56:15,564 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.004s
+2025-09-24 22:56:15,587 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:56:15,588 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:56:15,590 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:56:15,594 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.007s
+2025-09-24 22:56:15,595 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.007s
+2025-09-24 22:56:15,597 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.007s
+2025-09-24 22:56:16,019 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:56:16,021 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-24 22:56:16,305 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:56:16,311 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:56:17,534 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:56:17,536 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.231s
+2025-09-24 22:56:32,175 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:56:32,176 - utils.helpers - INFO - Adicionando transação: SAPR11 - buy
+2025-09-24 22:56:32,176 - utils.helpers - INFO - Buscando dados para SAPR11 - 1 dias
+2025-09-24 22:56:33,337 - utils.db - INFO - Dados salvos para SAPR11.SA
+2025-09-24 22:56:33,337 - utils.helpers - INFO - Dados FII encontrados automaticamente para SAPR11
+2025-09-24 22:56:33,348 - utils.helpers - INFO - Holdings atualizados para SAPR11: 9.0 unidades
+2025-09-24 22:56:33,349 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 1.174s
+2025-09-24 22:56:34,641 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:56:34,646 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:56:34,824 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:56:34,825 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-24 22:56:35,001 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-24 22:56:35,002 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.362s
+2025-09-24 22:58:12,381 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:58:15,459 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:58:15,459 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:58:15,460 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:58:15,467 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:58:16,977 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:58:19,558 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:58:19,559 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:58:19,559 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:58:19,563 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:58:19,569 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:58:19,574 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.005s
+2025-09-24 22:58:19,593 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:58:19,595 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:58:19,609 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.016s
+2025-09-24 22:58:19,609 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.014s
+2025-09-24 22:58:19,610 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:58:19,612 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.002s
+2025-09-24 22:58:19,918 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:58:19,920 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.003s
+2025-09-24 22:58:20,052 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:58:20,058 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:58:20,523 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:58:20,524 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-24 22:58:21,326 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-24 22:58:21,328 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.276s
+2025-09-24 22:58:51,244 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:58:51,244 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 404 - Time: 0.001s
+2025-09-24 22:58:56,011 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-24 22:58:56,011 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-24 22:58:56,030 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-24 22:58:56,031 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-24 22:58:56,032 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.002s
+2025-09-24 22:58:56,033 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-24 22:58:56,034 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.003s
+2025-09-24 22:58:56,034 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.001s
+2025-09-24 22:58:56,213 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-24 22:58:56,213 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-24 22:58:56,417 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:58:56,423 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:58:56,614 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:58:56,616 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-24 22:58:56,784 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-24 22:58:56,787 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.370s
+2025-09-24 22:58:56,889 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-24 22:59:00,172 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-24 22:59:00,172 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-24 22:59:00,173 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-24 22:59:00,178 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-24 22:59:26,802 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 22:59:26,803 - utils.helpers - INFO - Adicionando transação: BBAS3 - buy
+2025-09-24 22:59:26,804 - utils.helpers - INFO - Buscando dados para BBAS3 - 1 dias
+2025-09-24 22:59:28,080 - utils.db - INFO - Dados salvos para BBAS3.SA
+2025-09-24 22:59:28,081 - utils.helpers - INFO - Dados stock encontrados automaticamente para BBAS3
+2025-09-24 22:59:28,087 - utils.helpers - INFO - Holdings atualizados para BBAS3: 9.0 unidades
+2025-09-24 22:59:28,087 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 1.285s
+2025-09-24 22:59:29,114 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 22:59:29,117 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 22:59:29,528 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 22:59:29,529 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-24 22:59:30,348 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-24 22:59:30,349 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-24 22:59:30,496 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-24 22:59:30,497 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-24 22:59:30,499 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.384s
+2025-09-24 23:03:12,072 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-24 23:03:12,073 - utils.helpers - INFO - Adicionando transação: BBAS3 - sell
+2025-09-24 23:03:12,074 - utils.helpers - INFO - Buscando dados para BBAS3 - 1 dias
+2025-09-24 23:03:12,614 - utils.helpers - INFO - Dados stock encontrados automaticamente para BBAS3
+2025-09-24 23:03:12,621 - utils.helpers - INFO - Holdings atualizados para BBAS3: 0.0 unidades
+2025-09-24 23:03:12,622 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.550s
+2025-09-24 23:03:13,908 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 23:03:13,911 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 23:03:14,711 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 23:03:14,712 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-24 23:03:15,325 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-24 23:03:15,326 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.418s
+2025-09-24 23:03:24,173 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-24 23:03:24,176 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-24 23:03:24,370 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-24 23:03:24,371 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-24 23:03:24,525 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-24 23:03:24,526 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.353s

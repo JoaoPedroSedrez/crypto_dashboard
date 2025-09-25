@@ -1,0 +1,4 @@
+-- Wallet
+1 - mostrar preço unitário atual da ação
+2 - cor em P&L (green or red)
+3 - ajustar UI/UX, não gosto do jeito que está

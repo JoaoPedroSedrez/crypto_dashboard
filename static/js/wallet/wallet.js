@@ -33,7 +33,6 @@
             total_value: parseFloat(document.getElementById('quantity').value) * parseFloat(document.getElementById('price-per-unit').value),
             asset_type: 'stock', 
             date: new Date(document.getElementById('transaction-date').value).toISOString(),
-            notes: document.getElementById('notes').value
         };
 
         try {
@@ -60,7 +59,6 @@
     // Atualizar holdings e transações
     async function refreshWallet() {
         await loadHoldings();
-        await loadTransactions();
     }
 
     async function loadHoldings() {
@@ -117,72 +115,6 @@
         }
     }
 
-    async function loadTransactions() {
-        const container = document.getElementById('transactions-container');
-        container.innerHTML = '<div class="loading">Carregando transações...</div>';
-
-        try {
-            const res = await fetch('/api/v1/wallet/transactions?limit=10');
-            const data = await res.json();
-
-            if (data.transactions && data.transactions.length) {
-                const table = document.createElement('table');
-                table.className = 'transactions-table';
-                table.innerHTML = `
-                    <thead>
-                        <tr>
-                            <th>Ativo</th>
-                            <th>Tipo</th>
-                            <th>Qtd</th>
-                            <th>Preço/Unidade</th>
-                            <th>Total</th>
-                            <th>Data</th>
-                            <th>Ações</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    ${data.transactions.map(tx => `
-                        <tr>
-                            <td>${tx.symbol}</td>
-                            <td><span class="transaction-type ${tx.transaction_type}">${tx.transaction_type}</span></td>
-                            <td>${tx.quantity}</td>
-                            <td>$${tx.price_per_unit.toFixed(2)}</td>
-                            <td>$${tx.total_value.toFixed(2)}</td>
-                            <td>${new Date(tx.date).toLocaleString()}</td>
-                            <td><button class="delete-btn" onclick="deleteTransaction('${tx.id}')"><i class="fas fa-trash"></i></button></td>
-                        </tr>
-                    `).join('')}
-                    </tbody>
-                `;
-                container.innerHTML = '';
-                container.appendChild(table);
-            } else {
-                container.innerHTML = '<div class="empty-state"><i class="fas fa-history"></i><p>Nenhuma transação encontrada</p></div>';
-            }
-        } catch (err) {
-            console.error(err);
-            container.innerHTML = '<div class="empty-state"><i class="fas fa-exclamation-triangle"></i><p>Erro ao carregar transações</p></div>';
-        }
-    }
-
-    async function deleteTransaction(id) {
-        if (!confirm('Deseja realmente deletar esta transação?')) return;
-
-        try {
-            const res = await fetch(`/api/v1/wallet/transactions/${id}`, { method: 'DELETE' });
-            const result = await res.json();
-
-            if (res.ok) {
-                alert(result.message || 'Transação deletada');
-                refreshWallet();
-            } else {
-                alert(result.detail || 'Erro ao deletar transação');
-            }
-        } catch (err) {
-            console.error(err);
-            alert('Erro na requisição');
-        }
-    }
 
     // Carregar dados ao iniciar
     window.onload = () => refreshWallet();

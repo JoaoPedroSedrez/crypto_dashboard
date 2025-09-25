@@ -296,7 +296,7 @@ async def get_wallet_holdings():
             detail="Erro interno do servidor"
         )
 
-@router.get("/summary")
+@router.get("/wallet/summary")
 async def get_wallet_summary():
     """
     Retorna resumo executivo do wallet

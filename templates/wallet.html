@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myWallet - Portfolio Tracker</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="/static/style.css" rel="stylesheet">
-    <link href="/static/wallet.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <link href="/static/css/wallet/wallet.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 
 </head>
@@ -41,13 +41,13 @@
 
         <!-- Ações do Wallet -->
         <div class="wallet-actions">
-            <button class="quick-btn success" onclick="openAddTransactionModal()">
+            <button class="btn success" onclick="openAddTransactionModal()">
                 <i class="fas fa-plus"></i> Nova Transação
             </button>
-            <button class="quick-btn secondary" onclick="refreshWallet()">
+            <button class="btn secondary" onclick="refreshWallet()">
                 <i class="fas fa-rotate-right"></i> Atualizar
             </button>
-            <button class="quick-btn secondary" onclick="window.location.href='/'">
+            <button class="btn secondary" onclick="window.location.href='/'">
                 <i class="fas fa-chart-line"></i> Dashboard
             </button>
         </div>
@@ -61,16 +61,6 @@
                 <div class="loading">Carregando holdings...</div>
             </div>
         </div>
-
-        <!-- Histórico de Transações -->
-        <div class="analysis-card">
-            <h2 class="section-title">
-                <i class="fas fa-history"></i> Transações Recentes
-            </h2>
-            <div id="transactions-container">
-                <div class="loading">Carregando transações...</div>
-            </div>
-        </div>
     </div>
 
     <!-- Modal para Adicionar Transação -->
@@ -82,12 +72,12 @@
             <form id="transaction-form">
                 <div class="form-group">
                     <label class="form-label">Símbolo do Ativo</label>
-                    <input type="text" class="form-input" id="symbol" placeholder="Ex: BTC, AAPL" required>
+                    <input type="text" class="form-control" id="symbol" placeholder="Ex: BTC, AAPL" required>
                 </div>
                 
                 <div class="form-group">
                     <label class="form-label">Tipo de Transação</label>
-                    <select class="form-select" id="transaction-type" required>
+                    <select class="form-control" id="transaction-type" required>
                         <option value="">Selecione</option>
                         <option value="buy">Compra</option>
                         <option value="sell">Venda</option>
@@ -96,31 +86,26 @@
                 
                 <div class="form-group">
                     <label class="form-label">Quantidade</label>
-                    <input type="number" class="form-input" id="quantity" step="any" placeholder="0.00" required>
+                    <input type="number" class="form-control" id="quantity" step="any" placeholder="0.00" required>
                 </div>
                 
                 <div class="form-group">
-                    <label class="form-label">Preço por Unidade (USD)</label>
-                    <input type="number" class="form-input" id="price-per-unit" step="any" placeholder="0.00" required>
+                    <label class="form-label">Preço por Unidade (BRL)</label>
+                    <input type="number" class="form-control" id="price-per-unit" step="any" placeholder="0.00" required>
                 </div>
                 
                 <div class="form-group">
                     <label class="form-label">Data da Transação</label>
-                    <input type="datetime-local" class="form-input" id="transaction-date" required>
-                </div>
-                
-                <div class="form-group">
-                    <label class="form-label">Observações (Opcional)</label>
-                    <input type="text" class="form-input" id="notes" placeholder="Notas sobre a transação">
+                    <input type="date" class="form-control" id="transaction-date" required>
                 </div>
 
                 <div class="form-actions">
-                    <button type="button" class="action-btn secondary" onclick="closeTransactionModal()">Cancelar</button>
-                    <button type="submit" class="action-btn success">Salvar</button>
+                    <button type="button" class="btn secondary" onclick="closeTransactionModal()">Cancelar</button>
+                    <button type="submit" class="btn success" onclick="">Salvar</button>
                 </div>
             </form>
         </div>
     </div>
-    <script src="/static/wallet.js"></script>
+    <script src="/static/js/wallet/wallet.js"></script>
     </body>
 </html>
