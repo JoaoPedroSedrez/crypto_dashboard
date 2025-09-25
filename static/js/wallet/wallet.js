@@ -124,9 +124,18 @@
 
                 pnlPercentEl.classList.remove('positive', 'negative');
 
-                pnlPercentEl.classList.add(totalPLPercent >= 0 ? 'positive' : 'negative');
+                const roundedPercent = Number(totalPLPercent.toFixed(2));
 
-                pnlPercentEl.innerText = `${totalPLPercent.toFixed(2)}%`;
+                if (roundedPercent > 0) {
+                    pnlPercentEl.classList.add('positive');
+                    pnlPercentEl.innerText = `+${roundedPercent}%`;
+                } else if (roundedPercent < 0) {
+                    pnlPercentEl.classList.add('negative');
+                    pnlPercentEl.innerText = `${roundedPercent}%`;
+                } else {
+                    pnlPercentEl.innerText = `${roundedPercent}%`;
+                }
+
 
             } else {
                 grid.innerHTML = '<div class="empty-state"><i class="fas fa-coins"></i><p>Nenhum ativo encontrado</p></div>';

@@ -7565,3 +7565,1138 @@
 2025-09-25 10:33:51,983 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
 2025-09-25 10:33:52,159 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
 2025-09-25 10:33:52,161 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.388s
+2025-09-25 11:21:39,232 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:21:39,232 - utils.helpers - INFO - Adicionando transação: SAPR11 - buy
+2025-09-25 11:21:39,232 - utils.helpers - INFO - Buscando dados para SAPR11 - 1 dias
+2025-09-25 11:21:40,032 - utils.db - INFO - Dados salvos para SAPR11.SA
+2025-09-25 11:21:40,033 - utils.helpers - INFO - Dados FII encontrados automaticamente para SAPR11
+2025-09-25 11:21:40,044 - utils.helpers - INFO - Holdings atualizados para SAPR11: 9.0 unidades
+2025-09-25 11:21:40,044 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.813s
+2025-09-25 11:21:41,245 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:21:41,248 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:21:41,898 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-25 11:21:41,898 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:21:41,899 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:21:42,613 - utils.db - INFO - Dados salvos para PETR4.SA
+2025-09-25 11:21:42,614 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:21:42,614 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:21:42,764 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:21:42,765 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.520s
+2025-09-25 11:22:01,195 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:22:01,196 - utils.helpers - INFO - Adicionando transação: BBAS3 - buy
+2025-09-25 11:22:01,196 - utils.helpers - INFO - Buscando dados para BBAS3 - 1 dias
+2025-09-25 11:22:01,969 - utils.db - INFO - Dados salvos para BBAS3.SA
+2025-09-25 11:22:01,969 - utils.helpers - INFO - Dados stock encontrados automaticamente para BBAS3
+2025-09-25 11:22:01,975 - utils.helpers - INFO - Holdings atualizados para BBAS3: 9.0 unidades
+2025-09-25 11:22:01,975 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.780s
+2025-09-25 11:22:03,005 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:22:03,008 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:22:03,165 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:22:03,166 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:22:03,316 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:03,318 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:22:03,319 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:22:03,454 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:03,456 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:22:03,457 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:22:03,619 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:03,621 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:22:03,622 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.617s
+2025-09-25 11:22:31,395 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:22:31,396 - utils.helpers - INFO - Adicionando transação: CMIG4 - buy
+2025-09-25 11:22:31,396 - utils.helpers - INFO - Buscando dados para CMIG4 - 1 dias
+2025-09-25 11:22:31,552 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:31,767 - utils.db - INFO - Dados salvos para CMIG4.SA
+2025-09-25 11:22:31,767 - utils.helpers - INFO - Dados stock encontrados automaticamente para CMIG4
+2025-09-25 11:22:31,773 - utils.helpers - INFO - Holdings atualizados para CMIG4: 10.0 unidades
+2025-09-25 11:22:31,773 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.378s
+2025-09-25 11:22:32,890 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:22:32,893 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:22:33,053 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:33,054 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:22:33,056 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:22:33,217 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:33,219 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:22:33,220 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:22:33,360 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:33,362 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:22:33,363 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:22:33,495 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:33,496 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:22:33,497 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:22:33,636 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:33,638 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:22:33,639 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.750s
+2025-09-25 11:22:58,916 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:22:58,917 - utils.helpers - INFO - Adicionando transação: BBSE3 - buy
+2025-09-25 11:22:58,917 - utils.helpers - INFO - Buscando dados para BBSE3 - 1 dias
+2025-09-25 11:22:59,051 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:22:59,621 - utils.db - INFO - Dados salvos para BBSE3.SA
+2025-09-25 11:22:59,621 - utils.helpers - INFO - Dados stock encontrados automaticamente para BBSE3
+2025-09-25 11:22:59,627 - utils.helpers - INFO - Holdings atualizados para BBSE3: 3.0 unidades
+2025-09-25 11:22:59,627 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.711s
+2025-09-25 11:23:00,773 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:23:00,776 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:23:00,932 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:00,934 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:23:00,935 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:23:01,095 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:01,097 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:23:01,098 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:23:01,246 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:01,247 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:23:01,248 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:23:01,397 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:01,399 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:23:01,400 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:23:01,538 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:01,541 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:23:01,543 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:23:01,705 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:01,708 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:23:01,711 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.938s
+2025-09-25 11:23:19,164 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:23:19,165 - utils.helpers - INFO - Adicionando transação: VALE3 - buy
+2025-09-25 11:23:19,165 - utils.helpers - INFO - Buscando dados para VALE3 - 1 dias
+2025-09-25 11:23:19,784 - utils.db - INFO - Dados salvos para VALE3.SA
+2025-09-25 11:23:19,785 - utils.helpers - INFO - Dados stock encontrados automaticamente para VALE3
+2025-09-25 11:23:19,791 - utils.helpers - INFO - Holdings atualizados para VALE3: 1.0 unidades
+2025-09-25 11:23:19,791 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.627s
+2025-09-25 11:23:20,817 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:23:20,820 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:23:21,220 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:23:21,221 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:23:21,630 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:23:21,631 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:23:22,040 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:23:22,041 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:23:22,194 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:22,195 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:23:22,196 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:23:22,324 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:22,325 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:23:22,326 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:23:22,487 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:22,488 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:23:22,489 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:23:22,626 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:22,627 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:23:22,629 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.811s
+2025-09-25 11:23:53,674 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:23:53,675 - utils.helpers - INFO - Adicionando transação: GARE11 - buy
+2025-09-25 11:23:53,675 - utils.helpers - INFO - Buscando dados para GARE11 - 1 dias
+2025-09-25 11:23:53,821 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:54,405 - utils.db - INFO - Dados salvos para GARE11.SA
+2025-09-25 11:23:54,405 - utils.helpers - INFO - Dados FII encontrados automaticamente para GARE11
+2025-09-25 11:23:54,410 - utils.helpers - INFO - Holdings atualizados para GARE11: 27.0 unidades
+2025-09-25 11:23:54,411 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.737s
+2025-09-25 11:23:56,520 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:23:56,524 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:23:56,672 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:56,674 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:23:56,675 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:23:56,807 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:56,809 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:23:56,811 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:23:56,972 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:56,973 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:23:56,975 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:23:57,124 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:57,126 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:23:57,127 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:23:57,253 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:57,257 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:23:57,259 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:23:57,406 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:57,409 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:23:57,411 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:23:57,559 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:57,561 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:23:57,562 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 11:23:57,707 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:23:57,708 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 11:23:57,710 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.190s
+2025-09-25 11:24:13,550 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:24:13,551 - utils.helpers - INFO - Adicionando transação: BTLG11 - buy
+2025-09-25 11:24:13,552 - utils.helpers - INFO - Buscando dados para BTLG11 - 1 dias
+2025-09-25 11:24:13,686 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:13,963 - utils.db - INFO - Dados salvos para BTLG11.SA
+2025-09-25 11:24:13,963 - utils.helpers - INFO - Dados FII encontrados automaticamente para BTLG11
+2025-09-25 11:24:13,968 - utils.helpers - INFO - Holdings atualizados para BTLG11: 2.0 unidades
+2025-09-25 11:24:13,969 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.419s
+2025-09-25 11:24:15,010 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:24:15,015 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:24:15,164 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:15,166 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:24:15,167 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:24:15,322 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:15,324 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:24:15,325 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:24:15,465 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:15,467 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:24:15,468 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:24:15,608 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:15,609 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:24:15,610 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:24:15,755 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:15,756 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:24:15,757 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:24:15,902 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:15,904 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:24:15,906 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:24:16,037 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:16,048 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:24:16,055 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 11:24:16,234 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:16,237 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 11:24:16,239 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 11:24:16,407 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:16,409 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 11:24:16,410 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.400s
+2025-09-25 11:24:34,558 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:24:34,559 - utils.helpers - INFO - Adicionando transação: MXRF11 - buy
+2025-09-25 11:24:34,559 - utils.helpers - INFO - Buscando dados para MXRF11 - 1 dias
+2025-09-25 11:24:35,263 - utils.db - INFO - Dados salvos para MXRF11.SA
+2025-09-25 11:24:35,264 - utils.helpers - INFO - Dados FII encontrados automaticamente para MXRF11
+2025-09-25 11:24:35,269 - utils.helpers - INFO - Holdings atualizados para MXRF11: 20.0 unidades
+2025-09-25 11:24:35,270 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.712s
+2025-09-25 11:24:36,225 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:24:36,228 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:24:36,694 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:24:36,696 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:24:37,101 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:24:37,102 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:24:37,511 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:24:37,512 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:24:37,651 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:37,652 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:24:37,653 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:24:37,806 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:37,809 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:24:37,811 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:24:37,955 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:37,958 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:24:37,960 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:24:38,100 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:38,101 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:24:38,102 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 11:24:38,247 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:38,249 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 11:24:38,250 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 11:24:38,405 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:38,407 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 11:24:38,408 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 11:24:38,555 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:38,556 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 11:24:38,558 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 2.333s
+2025-09-25 11:24:52,678 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:24:52,679 - utils.helpers - INFO - Adicionando transação: KNCR11 - buy
+2025-09-25 11:24:52,679 - utils.helpers - INFO - Buscando dados para KNCR11 - 1 dias
+2025-09-25 11:24:52,810 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:53,015 - utils.db - INFO - Dados salvos para KNCR11.SA
+2025-09-25 11:24:53,016 - utils.helpers - INFO - Dados FII encontrados automaticamente para KNCR11
+2025-09-25 11:24:53,025 - utils.helpers - INFO - Holdings atualizados para KNCR11: 1.0 unidades
+2025-09-25 11:24:53,025 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.347s
+2025-09-25 11:24:53,912 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:24:53,916 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:24:54,064 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:54,067 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:24:54,069 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:24:54,253 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:54,256 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:24:54,259 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:24:54,398 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:54,399 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:24:54,401 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:24:54,555 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:54,557 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:24:54,558 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:24:54,716 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:54,717 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:24:54,718 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:24:54,860 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:54,862 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:24:54,863 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:24:55,007 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:55,009 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:24:55,011 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 11:24:55,175 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:55,176 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 11:24:55,178 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 11:24:55,323 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:55,325 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 11:24:55,326 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 11:24:55,481 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:55,484 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 11:24:55,486 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 11:24:55,666 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:24:55,668 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 11:24:55,670 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.759s
+2025-09-25 11:25:17,516 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 11:25:17,517 - utils.helpers - INFO - Adicionando transação: VCJR11 - buy
+2025-09-25 11:25:17,517 - utils.helpers - INFO - Buscando dados para VCJR11 - 1 dias
+2025-09-25 11:25:17,675 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:18,169 - utils.db - INFO - Dados salvos para VCJR11.SA
+2025-09-25 11:25:18,170 - utils.helpers - INFO - Dados FII encontrados automaticamente para VCJR11
+2025-09-25 11:25:18,175 - utils.helpers - INFO - Holdings atualizados para VCJR11: 1.0 unidades
+2025-09-25 11:25:18,175 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.660s
+2025-09-25 11:25:19,265 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:25:19,268 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:25:19,413 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:19,414 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:25:19,415 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:25:19,580 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:19,583 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:25:19,585 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:25:19,753 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:19,756 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:25:19,758 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:25:19,904 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:19,906 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:25:19,907 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:25:20,072 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:20,074 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:25:20,075 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:25:20,219 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:20,221 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:25:20,222 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:25:20,357 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:20,358 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:25:20,359 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 11:25:20,490 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:20,492 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 11:25:20,493 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 11:25:20,633 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:20,635 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 11:25:20,636 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 11:25:20,812 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:20,815 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 11:25:20,817 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 11:25:20,967 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:20,970 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 11:25:20,971 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 11:25:21,106 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:25:21,108 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 11:25:21,110 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.845s
+2025-09-25 11:27:28,213 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 11:27:28,213 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-25 11:27:28,235 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-25 11:27:28,237 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-25 11:27:28,239 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 11:27:28,240 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.004s
+2025-09-25 11:27:28,242 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.005s
+2025-09-25 11:27:28,244 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.005s
+2025-09-25 11:27:32,730 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-25 11:27:32,730 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-25 11:27:32,971 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:27:32,975 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:27:33,443 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:27:33,445 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:27:33,847 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:27:33,848 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:27:34,256 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:27:34,257 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:27:34,588 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:27:34,590 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:27:34,927 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:27:34,928 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:27:35,077 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:27:35,078 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:27:35,079 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:27:35,243 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:27:35,244 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:27:35,245 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 11:27:35,379 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:27:35,381 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 11:27:35,382 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 11:27:35,513 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:27:35,515 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 11:27:35,516 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 11:27:35,654 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:27:35,656 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 11:27:35,656 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 11:27:35,808 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:27:35,811 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 11:27:35,813 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 11:27:35,960 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:27:35,961 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 11:27:35,963 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 2.992s
+2025-09-25 11:28:08,466 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 11:28:08,467 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-25 11:28:08,482 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-25 11:28:08,483 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-25 11:28:08,484 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 11:28:08,485 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.004s
+2025-09-25 11:28:08,486 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.004s
+2025-09-25 11:28:08,487 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.003s
+2025-09-25 11:28:08,956 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-25 11:28:08,957 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-25 11:28:09,180 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:28:09,182 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:28:09,389 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:09,391 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:28:09,392 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:28:09,538 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:09,539 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:28:09,541 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:28:09,714 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:09,716 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:28:09,717 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:28:09,860 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:09,861 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:28:09,862 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:28:10,006 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:10,009 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:28:10,011 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:28:10,157 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:10,160 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:28:10,162 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:28:10,310 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:10,312 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:28:10,313 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 11:28:10,472 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:10,473 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 11:28:10,474 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 11:28:10,613 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:10,615 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 11:28:10,616 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 11:28:10,754 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:10,755 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 11:28:10,756 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 11:28:10,907 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:10,909 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 11:28:10,910 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 11:28:11,060 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:11,061 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 11:28:11,063 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.883s
+2025-09-25 11:28:17,292 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 11:28:17,293 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-25 11:28:17,309 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-25 11:28:17,311 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-25 11:28:17,312 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.003s
+2025-09-25 11:28:17,312 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 11:28:17,313 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.002s
+2025-09-25 11:28:17,314 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.002s
+2025-09-25 11:28:17,607 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-25 11:28:17,608 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-25 11:28:17,711 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 11:28:17,715 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 11:28:17,882 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:17,884 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 11:28:17,886 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 11:28:18,026 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:18,029 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 11:28:18,031 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 11:28:18,199 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:18,201 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 11:28:18,202 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 11:28:18,357 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:18,359 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 11:28:18,360 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 11:28:18,504 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:18,506 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 11:28:18,508 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 11:28:18,678 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:18,680 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 11:28:18,681 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 11:28:18,836 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:18,838 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 11:28:18,839 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 11:28:18,990 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:18,992 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 11:28:18,993 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 11:28:19,146 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:19,147 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 11:28:19,148 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 11:28:19,306 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:19,309 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 11:28:19,311 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 11:28:19,457 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:19,459 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 11:28:19,460 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 11:28:19,598 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 11:28:19,600 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 11:28:19,602 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.891s
+2025-09-25 14:22:19,696 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 14:22:19,703 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.008s
+2025-09-25 14:22:19,724 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-25 14:22:19,731 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.007s
+2025-09-25 14:22:19,732 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-25 14:22:19,733 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 14:22:19,734 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.002s
+2025-09-25 14:22:19,736 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.004s
+2025-09-25 14:22:20,021 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-25 14:22:20,022 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-09-25 14:22:20,119 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:22:20,139 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:22:21,280 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-25 14:22:21,281 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:22:21,283 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:22:21,973 - utils.db - INFO - Dados salvos para PETR4.SA
+2025-09-25 14:22:21,973 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:22:21,974 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:22:22,588 - utils.db - INFO - Dados salvos para SAPR11.SA
+2025-09-25 14:22:22,588 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:22:22,589 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:22:23,190 - utils.db - INFO - Dados salvos para BBAS3.SA
+2025-09-25 14:22:23,190 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:22:23,191 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:22:24,123 - utils.db - INFO - Dados salvos para CMIG4.SA
+2025-09-25 14:22:24,123 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:22:24,124 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:22:24,281 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:24,532 - utils.db - INFO - Dados salvos para BBSE3.SA
+2025-09-25 14:22:24,532 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:22:24,533 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:22:24,682 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:24,942 - utils.db - INFO - Dados salvos para VALE3.SA
+2025-09-25 14:22:24,942 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:22:24,943 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:22:25,170 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:25,453 - utils.db - INFO - Dados salvos para GARE11.SA
+2025-09-25 14:22:25,454 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:22:25,454 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:22:25,598 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:25,875 - utils.db - INFO - Dados salvos para BTLG11.SA
+2025-09-25 14:22:25,875 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:22:25,876 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:22:26,034 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:26,222 - utils.db - INFO - Dados salvos para MXRF11.SA
+2025-09-25 14:22:26,222 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:22:26,223 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:22:26,351 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:26,580 - utils.db - INFO - Dados salvos para KNCR11.SA
+2025-09-25 14:22:26,580 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:22:26,581 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:22:26,715 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:27,002 - utils.db - INFO - Dados salvos para VCJR11.SA
+2025-09-25 14:22:27,002 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:22:27,005 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 6.886s
+2025-09-25 14:22:44,325 - utils.helpers - INFO - 📥 GET / - Client: 127.0.0.1
+2025-09-25 14:22:44,334 - utils.helpers - INFO - 📤 GET / - Status: 200 - Time: 0.009s
+2025-09-25 14:22:44,364 - utils.helpers - INFO - 📥 GET /static/js/dashboard/app.js - Client: 127.0.0.1
+2025-09-25 14:22:44,365 - utils.helpers - INFO - 📤 GET /static/js/dashboard/app.js - Status: 304 - Time: 0.001s
+2025-09-25 14:22:44,398 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-25 14:22:44,401 - utils.helpers - INFO - Buscando preço para: bitcoin
+2025-09-25 14:22:44,401 - utils.helpers - INFO - Buscando dados para bitcoin - 1 dias
+2025-09-25 14:22:44,572 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:44,730 - utils.helpers - ERROR - Erro ao buscar dados crypto para bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:46,234 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BITCOIN.SA"}}}
+2025-09-25 14:22:47,260 - yfinance - ERROR - $BITCOIN.SA: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-25 14:22:47,260 - utils.helpers - WARNING - Dados insuficientes para BITCOIN.SA
+2025-09-25 14:22:47,260 - utils.helpers - WARNING - Nenhum dado encontrado para bitcoin
+2025-09-25 14:22:47,261 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 2.863s
+2025-09-25 14:22:49,353 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-25 14:22:49,353 - utils.helpers - INFO - Buscando preço para: ROXO34.SA
+2025-09-25 14:22:49,354 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 1 dias
+2025-09-25 14:22:49,624 - utils.db - INFO - Dados salvos para ROXO34.SA
+2025-09-25 14:22:49,625 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-25 14:22:49,625 - utils.helpers - INFO - Preço obtido para ROXO34.SA: $14.3100004196167
+2025-09-25 14:22:49,625 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 200 - Time: 0.273s
+2025-09-25 14:22:49,627 - utils.helpers - INFO - 📥 GET /api/v1/history - Client: 127.0.0.1
+2025-09-25 14:22:49,628 - utils.helpers - INFO - Buscando histórico para: ROXO34.SA (7 dias)
+2025-09-25 14:22:49,628 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 7 dias
+2025-09-25 14:22:49,834 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 7 pontos para 7 dias
+2025-09-25 14:22:49,847 - utils.db - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-25 14:22:49,848 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-25 14:22:49,848 - utils.helpers - INFO - Histórico obtido para ROXO34.SA: 7 pontos
+2025-09-25 14:22:49,849 - utils.helpers - INFO - 📤 GET /api/v1/history - Status: 200 - Time: 0.222s
+2025-09-25 14:22:49,912 - utils.helpers - INFO - 📥 GET /api/v1/prediction/analysis - Client: 127.0.0.1
+2025-09-25 14:22:49,914 - utils.helpers - INFO - Gerando análise técnica para: ROXO34.SA
+2025-09-25 14:22:49,914 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 14 dias
+2025-09-25 14:22:50,342 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 14 pontos para 14 dias
+2025-09-25 14:22:50,362 - utils.db - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-25 14:22:50,362 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-25 14:22:50,376 - utils.helpers - INFO - 📤 GET /api/v1/prediction/analysis - Status: 200 - Time: 0.464s
+2025-09-25 14:22:50,420 - utils.helpers - INFO - 📥 GET /api/v1/prediction - Client: 127.0.0.1
+2025-09-25 14:22:50,421 - utils.helpers - INFO - Gerando previsão para: ROXO34.SA (3 dias)
+2025-09-25 14:22:50,421 - utils.helpers - INFO - Buscando dados para ROXO34.SA - 30 dias
+2025-09-25 14:22:50,648 - utils.helpers - INFO - Dados históricos stock obtidos: ROXO34.SA - 26 pontos para 30 dias
+2025-09-25 14:22:50,674 - utils.db - INFO - Dados históricos salvos para ROXO34.SA
+2025-09-25 14:22:50,675 - utils.helpers - INFO - Dados stock encontrados para ROXO34.SA
+2025-09-25 14:22:50,704 - utils.helpers - INFO - Previsão gerada para ROXO34.SA: tendência Baixa
+2025-09-25 14:22:50,704 - utils.helpers - INFO - 📤 GET /api/v1/prediction - Status: 200 - Time: 0.284s
+2025-09-25 14:22:52,828 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 14:22:52,829 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-25 14:22:52,830 - utils.helpers - INFO - 📥 GET /api/v1/price - Client: 127.0.0.1
+2025-09-25 14:22:52,830 - utils.helpers - INFO - Buscando preço para: undefined
+2025-09-25 14:22:52,830 - utils.helpers - INFO - Buscando dados para undefined - 1 dias
+2025-09-25 14:22:53,007 - utils.helpers - ERROR - Erro ao buscar dados crypto para undefined: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=undefined&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:54,324 - yfinance - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: UNDEFINED.SA"}}}
+2025-09-25 14:22:55,349 - yfinance - ERROR - $UNDEFINED.SA: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2025-09-25 14:22:55,350 - utils.helpers - WARNING - Dados insuficientes para UNDEFINED.SA
+2025-09-25 14:22:55,350 - utils.helpers - WARNING - Nenhum dado encontrado para undefined
+2025-09-25 14:22:55,351 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 14:22:55,351 - utils.helpers - INFO - 📤 GET /api/v1/price - Status: 404 - Time: 2.522s
+2025-09-25 14:22:55,354 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 304 - Time: 0.002s
+2025-09-25 14:22:55,361 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:22:55,367 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:22:55,519 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:55,521 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:22:55,522 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:22:55,664 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:55,666 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:22:55,667 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:22:55,812 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:55,814 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:22:55,815 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:22:55,989 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:55,992 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:22:55,993 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:22:56,125 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:56,126 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:22:56,127 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:22:56,275 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:56,277 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:22:56,278 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:22:56,425 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:56,427 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:22:56,428 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:22:56,564 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:56,565 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:22:56,567 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:22:56,733 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:56,735 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:22:56,736 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:22:56,882 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:56,884 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:22:56,885 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:22:57,031 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:57,033 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:22:57,034 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:22:57,166 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:22:57,168 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:22:57,170 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.808s
+2025-09-25 14:23:10,288 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 14:23:10,291 - utils.helpers - INFO - Adicionando transação: ROXO34 - buy
+2025-09-25 14:23:10,291 - utils.helpers - INFO - Buscando dados para ROXO34 - 1 dias
+2025-09-25 14:23:10,465 - utils.helpers - ERROR - Erro ao buscar dados crypto para roxo34: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=roxo34&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:10,467 - utils.helpers - INFO - Dados stock encontrados automaticamente para ROXO34
+2025-09-25 14:23:10,481 - utils.helpers - INFO - Holdings atualizados para ROXO34: 1.0 unidades
+2025-09-25 14:23:10,481 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.193s
+2025-09-25 14:23:11,544 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:23:11,547 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:23:11,739 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:11,742 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:23:11,743 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:23:11,909 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:11,910 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:23:11,911 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:23:12,065 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:12,067 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:23:12,067 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:23:12,196 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:12,198 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:23:12,199 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:23:12,340 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:12,342 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:23:12,343 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:23:12,505 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:12,507 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:23:12,508 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:23:12,656 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:12,658 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:23:12,659 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:23:12,804 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:12,807 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:23:12,808 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:23:12,942 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:12,946 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:23:12,948 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:23:13,098 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:13,100 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:23:13,101 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:23:13,264 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:13,265 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:23:13,266 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:23:13,390 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:13,391 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:23:13,392 - utils.helpers - INFO - Buscando dados para roxo34 - 1 dias
+2025-09-25 14:23:13,553 - utils.helpers - ERROR - Erro ao buscar dados crypto para roxo34: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=roxo34&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:13,555 - utils.helpers - INFO - Dados stock encontrados automaticamente para roxo34
+2025-09-25 14:23:13,556 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 2.012s
+2025-09-25 14:23:51,567 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 14:23:51,568 - utils.helpers - INFO - Adicionando transação: ROXO34 - buy
+2025-09-25 14:23:51,568 - utils.helpers - INFO - Buscando dados para ROXO34 - 1 dias
+2025-09-25 14:23:51,981 - utils.helpers - INFO - Dados stock encontrados automaticamente para ROXO34
+2025-09-25 14:23:51,999 - utils.helpers - INFO - Holdings atualizados para ROXO34: 2.0 unidades
+2025-09-25 14:23:52,000 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.433s
+2025-09-25 14:23:52,986 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:23:52,990 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:23:53,309 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:23:53,310 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:23:53,720 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:23:53,721 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:23:54,129 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:23:54,130 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:23:54,539 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:23:54,540 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:23:54,685 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:54,686 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:23:54,687 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:23:54,828 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:54,829 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:23:54,830 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:23:54,985 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:54,987 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:23:54,988 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:23:55,138 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:55,140 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:23:55,141 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:23:55,298 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:55,300 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:23:55,301 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:23:55,452 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:55,455 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:23:55,457 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:23:55,611 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:55,613 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:23:55,614 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:23:55,769 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:55,771 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:23:55,772 - utils.helpers - INFO - Buscando dados para roxo34 - 1 dias
+2025-09-25 14:23:55,911 - utils.helpers - ERROR - Erro ao buscar dados crypto para roxo34: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=roxo34&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:23:55,912 - utils.helpers - INFO - Dados stock encontrados automaticamente para roxo34
+2025-09-25 14:23:55,914 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 2.928s
+2025-09-25 14:24:19,853 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 14:24:19,854 - utils.helpers - INFO - Adicionando transação: ROXO34 - sell
+2025-09-25 14:24:19,854 - utils.helpers - INFO - Buscando dados para ROXO34 - 1 dias
+2025-09-25 14:24:19,995 - utils.helpers - ERROR - Erro ao buscar dados crypto para roxo34: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=roxo34&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:19,997 - utils.helpers - INFO - Dados stock encontrados automaticamente para ROXO34
+2025-09-25 14:24:20,006 - utils.helpers - INFO - Holdings atualizados para ROXO34: 0.0 unidades
+2025-09-25 14:24:20,007 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.154s
+2025-09-25 14:24:21,395 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:24:21,398 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:24:21,543 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:21,546 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:24:21,547 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:24:21,722 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:21,724 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:24:21,725 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:24:21,884 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:21,886 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:24:21,887 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:24:22,058 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:22,060 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:24:22,061 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:24:22,213 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:22,215 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:24:22,217 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:24:22,362 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:22,364 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:24:22,365 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:24:22,503 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:22,505 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:24:22,506 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:24:22,639 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:22,640 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:24:22,641 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:24:22,794 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:22,795 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:24:22,796 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:24:22,936 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:22,937 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:24:22,938 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:24:23,080 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:23,082 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:24:23,083 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:24:23,221 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:23,222 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:24:23,224 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.829s
+2025-09-25 14:24:55,693 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 14:24:55,694 - utils.helpers - INFO - Adicionando transação: GARE11 - buy
+2025-09-25 14:24:55,694 - utils.helpers - INFO - Buscando dados para GARE11 - 1 dias
+2025-09-25 14:24:56,083 - utils.helpers - INFO - Dados FII encontrados automaticamente para GARE11
+2025-09-25 14:24:56,089 - utils.helpers - INFO - Holdings atualizados para GARE11: 54.0 unidades
+2025-09-25 14:24:56,089 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.396s
+2025-09-25 14:24:56,918 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:24:56,921 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:24:57,312 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:24:57,314 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:24:57,645 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:24:57,647 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:24:58,028 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:24:58,029 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:24:58,438 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:24:58,439 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:24:58,584 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:58,585 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:24:58,586 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:24:58,752 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:58,755 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:24:58,757 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:24:58,898 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:58,900 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:24:58,901 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:24:59,049 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:59,051 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:24:59,052 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:24:59,175 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:59,177 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:24:59,177 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:24:59,324 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:59,325 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:24:59,327 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:24:59,469 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:59,471 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:24:59,472 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:24:59,611 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:24:59,613 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:24:59,615 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 2.696s
+2025-09-25 14:25:45,671 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 14:25:45,671 - utils.helpers - INFO - Adicionando transação: GARE11 - sell
+2025-09-25 14:25:45,671 - utils.helpers - INFO - Buscando dados para GARE11 - 1 dias
+2025-09-25 14:25:45,816 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:45,818 - utils.helpers - INFO - Dados FII encontrados automaticamente para GARE11
+2025-09-25 14:25:45,826 - utils.helpers - INFO - Holdings atualizados para GARE11: 27.0 unidades
+2025-09-25 14:25:45,827 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.156s
+2025-09-25 14:25:46,674 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:25:46,679 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:25:46,824 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:46,825 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:25:46,826 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:25:46,970 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:46,971 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:25:46,972 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:25:47,109 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:47,111 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:25:47,112 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:25:47,257 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:47,259 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:25:47,260 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:25:47,417 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:47,418 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:25:47,419 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:25:47,555 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:47,558 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:25:47,560 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:25:47,712 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:47,715 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:25:47,717 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:25:47,856 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:47,858 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:25:47,859 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:25:48,014 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:48,016 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:25:48,017 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:25:48,162 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:48,164 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:25:48,165 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:25:48,307 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:48,309 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:25:48,309 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:25:48,458 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:25:48,459 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:25:48,461 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.787s
+2025-09-25 14:26:32,089 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 14:26:32,089 - utils.helpers - INFO - Adicionando transação: GARE11 - sell
+2025-09-25 14:26:32,089 - utils.helpers - INFO - Buscando dados para GARE11 - 1 dias
+2025-09-25 14:26:32,443 - utils.helpers - INFO - Dados FII encontrados automaticamente para GARE11
+2025-09-25 14:26:32,450 - utils.helpers - INFO - Holdings atualizados para GARE11: 0.0 unidades
+2025-09-25 14:26:32,451 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.362s
+2025-09-25 14:26:33,101 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:26:33,107 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:26:33,468 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:26:33,469 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:26:33,878 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:26:33,880 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:26:34,285 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:26:34,286 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:26:34,695 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:26:34,696 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:26:34,845 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:34,846 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:26:34,847 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:26:34,993 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:34,995 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:26:34,996 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:26:35,135 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:35,137 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:26:35,139 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:26:35,299 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:35,300 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:26:35,301 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:26:35,458 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:35,459 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:26:35,460 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:26:35,597 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:35,599 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:26:35,600 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:26:35,740 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:35,742 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:26:35,744 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 2.642s
+2025-09-25 14:26:50,077 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 14:26:50,078 - utils.helpers - INFO - Adicionando transação: GARE11 - buy
+2025-09-25 14:26:50,078 - utils.helpers - INFO - Buscando dados para GARE11 - 1 dias
+2025-09-25 14:26:50,228 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:50,230 - utils.helpers - INFO - Dados FII encontrados automaticamente para GARE11
+2025-09-25 14:26:50,239 - utils.helpers - INFO - Holdings atualizados para GARE11: 27.0 unidades
+2025-09-25 14:26:50,240 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.163s
+2025-09-25 14:26:51,156 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:26:51,159 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:26:51,308 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:51,310 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:26:51,311 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:26:51,450 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:51,452 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:26:51,453 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:26:51,602 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:51,605 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:26:51,608 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:26:51,764 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:51,767 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:26:51,769 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:26:51,907 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:51,909 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:26:51,910 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:26:52,049 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:52,050 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:26:52,051 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:26:52,183 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:52,185 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:26:52,186 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:26:52,320 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:52,322 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:26:52,323 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:26:52,459 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:52,460 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:26:52,461 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:26:52,617 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:52,619 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:26:52,620 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:26:52,756 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:52,758 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:26:52,759 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:26:52,902 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:26:52,905 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:26:52,909 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 1.754s
+2025-09-25 14:43:37,086 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-25 14:43:40,523 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-25 14:43:40,523 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-25 14:43:40,523 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-25 14:43:40,533 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-25 14:44:01,665 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-25 14:44:05,007 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-25 14:44:05,008 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-25 14:44:05,008 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-25 14:44:05,013 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-25 14:44:10,348 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-25 14:44:12,613 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-25 14:44:12,613 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-25 14:44:12,613 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-25 14:44:12,617 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-25 14:46:44,688 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-25 14:46:47,548 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-25 14:46:47,549 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-25 14:46:47,549 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-25 14:46:47,557 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-25 14:46:49,644 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 14:46:49,647 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.003s
+2025-09-25 14:46:49,674 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-25 14:46:49,690 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.016s
+2025-09-25 14:46:49,691 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-25 14:46:49,691 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 14:46:49,693 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.001s
+2025-09-25 14:46:49,693 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.002s
+2025-09-25 14:46:49,947 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-25 14:46:49,949 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-25 14:46:50,294 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 14:46:50,307 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 14:46:51,417 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-25 14:46:51,417 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 14:46:51,419 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 14:46:52,057 - utils.db - INFO - Dados salvos para PETR4.SA
+2025-09-25 14:46:52,057 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 14:46:52,058 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 14:46:52,670 - utils.db - INFO - Dados salvos para SAPR11.SA
+2025-09-25 14:46:52,670 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 14:46:52,671 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 14:46:53,287 - utils.db - INFO - Dados salvos para BBAS3.SA
+2025-09-25 14:46:53,287 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 14:46:53,288 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 14:46:53,797 - utils.db - INFO - Dados salvos para CMIG4.SA
+2025-09-25 14:46:53,797 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 14:46:53,798 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 14:46:53,925 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:46:54,216 - utils.db - INFO - Dados salvos para BBSE3.SA
+2025-09-25 14:46:54,216 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 14:46:54,217 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 14:46:54,396 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:46:54,718 - utils.db - INFO - Dados salvos para VALE3.SA
+2025-09-25 14:46:54,718 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 14:46:54,719 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 14:46:54,898 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:46:55,127 - utils.db - INFO - Dados salvos para GARE11.SA
+2025-09-25 14:46:55,128 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 14:46:55,128 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 14:46:55,276 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:46:55,537 - utils.db - INFO - Dados salvos para BTLG11.SA
+2025-09-25 14:46:55,537 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 14:46:55,538 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 14:46:55,681 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:46:55,947 - utils.db - INFO - Dados salvos para MXRF11.SA
+2025-09-25 14:46:55,947 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 14:46:55,948 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 14:46:56,130 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:46:56,369 - utils.db - INFO - Dados salvos para KNCR11.SA
+2025-09-25 14:46:56,369 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 14:46:56,370 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 14:46:56,517 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 14:46:56,766 - utils.db - INFO - Dados salvos para VCJR11.SA
+2025-09-25 14:46:56,766 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 14:46:56,768 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 6.474s
+2025-09-25 15:43:14,603 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 15:43:14,607 - utils.helpers - INFO - Adicionando transação: PETR4 - sell
+2025-09-25 15:43:14,607 - utils.helpers - INFO - Buscando dados para PETR4 - 1 dias
+2025-09-25 15:43:17,990 - utils.db - INFO - Dados salvos para PETR4.SA
+2025-09-25 15:43:17,990 - utils.helpers - INFO - Dados stock encontrados automaticamente para PETR4
+2025-09-25 15:43:18,011 - utils.helpers - INFO - Holdings atualizados para PETR4: 15.0 unidades
+2025-09-25 15:43:18,012 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 3.409s
+2025-09-25 15:43:24,349 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 15:43:24,354 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 15:43:24,897 - utils.db - INFO - Dados salvos para XPML11.SA
+2025-09-25 15:43:24,897 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 15:43:24,898 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 15:43:25,067 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 15:43:25,068 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 15:43:25,663 - utils.db - INFO - Dados salvos para SAPR11.SA
+2025-09-25 15:43:25,663 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 15:43:25,664 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 15:43:26,380 - utils.db - INFO - Dados salvos para BBAS3.SA
+2025-09-25 15:43:26,380 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 15:43:26,381 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 15:43:26,520 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:43:26,792 - utils.db - INFO - Dados salvos para CMIG4.SA
+2025-09-25 15:43:26,792 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 15:43:26,793 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 15:43:26,930 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:43:27,197 - utils.db - INFO - Dados salvos para BBSE3.SA
+2025-09-25 15:43:27,197 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 15:43:27,198 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 15:43:27,701 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:43:27,913 - utils.db - INFO - Dados salvos para VALE3.SA
+2025-09-25 15:43:27,913 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 15:43:27,914 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 15:43:28,065 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:43:28,247 - utils.db - INFO - Dados salvos para GARE11.SA
+2025-09-25 15:43:28,248 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 15:43:28,248 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 15:43:28,408 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:43:28,641 - utils.db - INFO - Dados salvos para BTLG11.SA
+2025-09-25 15:43:28,641 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 15:43:28,642 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 15:43:28,793 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:43:29,040 - utils.db - INFO - Dados salvos para MXRF11.SA
+2025-09-25 15:43:29,040 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 15:43:29,041 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 15:43:29,189 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:43:29,455 - utils.db - INFO - Dados salvos para KNCR11.SA
+2025-09-25 15:43:29,455 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 15:43:29,455 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 15:43:29,592 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:43:29,870 - utils.db - INFO - Dados salvos para VCJR11.SA
+2025-09-25 15:43:29,870 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 15:43:29,872 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 5.523s
+2025-09-25 15:44:53,597 - utils.helpers - INFO - 📥 POST /api/v1/wallet/transactions - Client: 127.0.0.1
+2025-09-25 15:44:53,598 - utils.helpers - INFO - Adicionando transação: PETR4 - buy
+2025-09-25 15:44:53,599 - utils.helpers - INFO - Buscando dados para PETR4 - 1 dias
+2025-09-25 15:44:54,029 - utils.helpers - INFO - Dados stock encontrados automaticamente para PETR4
+2025-09-25 15:44:54,038 - utils.helpers - INFO - Holdings atualizados para PETR4: 25.0 unidades
+2025-09-25 15:44:54,038 - utils.helpers - INFO - 📤 POST /api/v1/wallet/transactions - Status: 200 - Time: 0.441s
+2025-09-25 15:44:54,950 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 15:44:54,954 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 15:44:55,669 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 15:44:55,670 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 15:44:55,825 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 15:44:55,826 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 15:44:56,178 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 15:44:56,179 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 15:44:56,589 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 15:44:56,591 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 15:44:56,743 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:44:56,746 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 15:44:56,748 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 15:44:56,904 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:44:56,905 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 15:44:56,906 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 15:44:57,051 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:44:57,052 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 15:44:57,053 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 15:44:57,184 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:44:57,186 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 15:44:57,187 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 15:44:57,327 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:44:57,328 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 15:44:57,329 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 15:44:57,480 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:44:57,481 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 15:44:57,482 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 15:44:57,613 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:44:57,615 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 15:44:57,616 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 15:44:57,749 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:44:57,751 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 15:44:57,753 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 2.803s
+2025-09-25 15:45:06,509 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-25 15:45:09,724 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-25 15:45:09,725 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-25 15:45:09,725 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-25 15:45:09,739 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-25 15:45:11,349 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-25 15:45:13,975 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-25 15:45:13,976 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-25 15:45:13,976 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-25 15:45:13,982 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-25 15:45:15,694 - utils.helpers - INFO - 🔄 Encerrando Crypto Dashboard API...
+2025-09-25 15:45:18,174 - utils.helpers - INFO - 🚀 Iniciando Crypto Dashboard API...
+2025-09-25 15:45:18,174 - utils.helpers - INFO - MongoDB URL: mongodb://localhost:27017
+2025-09-25 15:45:18,174 - utils.helpers - INFO - Database: crypto_dashboard
+2025-09-25 15:45:18,179 - utils.helpers - INFO - ✅ Conexão com MongoDB estabelecida
+2025-09-25 15:45:52,467 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 15:45:52,469 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.003s
+2025-09-25 15:45:52,489 - utils.helpers - INFO - 📥 GET /static/css/style.css - Client: 127.0.0.1
+2025-09-25 15:45:52,490 - utils.helpers - INFO - 📥 GET /static/css/wallet/wallet.css - Client: 127.0.0.1
+2025-09-25 15:45:52,505 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 15:45:52,505 - utils.helpers - INFO - 📤 GET /static/css/style.css - Status: 200 - Time: 0.017s
+2025-09-25 15:45:52,506 - utils.helpers - INFO - 📤 GET /static/css/wallet/wallet.css - Status: 200 - Time: 0.016s
+2025-09-25 15:45:52,507 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.002s
+2025-09-25 15:45:52,808 - utils.helpers - INFO - 📥 GET /favicon.ico - Client: 127.0.0.1
+2025-09-25 15:45:52,809 - utils.helpers - INFO - 📤 GET /favicon.ico - Status: 404 - Time: 0.002s
+2025-09-25 15:45:53,462 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 15:45:53,468 - utils.helpers - INFO - Buscando dados para xpml11 - 1 dias
+2025-09-25 15:45:53,629 - utils.helpers - ERROR - Erro ao buscar dados crypto para xpml11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=xpml11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:53,631 - utils.helpers - INFO - Dados FII encontrados automaticamente para xpml11
+2025-09-25 15:45:53,632 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 15:45:53,797 - utils.helpers - ERROR - Erro ao buscar dados crypto para petr4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=petr4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:53,799 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 15:45:53,800 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 15:45:53,954 - utils.helpers - ERROR - Erro ao buscar dados crypto para sapr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=sapr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:53,956 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 15:45:53,957 - utils.helpers - INFO - Buscando dados para bbas3 - 1 dias
+2025-09-25 15:45:54,134 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbas3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbas3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:54,137 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbas3
+2025-09-25 15:45:54,139 - utils.helpers - INFO - Buscando dados para cmig4 - 1 dias
+2025-09-25 15:45:54,289 - utils.helpers - ERROR - Erro ao buscar dados crypto para cmig4: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=cmig4&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:54,292 - utils.helpers - INFO - Dados stock encontrados automaticamente para cmig4
+2025-09-25 15:45:54,294 - utils.helpers - INFO - Buscando dados para bbse3 - 1 dias
+2025-09-25 15:45:54,423 - utils.helpers - ERROR - Erro ao buscar dados crypto para bbse3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=bbse3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:54,425 - utils.helpers - INFO - Dados stock encontrados automaticamente para bbse3
+2025-09-25 15:45:54,426 - utils.helpers - INFO - Buscando dados para vale3 - 1 dias
+2025-09-25 15:45:55,597 - utils.helpers - ERROR - Erro ao buscar dados crypto para vale3: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vale3&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:55,599 - utils.helpers - INFO - Dados stock encontrados automaticamente para vale3
+2025-09-25 15:45:55,600 - utils.helpers - INFO - Buscando dados para gare11 - 1 dias
+2025-09-25 15:45:55,738 - utils.helpers - ERROR - Erro ao buscar dados crypto para gare11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=gare11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:55,739 - utils.helpers - INFO - Dados FII encontrados automaticamente para gare11
+2025-09-25 15:45:55,740 - utils.helpers - INFO - Buscando dados para btlg11 - 1 dias
+2025-09-25 15:45:55,904 - utils.helpers - ERROR - Erro ao buscar dados crypto para btlg11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=btlg11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:55,905 - utils.helpers - INFO - Dados FII encontrados automaticamente para btlg11
+2025-09-25 15:45:55,906 - utils.helpers - INFO - Buscando dados para mxrf11 - 1 dias
+2025-09-25 15:45:56,045 - utils.helpers - ERROR - Erro ao buscar dados crypto para mxrf11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=mxrf11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:56,046 - utils.helpers - INFO - Dados FII encontrados automaticamente para mxrf11
+2025-09-25 15:45:56,047 - utils.helpers - INFO - Buscando dados para kncr11 - 1 dias
+2025-09-25 15:45:56,217 - utils.helpers - ERROR - Erro ao buscar dados crypto para kncr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=kncr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:56,219 - utils.helpers - INFO - Dados FII encontrados automaticamente para kncr11
+2025-09-25 15:45:56,219 - utils.helpers - INFO - Buscando dados para vcjr11 - 1 dias
+2025-09-25 15:45:56,369 - utils.helpers - ERROR - Erro ao buscar dados crypto para vcjr11: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/simple/price?ids=vcjr11&vs_currencies=usd&include_24hr_change=true
+2025-09-25 15:45:56,370 - utils.helpers - INFO - Dados FII encontrados automaticamente para vcjr11
+2025-09-25 15:45:56,372 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 2.911s
