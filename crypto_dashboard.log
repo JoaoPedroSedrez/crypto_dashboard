@@ -7175,3 +7175,13 @@
 2025-09-25 08:54:34,321 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
 2025-09-25 08:54:34,728 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
 2025-09-25 08:54:34,729 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.840s
+2025-09-25 08:56:59,184 - utils.helpers - INFO - 📥 GET /wallet - Client: 127.0.0.1
+2025-09-25 08:56:59,185 - utils.helpers - INFO - 📤 GET /wallet - Status: 200 - Time: 0.001s
+2025-09-25 08:56:59,194 - utils.helpers - INFO - 📥 GET /static/js/wallet/wallet.js - Client: 127.0.0.1
+2025-09-25 08:56:59,196 - utils.helpers - INFO - 📤 GET /static/js/wallet/wallet.js - Status: 200 - Time: 0.001s
+2025-09-25 08:56:59,236 - utils.helpers - INFO - 📥 GET /api/v1/wallet/holdings - Client: 127.0.0.1
+2025-09-25 08:56:59,241 - utils.helpers - INFO - Buscando dados para petr4 - 1 dias
+2025-09-25 08:56:59,569 - utils.helpers - INFO - Dados stock encontrados automaticamente para petr4
+2025-09-25 08:56:59,570 - utils.helpers - INFO - Buscando dados para sapr11 - 1 dias
+2025-09-25 08:56:59,935 - utils.helpers - INFO - Dados FII encontrados automaticamente para sapr11
+2025-09-25 08:56:59,937 - utils.helpers - INFO - 📤 GET /api/v1/wallet/holdings - Status: 200 - Time: 0.700s

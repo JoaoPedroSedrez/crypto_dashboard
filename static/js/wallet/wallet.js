@@ -85,7 +85,7 @@
                         <div class="holding-stats">
                             <div class="stat-item">
                                 <div class="stat-label">Quantidade</div>
-                                <div class="stat-value">R${asset.total_quantity}</div>
+                                <div class="stat-value">${asset.total_quantity}</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-label">Preço Médio</div>
