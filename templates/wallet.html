@@ -5,37 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myWallet</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="/static/css/style.css" rel="stylesheet">
-    <link href="/static/css/wallet/wallet.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/static/icons/wallet/wallet.png">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
-
+    <link rel="stylesheet" href="/static/css/wallet/wallet.css">
 </head>
 <body>
     <div class="container">
         <!-- Header do Wallet -->
         <div class="header">
             <h1><i class="fas fa-wallet"></i> myWallet</h1>
-            <p style="color: #94a3b8; margin: 0;">Acompanhe seu portfolio de ações e fundos imobiliários</p>
+            <p>Acompanhe seu portfolio de ações e fundos imobiliários</p>
             
             <!-- Resumo do Portfolio -->
-            <div class="header-stats" id="wallet-summary">
+            <div class="header-stats">
                 <div class="stat-card">
                     <h3>Valor Total</h3>
-                    <div class="value" id="total-value">$0.00</div>
+                    <div class="value" id="total-value">R$ 25.847,92</div>
                 </div>
                 <div class="stat-card">
                     <h3>Investido</h3>
-                    <div class="value" id="total-invested">$0.00</div>
+                    <div class="value" id="total-invested">R$ 22.150,00</div>
                 </div>
                 <div class="stat-card">
                     <h3>P&L Total</h3>
-                    <div class="value" id="total-pnl">$0.00</div>
-                    <div class="change" id="total-pnl-percent">0%</div>
+                    <div class="value" id="total-pnl">R$ 3.697,92</div>
+                    <div class="change positive" id="total-pnl-percent">+16.7%</div>
                 </div>
                 <div class="stat-card">
                     <h3>Ativos</h3>
-                    <div class="value" id="assets-count">0</div>
+                    <div class="value" id="assets-count">12</div>
                 </div>
             </div>
         </div>
@@ -53,13 +49,104 @@
             </button>
         </div>
 
-        <!-- Holdings do Portfolio -->
-        <div class="holdings-section">
-            <h2 class="section-title">
-                <i class="fas fa-coins"></i> Meus Ativos
-            </h2>
-            <div class="results-section" id="holdings-grid">
-                <div class="loading">Carregando holdings...</div>
+        <!-- Container das Tabelas -->
+        <div class="tables-container">
+            <!-- Tabela de Ações -->
+            <div class="table-section">
+                <div class="table-header">
+                    <i class="fas fa-chart-line"></i>
+                    <h2>Ações</h2>
+                </div>
+                <div class="table-wrapper">
+                    <table class="assets-table">
+                        <thead>
+                            <tr>
+                                <th>Ticker</th>
+                                <th style="text-align: center;">Qtd</th>
+                                <th style="text-align: right;">Valor Total</th>
+                                <th style="text-align: right;">Preço Atual</th>
+                                <th style="text-align: right;">Preço Médio</th>
+                                <th style="text-align: right;">P&L</th>
+                            </tr>
+                        </thead>
+                        <tbody id="stocks-table-body">
+                            <!-- Dados de exemplo -->
+                            <tr>
+                                <td class="ticker-cell">PETR4</td>
+                                <td class="quantity-cell">100</td>
+                                <td class="value-cell">R$ 4.250,00</td>
+                                <td class="price-cell">R$ 42,50</td>
+                                <td class="price-cell">R$ 38,20</td>
+                                <td class="pnl-cell pnl-positive">+R$ 430,00 (+11.25%)</td>
+                            </tr>
+                            <tr>
+                                <td class="ticker-cell">VALE3</td>
+                                <td class="quantity-cell">50</td>
+                                <td class="value-cell">R$ 3.175,50</td>
+                                <td class="price-cell">R$ 63,51</td>
+                                <td class="price-cell">R$ 65,80</td>
+                                <td class="pnl-cell pnl-negative">-R$ 114,50 (-3.48%)</td>
+                            </tr>
+                            <tr>
+                                <td class="ticker-cell">BBAS3</td>
+                                <td class="quantity-cell">75</td>
+                                <td class="value-cell">R$ 2.887,50</td>
+                                <td class="price-cell">R$ 38,50</td>
+                                <td class="price-cell">R$ 35,60</td>
+                                <td class="pnl-cell pnl-positive">+R$ 217,50 (+8.15%)</td>
+                            </tr>
+                            <tr>
+                                <td class="ticker-cell">ITUB4</td>
+                                <td class="quantity-cell">200</td>
+                                <td class="value-cell">R$ 6.420,00</td>
+                                <td class="price-cell">R$ 32,10</td>
+                                <td class="price-cell">R$ 30,85</td>
+                                <td class="pnl-cell pnl-positive">+R$ 250,00 (+4.05%)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Tabela de FIIs -->
+            <div class="table-section">
+                <div class="table-header">
+                    <i class="fas fa-building"></i>
+                    <h2>Fundos Imobiliários</h2>
+                </div>
+                <div class="table-wrapper">
+                    <table class="assets-table">
+                        <thead>
+                            <tr>
+                                <th>Ticker</th>
+                                <th style="text-align: center;">Qtd</th>
+                                <th style="text-align: right;">Valor Total</th>
+                                <th style="text-align: right;">Preço Atual</th>
+                                <th style="text-align: right;">Preço Médio</th>
+                                <th style="text-align: right;">P&L</th>
+                            </tr>
+                        </thead>
+                        <tbody id="fiis-table-body">
+                            <!-- Dados de exemplo -->
+                            <tr>
+                                <td class="ticker-cell">HGLG11</td>
+                                <td class="quantity-cell">60</td>
+                                <td class="value-cell">R$ 9.114,60</td>
+                                <td class="price-cell">R$ 151,91</td>
+                                <td class="price-cell">R$ 145,20</td>
+                                <td class="pnl-cell pnl-positive">+R$ 402,60 (+4.62%)</td>
+                            </tr>
+                            <tr>
+                                <td class="ticker-cell">XPML11</td>
+                                <td class="quantity-cell">100</td>
+                                <td class="value-cell">R$ 9.850,00</td>
+                                <td class="price-cell">R$ 98,50</td>
+                                <td class="price-cell">R$ 95,30</td>
+                                <td class="pnl-cell pnl-positive">+R$ 320,00 (+3.36%)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -74,6 +161,9 @@
                 <div class="form-group">
                     <label class="form-label">Símbolo do Ativo</label>
                     <input type="text" class="form-control" id="symbol" placeholder="Ex: BBAS3, PETR4" required>
+                </div>
+                
+                <div class="form-group">
                     <label class="form-label">Tipo</label>
                     <select class="form-control" id="asset-type" required>
                         <option value="">Selecione</option>
@@ -108,11 +198,11 @@
 
                 <div class="form-actions">
                     <button type="button" class="btn secondary" onclick="closeTransactionModal()">Cancelar</button>
-                    <button type="submit" class="btn success" onclick="">Salvar</button>
+                    <button type="submit" class="btn success">Salvar</button>
                 </div>
             </form>
         </div>
     </div>
-    <script src="/static/js/wallet/wallet.js"></script>
-    </body>
+    <script src="static/js/wallet/wallet.js"></script>
+</body>
 </html>

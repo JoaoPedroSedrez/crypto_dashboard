@@ -1,53 +1,112 @@
-/* =========================
-   Wallet Actions
-   ========================= */
+
+/* Reset e configurações básicas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --success-color: #10b981;
+    --danger-color: #ef4444;
+    --warning-color: #f59e0b;
+    --dark-bg: #0f172a;
+    --card-bg: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --border-color: #334155;
+    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    --radius: 12px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--dark-bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background: var(--gradient-1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.header p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat-card h3 {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-card .value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.stat-card .change {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.positive { color: var(--success-color); }
+.negative { color: var(--danger-color); }
+
+/* Wallet Actions */
 .wallet-actions {
     display: flex;
-    gap: 0.8rem;            /* Espaço horizontal entre os botões */
-    margin-bottom: 1.5rem;  /* Espaço entre os botões e os itens abaixo */
-    flex-wrap: wrap;        /* Permite que os botões quebrem linha em telas pequenas */
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
-/* =========================
-   Formulários
-   ========================= */
-.form-label {
-    margin-bottom: 0.5rem;
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: var(--text-secondary);
-}
-
-/* Base para inputs, selects e textarea */
-.form-control {
-    padding: 0.7rem 1rem;
-    border-radius: var(--radius);
-    border: 1px solid var(--border-color);
-    background: var(--card-bg);
-    color: var(--text-primary);
-    font-size: 1rem;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-.form-control::placeholder {
-    color: var(--text-secondary);
-}
-
-.form-control:focus {
-    border-color: var(--primary-color);
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
-}
-
-/* Textarea específico */
-.form-textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-
-/* =========================
-   Botões
-   ========================= */
 .btn {
     padding: 0.7rem 1.5rem;
     border: none;
@@ -63,42 +122,290 @@
     transform: translateY(-1px);
 }
 
-.btn:active {
-    transform: translateY(0);
+.btn.success { 
+    background: var(--success-color); 
+    color: #fff; 
+}
+.btn.success:hover { 
+    background: #059669; 
 }
 
-/* Variações de botões */
-.btn.primary { background: var(--primary-color); color: #fff; }
-.btn.primary:hover { background: var(--secondary-color); }
+.btn.secondary { 
+    background: var(--border-color); 
+    color: var(--text-primary); 
+}
+.btn.secondary:hover { 
+    background: var(--text-secondary); 
+}
 
-.btn.secondary { background: var(--border-color); color: var(--text-primary); }
-.btn.secondary:hover { background: var(--text-secondary); }
+/* Tables Section */
+.tables-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
 
-.btn.success { background: var(--success-color); color: #fff; }
-.btn.success:hover { background: #059669; }
+.table-section {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
 
-/* =========================
-   Ajustes no Modal
-   ========================= */
-.modal-content form {
+.table-header {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center; /* centraliza os inputs */
+    align-items: center;
+    gap: 0.5rem;
 }
 
-/* Cada campo */
-.form-group {
+.table-header h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.assets-table {
     width: 100%;
-    max-width: 400px; /* limite de largura */
-    display: flex;
-    flex-direction: column;
+    border-collapse: collapse;
 }
 
-/* Ações do formulário */
+.assets-table thead th {
+    background: var(--dark-bg);
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.assets-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.2s;
+}
+
+.assets-table tbody tr:hover {
+    background: rgba(37, 99, 235, 0.1);
+}
+
+.assets-table tbody td {
+    padding: 1rem;
+    font-size: 0.95rem;
+}
+
+.assets-table th:nth-child(1), 
+.assets-table td:nth-child(1) { /* Ticker */
+    width: 15%;
+}
+
+.assets-table th:nth-child(2), 
+.assets-table td:nth-child(2) { /* Quantidade */
+    width: 10%;
+    text-align: center;
+}
+
+.assets-table th:nth-child(3), 
+.assets-table td:nth-child(3) { /* Valor Total */
+    width: 20%;
+    text-align: right;
+}
+
+.assets-table th:nth-child(4), 
+.assets-table td:nth-child(4) { /* Preço Atual */
+    width: 18%;
+    text-align: right;
+}
+
+.assets-table th:nth-child(5), 
+.assets-table td:nth-child(5) { /* Preço Médio */
+    width: 18%;
+    text-align: right;
+}
+
+.assets-table th:nth-child(6), 
+.assets-table td:nth-child(6) { /* P&L */
+    width: 22%;
+    text-align: right;
+}
+
+
+.ticker-cell {
+    font-weight: 700;
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.quantity-cell {
+    text-align: center;
+    font-weight: 600;
+}
+
+.value-cell {
+    text-align: right;
+    font-weight: 600;
+}
+
+.price-cell {
+    text-align: right;
+}
+
+.pnl-cell {
+    text-align: right;
+    font-weight: 600;
+}
+
+.pnl-positive {
+    color: var(--success-color);
+}
+
+.pnl-negative {
+    color: var(--danger-color);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: var(--text-secondary);
+}
+
+.empty-state i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.loading {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: var(--text-secondary);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-color);
+    background: var(--dark-bg);
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control::placeholder {
+    color: var(--text-secondary);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
 .form-actions {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    .header-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .stat-card .value {
+        font-size: 1.5rem;
+    }
+
+    /* Tabelas empilhadas no mobile */
+    .tables-container {
+        grid-template-columns: 1fr;
+    }
+
+    .assets-table {
+        font-size: 0.85rem;
+    }
+
+    .assets-table thead th,
+    .assets-table tbody td {
+        padding: 1rem 0.5rem;
+    }
+
+    .ticker-cell {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .table-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .assets-table {
+        font-size: 0.8rem;
+    }
+}
+
+/* Para telas muito grandes, garantir que as tabelas não fiquem muito largas */
+@media (min-width: 1600px) {
+    .tables-container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
 }
