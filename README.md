@@ -9,6 +9,8 @@ Um dashboard completo para consulta de preços, histórico e previsões de cript
 
 ## ✨ Funcionalidades
 
+### Crypto Dashboard
+
 - 📊 **Preços em tempo real** de criptomoedas e ações
 - 📈 **Gráficos interativos** com histórico de preços
 - 🔮 **Previsões** usando machine learning (regressão linear)
@@ -17,6 +19,13 @@ Um dashboard completo para consulta de preços, histórico e previsões de cript
 - 💾 **Cache inteligente** com MongoDB
 - 🎨 **Interface moderna** e responsiva
 - ⚡ **Performance otimizada** com tempo de resposta < 1s
+
+### myWallet
+- 💰 **Gerenciamento de portfólio** de ações e FIIs
+- ➕ **Adicionar, listar e remover transações** (compra/venda)
+- 📊 **Resumo executivo** do wallet (valor total, investido, P&L)
+- 🔄 **Atualização automática** dos preços e P&L dos ativos
+- 🏆 **Identificação do melhor e pior desempenho** no portfólio
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -114,6 +123,9 @@ A aplicação estará disponível em: http://localhost:8000
 - `GET /api/v1/assets` - Ativos suportados
 - `GET /api/v1/status` - Status detalhado da API
 
-## 📊 Ativos Suportados
 
-###
+### myWallet
+- `POST /api/v1/wallet/transactions`- Adicionar transação
+- `GET /api/v1/wallet/transactions` - Listar transação
+- `GET /api/v1/wallet/holdings` - Listar ativos e valores atualizados
+- `GET /api/v1/wallet/summary` - Resumo do myWallet
