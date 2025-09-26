@@ -226,62 +226,67 @@ class DataFetcher:
             return None
     
     def get_asset_data(self, symbol, days=1):
-        """Método principal para buscar dados de qualquer tipo de ativo"""
+        """
+        Retorna dados de qualquer ativo: crypto, stock ou FII.
+        Protege contra tentativas de buscar cripto no yfinance.
+        """
         logger.info(f"Buscando dados para {symbol} - {days} dias")
         
-        # Cripto
-        if symbol.lower() in [crypto.lower() for crypto in Config.CRYPTO_SYMBOLS]:
-            data = self.fetch_crypto_data(symbol.lower(), days)
-            if data:
-                logger.info(f"Dados crypto encontrados para {symbol}")
-                return data
-
-        # FII
-        if symbol.upper() in Config.FII_SYMBOLS:
-            yf_symbol = symbol.upper()
-            # Adiciona .SA se não estiver presente
-            if not yf_symbol.endswith(".SA"):
-                yf_symbol += ".SA"
-            data = self.fetch_stock_data(yf_symbol, days)
-            if data:
-                data["asset_type"] = "fii"
-                logger.info(f"Dados FII encontrados para {symbol}")
-                return data
-
-        # Stock
-        if symbol.upper() in Config.STOCK_SYMBOLS:
-            yf_symbol = symbol.upper()
-            # Adiciona .SA se não estiver presente
-            if not yf_symbol.endswith(".SA"):
-                yf_symbol += ".SA"
-            data = self.fetch_stock_data(yf_symbol, days)
-            if data:
-                data["asset_type"] = "stock"
-                logger.info(f"Dados stock encontrados para {symbol}")
-                return data
-
-        # Tentativa automática - primeiro crypto
-        crypto_data = self.fetch_crypto_data(symbol.lower(), days)
-        if crypto_data:
-            logger.info(f"Dados crypto encontrados automaticamente para {symbol}")
-            return crypto_data
-
-        # Depois stock/FII
-        yf_symbol = symbol.upper()
-        if not yf_symbol.endswith(".SA"):
-            yf_symbol += ".SA"
-        stock_data = self.fetch_stock_data(yf_symbol, days)
-        if stock_data:
-            # Verificar se é FII
-            if symbol.upper().endswith('11') or symbol.upper() in Config.FII_SYMBOLS:
-                stock_data["asset_type"] = "fii"
-                logger.info(f"Dados FII encontrados automaticamente para {symbol}")
-            else:
-                logger.info(f"Dados stock encontrados automaticamente para {symbol}")
-            return stock_data
+        asset_type = self.determine_asset_type(symbol)
         
-        logger.warning(f"Nenhum dado encontrado para {symbol}")
-        return None
+        try:
+            # 🔹 Criptomoedas
+            if asset_type == 'crypto':
+                data = self.fetch_crypto_data(symbol.lower(), days)
+                if data:
+                    logger.info(f"Dados crypto encontrados para {symbol}")
+                    return data
+                else:
+                    logger.warning(f"Nenhum dado crypto encontrado para {symbol}")
+                    return None
+            
+            # Preparar símbolo para yfinance
+            yf_symbol = symbol.upper()
+            if not yf_symbol.endswith(".SA"):
+                yf_symbol += ".SA"
+            
+            # 🔹 FII
+            if asset_type == 'fii':
+                data = self.fetch_stock_data(yf_symbol, days)
+                if data:
+                    data["asset_type"] = "fii"
+                    logger.info(f"Dados FII encontrados para {symbol}")
+                    return data
+                else:
+                    logger.warning(f"Nenhum dado FII encontrado para {symbol}")
+                    return None
+            
+            # 🔹 Stock
+            if asset_type == 'stock':
+                data = self.fetch_stock_data(yf_symbol, days)
+                if data:
+                    data["asset_type"] = "stock"
+                    logger.info(f"Dados stock encontrados para {symbol}")
+                    return data
+                else:
+                    logger.warning(f"Nenhum dado stock encontrado para {symbol}")
+                    return None
+            
+            # 🔹 Fallback automático (somente se não for cripto)
+            logger.warning(f"Símbolo {symbol} não categorizado, tentando fallback automático")
+            # Tentativa automática só se não for cripto
+            if symbol.lower() not in [c.lower() for c in Config.CRYPTO_SYMBOLS]:
+                data = self.fetch_stock_data(yf_symbol, days)
+                if data:
+                    logger.info(f"Dados stock encontrados no fallback para {symbol}")
+                    return data
+            
+            logger.warning(f"Nenhum dado encontrado para {symbol}")
+            return None
+
+        except Exception as e:
+            logger.error(f"Erro ao buscar dados para {symbol}: {e}")
+            return None
 
 
     def generate_chart(prices_data, symbol, days=7):
