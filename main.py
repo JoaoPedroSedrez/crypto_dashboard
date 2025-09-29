@@ -1,17 +1,18 @@
+import time
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-import time
-from contextlib import asynccontextmanager
 
 # Importar routers
 from api.price import router as price_router
 from api.history import router as history_router
 from api.prediction import router as prediction_router
 from api.wallet import router as wallet_router
+from api.income import router as income_router # 👈 Importado o novo router
 
 # Importar configurações
 from config import Config
@@ -85,6 +86,7 @@ app.include_router(price_router, prefix="/api/v1", tags=["Preços"])
 app.include_router(history_router, prefix="/api/v1", tags=["Histórico"])
 app.include_router(prediction_router, prefix="/api/v1", tags=["Previsões"])
 app.include_router(wallet_router, prefix="/api/v1/wallet", tags=["Carteira"])  
+app.include_router(income_router, prefix="/api/v1/income", tags=["Proventos"]) # 👈 REGISTRO CORRIGIDO
 
 # Rotas principais
 @app.get("/", response_class=HTMLResponse)
@@ -174,6 +176,14 @@ async def wallet(request: Request):
     return templates.TemplateResponse("wallet.html", {
         "request": request,
         "title": "myWallet"
+    })
+    
+@app.get("/income", response_class=HTMLResponse) # Rota adicionada anteriormente
+async def income(request: Request):
+    """Página de Proventos (Income)"""
+    return templates.TemplateResponse("income.html", {
+        "request": request,
+        "title": "Meus Proventos"
     })
 
 # Handlers de erro globais

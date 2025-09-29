@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <link href="/static/css/income/income.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/static/icons/income/income.png">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1><i class="fas fa-hand-holding-dollar"></i> Proventos Recebidos</h1>
+            <p>Acompanhe todos os seus dividendos, JCP e rendimentos de FIIs</p>
+            
+            <!-- Resumo do Portfolio -->
+            <div class="header-stats">
+                <div class="stat-card">
+                    <h3>Proventos Totais</h3>
+                    <div class="value" id="total-income">R$ 0.00</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Mês Passado</h3>
+                    <div class="value" id="income-last-month">R$ 0.00</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Dividendos/JCP</h3>
+                    <div class="value" id="income-stocks">R$ 0.00</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Rendimentos FIIs</h3>
+                    <div class="value" id="income-fiis">R$ 0.00</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Ações da Página -->
+        <div class="wallet-actions">
+            <button class="btn success" onclick="openAddIncomeModal()">
+                <i class="fas fa-plus"></i> Adicionar Provento
+            </button>
+            <button class="btn secondary" onclick="window.location.href='/'">
+                <i class="fas fa-chart-line"></i> Dashboard
+            </button>
+            <button class="btn secondary" onclick="window.location.href='/wallet'">
+                <i class="fas fa-wallet"></i> myWallet
+            </button>
+        </div>
+
+        <!-- Tabela de Proventos -->
+        <div class="table-section">
+            <div class="table-header">
+                <i class="fas fa-list-ul"></i>
+                <h2>Histórico de Pagamentos</h2>
+            </div>
+            <div class="table-wrapper">
+                <table class="assets-table">
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Código</th>
+                            <th>Tipo Ativo</th>
+                            <th>Tipo Provento</th>
+                            <th>Qtd.</th>
+                            <th>Valor/Cota</th>
+                            <th>Valor Total</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="income-table-body">
+                        <tr><td colspan="8" class="loading">Carregando proventos...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Adicionar/Editar Provento -->
+    <div id="income-modal" class="modal">
+        <div class="modal-content">
+            <h2 class="modal-title">
+                <i class="fas fa-plus-circle"></i> Adicionar Novo Provento
+            </h2>
+            <form id="income-form">
+                <input type="hidden" id="income-id" value="">
+                
+                <div class="form-group">
+                    <label class="form-label">Data do Pagamento</label>
+                    <input type="date" class="form-control" id="payment-date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Código do Ativo</label>
+                    <input type="text" class="form-control" id="asset-code" placeholder="Ex: PETR4, MXRF11" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Tipo de Ativo</label>
+                    <select class="form-control" id="asset-type" required>
+                        <option value="">Selecione</option>
+                        <option value="stock">Ação</option>
+                        <option value="fii">Fundo Imobiliário (FII)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Tipo de Provento</label>
+                    <select class="form-control" id="income-type" required>
+                        <option value="">Selecione</option>
+                        <option value="dividends">Dividendo (Ação)</option>
+                        <option value="jcp">Juro Sobre Capital Próprio (Ação)</option>
+                        <option value="yield">Rendimento (FII)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Quantidade de Ações/Cotas</label>
+                    <input type="number" class="form-control" id="quantity" step="any" min="1" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Valor por Cota/Ação (R$)</label>
+                    <input type="number" class="form-control" id="value-per-unit" step="0.0001" min="0.0001" required>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" class="btn secondary" onclick="closeIncomeModal()">Cancelar</button>
+                    <button type="submit" class="btn success">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Modal para Confirmação de Exclusão -->
+    <div id="delete-modal" class="modal">
+        <div class="modal-content error">
+            <h3><i class="fas fa-exclamation-triangle"></i> Confirmar Exclusão</h3>
+            <p>Tem certeza de que deseja excluir este provento? Esta ação é irreversível.</p>
+            <div class="form-actions">
+                <button id="confirm-delete-btn" class="btn danger"><i class="fas fa-trash-alt"></i> Excluir</button>
+                <button type="button" class="btn secondary" onclick="closeDeleteModal()"><i class="fas fa-times"></i> Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/income/income.js"></script>
+</body>
+</html>
