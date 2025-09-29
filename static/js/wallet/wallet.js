@@ -140,6 +140,9 @@ async function loadHoldings() {
                 pnlPercentEl.innerText = `${roundedPercent}%`;
             }
 
+            renderCharts(stocks, fiis);
+
+
         } else {
             stocksTableBody.innerHTML = '<tr><td colspan="6" class="empty-state">Nenhuma ação encontrada</td></tr>';
             fiisTableBody.innerHTML = '<tr><td colspan="6" class="empty-state">Nenhum FII encontrado</td></tr>';
@@ -150,6 +153,172 @@ async function loadHoldings() {
         fiisTableBody.innerHTML = '<tr><td colspan="6" class="empty-state">Erro ao carregar FIIs</td></tr>';
     }
 }
+
+let overallChart, stocksChart, fiisChart;
+
+const chartColors = [
+    '#22d3ee', // cyan
+    '#f472b6', // rosa
+    '#fcd34d', // amarelo
+    '#34d399', // verde
+    '#818cf8', // azul suave
+    '#f87171'  // vermelho suave
+];
+
+
+function renderCharts(stocks, fiis) {
+    // Valores gerais
+    const totalStocksValue = stocks.reduce((sum, a) => sum + a.current_value, 0);
+    const totalFiisValue = fiis.reduce((sum, a) => sum + a.current_value, 0);
+
+    // Apagar gráficos antigos
+    if (overallChart) overallChart.destroy();
+    if (stocksChart) stocksChart.destroy();
+    if (fiisChart) fiisChart.destroy();
+
+    // Gráfico geral (Ações x FIIs)
+    const overallCtx = document.getElementById('overallChart').getContext('2d');
+    overallChart = new Chart(overallCtx, {
+        type: 'pie',
+        data: {
+            labels: ['Ações', 'FIIs'],
+            datasets: [{
+                data: [totalStocksValue, totalFiisValue],
+                backgroundColor: ['#4ade80', '#60a5fa']
+            }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                        const value = context.raw;
+                        const label = context.label;
+                        const dataset = context.dataset.data;
+                        const total = dataset.reduce((a, b) => a + b, 0);
+                        const percentage = ((value / total) * 100).toFixed(2);
+
+                        return `${label}: R$ ${value.toLocaleString('pt-BR', { minimumFractionDigits: 2 })} (${percentage}%)`;
+                        }
+                    }
+                },
+                datalabels: {
+                    color: '#fff',
+                    font: {
+                        weight: 'bold'
+                    },
+                    formatter: (value, context) => {
+                        const label = context.chart.data.labels[context.dataIndex];
+                        return label
+                    }
+                }
+            }
+        },
+        plugins: [ChartDataLabels]
+    });
+
+    // Gráfico de Ações
+const stocksCtx = document.getElementById('stocksChart').getContext('2d');
+stocksChart = new Chart(stocksCtx, {
+    type: 'pie',
+    data: {
+        labels: stocks.map(a => a.symbol),
+        datasets: [{
+            data: stocks.map(a => a.current_value),
+            backgroundColor: stocks.map((_, i) => chartColors[i % chartColors.length])
+        }]
+    },
+    options: {
+        plugins: {
+            legend: {
+                display: false
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        const value = context.raw;
+                        const label = context.label;
+                        const dataset = context.dataset.data;
+                        const total = dataset.reduce((a, b) => a + b, 0);
+                        const percentage = ((value / total) * 100).toFixed(2);
+                        return `${label}: R$ ${value.toLocaleString('pt-BR', {minimumFractionDigits: 2})} (${percentage}%)`;
+                    }
+                }
+            },
+            datalabels: {
+                color: '#fff',
+                font: {
+                    weight: 'bold',
+                    size: 12
+                },
+                formatter: (value, context) => {
+                    const dataset = context.chart.data.datasets[0].data;
+                    const total = dataset.reduce((a, b) => a + b, 0);
+                    const percentage = (value / total) * 100;
+                    return percentage >= 10
+                        ? context.chart.data.labels[context.dataIndex] 
+                        : '';
+                }
+            }
+        }
+    },
+    plugins: [ChartDataLabels]
+});
+
+// Gráfico de FIIs
+const fiisCtx = document.getElementById('fiisChart').getContext('2d');
+fiisChart = new Chart(fiisCtx, {
+    type: 'pie',
+    data: {
+        labels: fiis.map(a => a.symbol),
+        datasets: [{
+            data: fiis.map(a => a.current_value),
+            backgroundColor: fiis.map((_, i) => chartColors[i % chartColors.length])
+        }]
+    },
+    options: {
+        plugins: {
+            legend: {
+                display: false
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        const value = context.raw;
+                        const label = context.label;
+                        const dataset = context.dataset.data;
+                        const total = dataset.reduce((a, b) => a + b, 0);
+                        const percentage = ((value / total) * 100).toFixed(2);
+                        return `${label}: R$ ${value.toLocaleString('pt-BR', {minimumFractionDigits: 2})} (${percentage}%)`;
+                    }
+                }
+            },
+            datalabels: {
+                color: '#fff',
+                font: {
+                    weight: 'bold',
+                    size: 12
+                },
+                formatter: (value, context) => {
+                    const dataset = context.chart.data.datasets[0].data;
+                    const total = dataset.reduce((a, b) => a + b, 0);
+                    const percentage = (value / total) * 100;
+                    return percentage >= 10 
+                        ? context.chart.data.labels[context.dataIndex] 
+                        : '';
+                }
+            }
+        }
+    },
+    plugins: [ChartDataLabels]
+});
+
+    
+}
+
 
 // Carregar dados ao iniciar
 window.onload = () => refreshWallet();

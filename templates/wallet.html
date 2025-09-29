@@ -6,7 +6,10 @@
     <title>myWallet</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/wallet/wallet.css">
-    <link rel="icon" type="image/png" href="/static/icons/wallet/wallet.png"
+    <link rel="icon" type="image/png" href="/static/icons/wallet/wallet.png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
 </head>
 <body>
     <div class="container">
@@ -19,16 +22,16 @@
             <div class="header-stats">
                 <div class="stat-card">
                     <h3>Valor Total</h3>
-                    <div class="value" id="total-value">R$ 25.847,92</div>
+                    <div class="value" id="total-value">R$ 0</div>
                 </div>
                 <div class="stat-card">
                     <h3>Investido</h3>
-                    <div class="value" id="total-invested">R$ 22.150,00</div>
+                    <div class="value" id="total-invested">R$ 0</div>
                 </div>
                 <div class="stat-card">
                     <h3>P&L Total</h3>
-                    <div class="value" id="total-pnl">R$ 3.697,92</div>
-                    <div class="change positive" id="total-pnl-percent">+16.7%</div>
+                    <div class="value" id="total-pnl">R$ 0</div>
+                    <div class="change positive" id="total-pnl-percent">+0.0%</div>
                 </div>
                 <div class="stat-card">
                     <h3>Ativos</h3>
@@ -111,7 +114,7 @@
 
             <!-- Tabela de FIIs -->
             <div class="table-section">
-                <div class="table-header">
+                <div class="table-header inverted">
                     <i class="fas fa-building"></i>
                     <h2>Fundos Imobiliários</h2>
                 </div>
@@ -202,6 +205,21 @@
                     <button type="submit" class="btn success">Salvar</button>
                 </div>
             </form>
+        </div>
+    </div>
+    <!-- Gráficos -->
+    <div class="charts-container">
+        <div class="chart-block">
+            <h3>Distribuição Geral</h3>
+            <canvas id="overallChart" width="300" height="300"></canvas>
+        </div>
+        <div class="chart-block">
+            <h3>Divisão de Ações</h3>
+            <canvas id="stocksChart" width="300" height="300"></canvas>
+        </div>
+        <div class="chart-block">
+            <h3>Divisão de FIIs</h3>
+            <canvas id="fiisChart" width="300" height="300"></canvas>
         </div>
     </div>
     <script src="static/js/wallet/wallet.js"></script>
