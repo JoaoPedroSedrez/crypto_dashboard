@@ -149,9 +149,42 @@
     color: var(--text-primary);
 }
 
+/* ========================================================================
+   ACCORDION/DROPDOWN PARA TABELA
+======================================================================== */
 
+.table-header {
+    cursor: pointer;
+    user-select: none;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
 
+.table-header:hover {
+    opacity: 0.9;
+}
 
+#table-toggle-icon {
+    margin-left: auto;
+    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+}
+
+#table-toggle-icon.rotated {
+    transform: rotate(180deg);
+}
+
+.table-wrapper {
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 1;
+}
+
+.table-wrapper.collapsed {
+    max-height: 0;
+    opacity: 0;
+}
 
 /* ========================================================================
    4. MODAIS

@@ -52,11 +52,12 @@
 
         <!-- Tabela de Proventos -->
         <div class="table-section">
-            <div class="table-header">
+            <div class="table-header" onclick="toggleIncomeTable()">
                 <i class="fas fa-list-ul"></i>
                 <h2>Histórico de Pagamentos</h2>
+                <i class="fas fa-chevron-down" id="table-toggle-icon"></i>
             </div>
-            <div class="table-wrapper">
+            <div class="table-wrapper" id="income-table-wrapper">
                 <table class="assets-table">
                     <thead>
                         <tr>

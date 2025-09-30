@@ -297,22 +297,32 @@ window.onclick = function(event) {
 // 8. FUNCIONALIDADE DE ABRIR/FECHAR TABELA
 // =============================================================================
 
-const incomeHistorySection = document.getElementById('income-history-section');
-const toggleIcon = document.getElementById('toggle-icon');
-
-function toggleIncomeHistory() {
-    // Alterna a classe 'collapsed' na seção principal
-    incomeHistorySection.classList.toggle('collapsed');
-
-    // Altera o ícone de seta para refletir o estado
-    if (incomeHistorySection.classList.contains('collapsed')) {
-        toggleIcon.classList.remove('fa-chevron-down');
-        toggleIcon.classList.add('fa-chevron-right');
-    } else {
-        toggleIcon.classList.remove('fa-chevron-right');
-        toggleIcon.classList.add('fa-chevron-down');
+function toggleIncomeTable() {
+    const wrapper = document.getElementById('income-table-wrapper');
+    const icon = document.getElementById('table-toggle-icon');
+    
+    if (!wrapper || !icon) {
+        console.error('Elementos não encontrados: income-table-wrapper ou table-toggle-icon');
+        return;
     }
+    
+    wrapper.classList.toggle('collapsed');
+    icon.classList.toggle('rotated');
 }
+
+// Opcional: Iniciar com a tabela fechada ao carregar a página
+// Descomente as linhas abaixo se quiser que a tabela inicie recolhida
+
+window.addEventListener('DOMContentLoaded', function() {
+    const wrapper = document.getElementById('income-table-wrapper');
+    const icon = document.getElementById('table-toggle-icon');
+    
+    if (wrapper && icon) {
+        wrapper.classList.add('collapsed');
+        icon.classList.add('rotated');
+    }
+});
+
 
 // =============================================================================
 // 9. INICIALIZAÇÃO
